@@ -1,7 +1,7 @@
 # Bitácora del proyecto
 
-**Tienda:** Venta de  cartas Pokémones
-**Grupo:** N.º C-SS
+**Tienda:** Venta de  cartas Pokémon
+**Grupo:** N.º C
 
 ## Integrantes
 - ELMER ARIAS QUISPE
