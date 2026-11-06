@@ -1,6 +1,0 @@
-# Preserva los bytes de las fuentes verificadas por SHA-256.
-datos/pokeapi/*.csv -text
-# Respuestas originales de TCGdex verificadas por SHA-256.
-datos/tcgdex/cartas/*.json -text
-datos/tcgdex/LICENSE -text
-datos/tcgdex/*.json -text
