@@ -106,14 +106,14 @@ VENTA-DE-POKEMON/
 
 │
 ├── img/
-
-│   ├── eevee.png
-
-│   ├── mew.png
-
-│   ├── alakazam.png
-
-│   └── pikachu.png
+    
+    │   ├── eevee.png
+    
+    │   ├── mew.png
+    
+    │   ├── alakazam.png
+    
+    │   └── pikachu.png
 
 │
 └── docs/
