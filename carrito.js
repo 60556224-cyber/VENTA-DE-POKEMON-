@@ -173,7 +173,8 @@
         envioElemento.textContent = formatearPrecio(envio);
         descuentoElemento.textContent = formatearPrecio(descuento);
         total.textContent = formatearPrecio(totalFinal);
-
+    }
+    
     function renderizarCarrito() {
         listaCarrito.replaceChildren();
 
