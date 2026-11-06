@@ -4,8 +4,8 @@
 **Grupo:** N.º ___
 
 ## Integrantes
-- ___________
-- ___________
+- ELMER ARIAS QUISPE
+- EDIK BENJAMIN PACHACUTE CORDOVA
 - ___________
 
 ## Registro de actividades
