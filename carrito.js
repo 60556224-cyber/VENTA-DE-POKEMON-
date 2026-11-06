@@ -107,11 +107,18 @@
             return 10;
         }
 
-        obtenerTotal() {
-            return this.productos.reduce(
-                (total, producto) => total + producto.precio * producto.cantidad,
-                0
-            );
+        calcularDescuento(cupon) {
+            if (cupon.trim().toUpperCase() === "POKE10") {
+                return this.calcularSubtotal() * 0.10;
+            }
+            return 0;
+        }
+
+        calcularTotal(cupon = "") {
+            return this.calcularSubtotal()
+                + this.calcularIGV()
+                + this.calcularEnvio()
+                - this.calcularDescuento(cupon);
         }
     }
 
