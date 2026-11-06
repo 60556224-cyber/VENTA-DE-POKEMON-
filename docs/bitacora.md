@@ -1,6 +1,6 @@
 # Bitácora del proyecto
 
-**Tienda:** Venta de Pokémones
+**Tienda:** Venta de  cartas Pokémones
 **Grupo:** N.º ___
 
 ## Integrantes
