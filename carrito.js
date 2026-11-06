@@ -50,9 +50,10 @@
                 (item) => item.nombre === nombre
             );
 
-            if (!producto) return;
+            if (!producto || producto.cantidad >= producto.stock) return false;
             producto.cantidad += 1;
             this.guardar();
+            return true;
         }
 
         disminuirProducto(nombre) {
@@ -89,11 +90,35 @@
             );
         }
 
-        obtenerTotal() {
+        calcularSubtotal() {
             return this.productos.reduce(
                 (total, producto) => total + producto.precio * producto.cantidad,
                 0
             );
+        }
+        
+        calcularIGV() {
+            return this.calcularSubtotal() * 0.18;
+        }
+
+        calcularEnvio() {
+            const subtotal = this.calcularSubtotal();
+            if (subtotal === 0 || subtotal >= 150) return 0;
+            return 10;
+        }
+
+        calcularDescuento(cupon) {
+            if (cupon.trim().toUpperCase() === "POKE10") {
+                return this.calcularSubtotal() * 0.10;
+            }
+            return 0;
+        }
+
+        calcularTotal(cupon = "") {
+            return this.calcularSubtotal()
+                + this.calcularIGV()
+                + this.calcularEnvio()
+                - this.calcularDescuento(cupon);
         }
     }
 
@@ -105,6 +130,15 @@
     const listaCarrito = document.querySelector("#carrito-items");
     const contador = document.querySelector("#contador");
     const total = document.querySelector("#total");
+
+    const subtotalElemento = document.querySelector("#subtotal");
+    const igvElemento = document.querySelector("#igv");
+    const envioElemento = document.querySelector("#envio");
+    const descuentoElemento = document.querySelector("#descuento");
+    const cuponInput = document.querySelector("#cupon");
+    const botonCupon = document.querySelector("#aplicar-cupon");
+    const mensajeCupon = document.querySelector("#mensaje-cupon");
+    let cuponActual = "";
 
     function formatearPrecio(precio) {
         return `${precio.toFixed(2)}$`;
