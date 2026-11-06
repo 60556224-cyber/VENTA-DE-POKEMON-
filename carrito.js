@@ -198,6 +198,10 @@
             precio.textContent = `${formatearPrecio(producto.precio)} c/u · ${formatearPrecio(producto.precio * producto.cantidad)}`;
             informacion.append(nombre, precio);
 
+            const stock = document.createElement("small");
+            stock.textContent = `Cantidad: ${producto.cantidad} de ${producto.stock}`;
+            informacion.append(nombre, precio, stock);
+
             const controles = document.createElement("div");
             controles.className = "carrito-item-controles";
             controles.append(
