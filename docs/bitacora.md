@@ -15,7 +15,7 @@
 |-------|------------|-----------|----------|
 | 1/11 | EDIK BENJAMIN PACHACUTE CORDOVA |  |         |
 | 1/11 | ELMER RORRIGO ARIAS QUISPE |   |             |
-| ___/11 | LUIS FERNANDO HERMOZA HUANCA |          |              |
+| 2/11 | LUIS FERNANDO HERMOZA HUANCA |          |              |
 | ___/11 | ANGELO PATRICK ROQUE VALENCIA |          |            |
 ## Dificultades encontradas
 - Conflicto de merge en index.html porque varios integrantes editaron las mismas líneas; se resolvió eligiendo qué cambios conservar.
