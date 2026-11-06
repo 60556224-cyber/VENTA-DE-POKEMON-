@@ -243,6 +243,7 @@
             if (!agregado) {
                 alert("No puedes superar el stock disponible de este producto.");
             }
+            renderizarCarrito();
         });
     });
 
