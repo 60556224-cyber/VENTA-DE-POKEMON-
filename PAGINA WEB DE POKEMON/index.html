@@ -12,11 +12,12 @@
         <h1>Venta de pokemones</h1>
     </header>
     <section class="contenedor">
-        <div class="item">
-            <span class="titulo-item">carta de Eve</span>|
-            <img src="SV8pt5_ES_75 eve.png" alt="" class="img-item">
-            <span class="precio-item">50.00$</span>
-            <button  class="boton-item"> agregar al carrito</button>
+       <div class="contenedor-items">
+            <div class="item">
+                <span class="titulo-item">carta de Eve</span>|
+                <img src="SV8pt5_ES_75 eve.png" alt="" class="img-item">
+                <span class="precio-item">50.00$</span>
+                <button  class="boton-item"> agregar al carrito</button>
         </div>
 
         <div class="item">
@@ -40,9 +41,31 @@
             <button  class="boton-item"> agregar al carrito</button>
         </div>
 
+       
+
         </div>
 
-       
+         <botton class="btn-carrito" id="btn-carrito">
+                🛒<span id="contador">0</span>
+            </botton>
+
+        <div class="carrito" id="carrito">
+            <div class="header-carrito">
+                <h2>Tu carrito</h2>
+                <button id="cerrar-carrito">Cerrar</button>
+            </div>
+
+            <div class="carrito-items" id="carrito-items">
+                <div class="carrito total">
+                    <strong>total:</strong> <span id="total">0.00</span>
+                </div>
+                <button id="vaciar"> Vaciar carrito</button>
+                <button class="btn-carrito">Comprar</button>
+            </div>
+
+
+                
+            
 
         </div>
 
