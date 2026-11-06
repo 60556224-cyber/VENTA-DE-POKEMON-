@@ -53,7 +53,7 @@ header h1 {
 
 .precio-item {
     font-size: 20px;
-    color: #d62828;
+    color: #ff5959;
     font-weight: bold;
 }
 
@@ -105,7 +105,7 @@ header h1 {
     padding: 10px 14px;
     border: 0;
     border-radius: 6px;
-    background: #c0df21;
+    background: #9fdf0bb6;
     box-shadow: 0 2px 8px rgb(0 0 0 / 20%);
     cursor: pointer;
 }
