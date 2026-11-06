@@ -252,7 +252,8 @@
 
         switch (boton.dataset.accion) {
             case "aumentar":
-                carrito.aumentarProducto(nombre);
+                resultado = carrito.aumentarProducto(nombre);
+                if (!resultado) alert("No puedes superar el stock disponible.");
                 break;
             case "disminuir":
                 carrito.disminuirProducto(nombre);
