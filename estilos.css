@@ -70,3 +70,29 @@ header h1 {
     background-color: #1d4f82;
 }
 
+@media (max-width: 600px) {
+    .contenedor {
+        padding: 16px;
+        gap: 12px;
+    }
+
+    .contenedor-items {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+    }
+
+    .item {
+        width: 100%;
+        min-width: 0;
+        padding: 12px;
+    }
+}
+
+@media (max-width: 360px) {
+    .contenedor-items {
+        grid-template-columns: 1fr;
+    }
+}
+
