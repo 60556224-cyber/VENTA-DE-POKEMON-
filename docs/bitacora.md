@@ -1,7 +1,7 @@
 # Bitácora del proyecto
 
-**Tienda:** Venta de  cartas Pokémones
-**Grupo:** N.º C-SS
+**Tienda:** Venta de  cartas Pokémon
+**Grupo:** N.º C
 
 ## Integrantes
 - ELMER ARIAS QUISPE
@@ -16,7 +16,7 @@
 | 1/11 | EDIK BENJAMIN PACHACUTE CORDOVA |  |         |
 | 1/11 | ELMER RORRIGO ARIAS QUISPE |   |             |
 | 2/11 | LUIS FERNANDO HERMOZA HUANCA |          |              |
-| ___/11 | ANGELO PATRICK ROQUE VALENCIA |          |            |
+| 6/11 | ANGELO PATRICK ROQUE VALENCIA |          |            |
 ## Dificultades encontradas
 -
 -
