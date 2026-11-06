@@ -37,6 +37,7 @@
                 this.productos.push({
                     nombre: producto.nombre,
                     precio: producto.precio,
+                    stock: producto.stock,
                     cantidad: 1
                 });
             }
