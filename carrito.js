@@ -90,6 +90,13 @@
             );
         }
 
+        calcularSubtotal() {
+            return this.productos.reduce(
+                (total, producto) => total + producto.precio * producto.cantidad,
+                0
+            );
+        }
+
         obtenerTotal() {
             return this.productos.reduce(
                 (total, producto) => total + producto.precio * producto.cantidad,
