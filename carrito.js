@@ -161,6 +161,19 @@
         botonCarrito.setAttribute("aria-expanded", String(abierto));
     }
 
+    function actualizarResumen() {
+        const subtotal = carrito.calcularSubtotal();
+        const igv = carrito.calcularIGV();
+        const envio = carrito.calcularEnvio();
+        const descuento = carrito.calcularDescuento(cuponActual);
+        const totalFinal = carrito.calcularTotal(cuponActual);
+
+        subtotalElemento.textContent = formatearPrecio(subtotal);
+        igvElemento.textContent = formatearPrecio(igv);
+        envioElemento.textContent = formatearPrecio(envio);
+        descuentoElemento.textContent = formatearPrecio(descuento);
+        total.textContent = formatearPrecio(totalFinal);
+
     function renderizarCarrito() {
         listaCarrito.replaceChildren();
 
