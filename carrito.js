@@ -131,6 +131,15 @@
     const contador = document.querySelector("#contador");
     const total = document.querySelector("#total");
 
+    const subtotalElemento = document.querySelector("#subtotal");
+    const igvElemento = document.querySelector("#igv");
+    const envioElemento = document.querySelector("#envio");
+    const descuentoElemento = document.querySelector("#descuento");
+    const cuponInput = document.querySelector("#cupon");
+    const botonCupon = document.querySelector("#aplicar-cupon");
+    const mensajeCupon = document.querySelector("#mensaje-cupon");
+    let cuponActual = "";
+
     function formatearPrecio(precio) {
         return `${precio.toFixed(2)}$`;
     }
