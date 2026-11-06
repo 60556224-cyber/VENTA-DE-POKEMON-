@@ -1,75 +1,69 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Catálogo de cartas Pokémon con un carrito de compras básico.">
+    <title>Venta de cartas Pokémon</title>
     <link rel="stylesheet" href="estilos.css">
-    <title> Venta de pokemones </title>
 </head>
 <body>
-    <header>
-        <h1>Venta de pokemones</h1>
+    <header class="encabezado">
+        <h1>Venta de cartas Pokémon</h1>
+        <p>Explora las cartas disponibles y agrégalas a tu carrito.</p>
     </header>
-    <section class="contenedor">
-       <div class="contenedor-items">
-            <div class="item">
-                <span class="titulo-item">carta de Eve</span>|
-                <img src="SV8pt5_ES_75 eve.png" alt="" class="img-item">
-                <span class="precio-item">50.00$</span>
-                <button  class="boton-item"> agregar al carrito</button>
-        </div>
 
-        <div class="item">
-            <span class="titulo-item">carta de New</span>
-            <img src="SV3pt5_LA_151 enow.png" alt="" class="img-item">
-            <span class="precio-item">200.00$</span>
-            <button  class="boton-item"> agregar al carrito</button>
-        </div>
+    <main class="contenedor">
+        <section class="catalogo" aria-labelledby="titulo-catalogo">
+            <h2 id="titulo-catalogo">Cartas disponibles</h2>
+            <div class="contenedor-items">
+                <article class="item">
+                    <h3 class="titulo-item">Eevee ex</h3>
+                    <img src="SV8pt5_ES_75 eve.png" alt="Carta Pokémon Eevee ex" class="img-item">
+                    <p class="precio-item">S/ 50.00</p>
+                    <button class="boton-item" type="button" data-agregar>Agregar al carrito</button>
+                </article>
 
-        <div class="item">
-            <span class="titulo-item">carta de Alakazam </span>
-            <img src="SV3pt5_ES_65 alcazan.png" alt="" class="img-item">
-            <span class="precio-item">35.00$</span>
-            <button  class="boton-item"> agregar al carrito</button>
-        </div>
-        
-        <div clss="item">
-            <span class="titulo-item">carta de Pikachu </span>
-            <img src="SV8PT5_PIkachu_28.png" alt="" class="img-item">
-            <span class="precio-item">100.00$</span>
-            <button  class="boton-item"> agregar al carrito</button>
-        </div>
+                <article class="item">
+                    <h3 class="titulo-item">Mew ex</h3>
+                    <img src="SV3pt5_LA_151 enow.png" alt="Carta Pokémon Mew ex" class="img-item">
+                    <p class="precio-item">S/ 200.00</p>
+                    <button class="boton-item" type="button" data-agregar>Agregar al carrito</button>
+                </article>
 
-       
+                <article class="item">
+                    <h3 class="titulo-item">Alakazam ex</h3>
+                    <img src="SV3pt5_ES_65 alcazan.png" alt="Carta Pokémon Alakazam ex" class="img-item">
+                    <p class="precio-item">S/ 35.00</p>
+                    <button class="boton-item" type="button" data-agregar>Agregar al carrito</button>
+                </article>
 
-        </div>
+                <article class="item">
+                    <h3 class="titulo-item">Pikachu ex</h3>
+                    <img src="SV8PT5_PIkachu_28.png" alt="Carta Pokémon Pikachu ex" class="img-item">
+                    <p class="precio-item">S/ 100.00</p>
+                    <button class="boton-item" type="button" data-agregar>Agregar al carrito</button>
+                </article>
+            </div>
+        </section>
 
-         <botton class="btn-carrito" id="btn-carrito">
-                🛒<span id="contador">0</span>
-            </botton>
+        <button class="boton-carrito" id="btn-carrito" type="button" aria-controls="carrito" aria-expanded="false">
+            🛒 Carrito <span id="contador" aria-live="polite">0</span>
+        </button>
 
-        <div class="carrito" id="carrito">
+        <aside class="carrito" id="carrito" aria-label="Carrito de compras" aria-hidden="true">
             <div class="header-carrito">
                 <h2>Tu carrito</h2>
-                <button id="cerrar-carrito">Cerrar</button>
+                <button id="cerrar-carrito" type="button" aria-label="Cerrar carrito">Cerrar</button>
             </div>
-
-            <div class="carrito-items" id="carrito-items">
-                <div class="carrito total">
-                    <strong>total:</strong> <span id="total">0.00</span>
-                </div>
-                <button id="vaciar"> Vaciar carrito</button>
-                <button class="btn-carrito">Comprar</button>
+            <div class="carrito-items" id="carrito-items" aria-live="polite">
+                <p class="carrito-vacio">Tu carrito está vacío.</p>
             </div>
-
-
-                
-            
-
-        </div>
-
-    </section>
-    
+            <div class="carrito-pie">
+                <p class="carrito-total"><strong>Total:</strong> <span id="total">S/ 0.00</span></p>
+                <button id="vaciar" type="button">Vaciar carrito</button>
+            </div>
+        </aside>
+    </main>
 </body>
 </html>
