@@ -1,7 +1,16 @@
-* {
+* 
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+:root {
+    --color-primario: #e3350d;
+    --color-acento: #ffcb05;
+    --color-secundario: #2a75bb;
+    --color-fondo: #f2f2f2;
+    --color-blanco: #ffffff;
+    --color-texto: #333333;
 }
 
 body {
@@ -68,6 +77,18 @@ header h1 {
 
 .boton-item:hover {
     background-color: #1d4f82;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+
+footer a {
+    color: #ffcb05;
 }
 
 @media (max-width: 600px) {
@@ -227,4 +248,3 @@ header h1 {
         transition-duration: 0.01ms;
     }
 }
-
