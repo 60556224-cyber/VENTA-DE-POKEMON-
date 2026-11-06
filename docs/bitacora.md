@@ -1,12 +1,13 @@
 # Bitácora del proyecto
 
 **Tienda:** Venta de  cartas Pokémones
-**Grupo:** N.º ___
+**Grupo:** N.º C-SS
 
 ## Integrantes
 - ELMER ARIAS QUISPE
 - EDIK BENJAMIN PACHACUTE CORDOVA
-- ___________
+- LUIS FERNANDO HERMOZA HUANCA
+- ANGELO PATRICK ROQUE VALENCIA
 
 ## Registro de actividades
 
