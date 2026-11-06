@@ -12,14 +12,10 @@
 
 | Fecha | Integrante | Actividad | Archivos |
 |-------|------------|-----------|----------|
-| ___/11 | ___________ | Estructura inicial de la página y encabezado | index.html |
-| ___/11 | ___________ | Cartas de productos (nombre, imagen, precio, botón agregar al carrito) | index.html |
-| ___/11 | ___________ | Estilos generales de la tienda | estilos.css |
-| ___/11 | ___________ | Diseño del carrito: botón flotante y panel lateral | index.html, estilos.css |
-| ___/11 | ___________ | Lógica del carrito: agregar, quitar, total y contador | script.js |
-| ___/11 | ___________ | Resolución del conflicto de merge en index.html | index.html |
-| ___/11 | ___________ | Publicación en GitHub Pages y etiqueta v0.3 | Repositorio |
-
+| 1/11 | EDIK BENJAMIN PACHACUTE CORDOVA | estilos.css |         |
+| 1/11 | ELMER RORRIGO ARIAS QUISPE |  index.html |             |
+| ___/11 | LUIS FERNANDO HERMOZA HUANCA |          |              |
+| ___/11 | ANGELO PATRICK ROQUE VALENCIA |          |            |
 ## Dificultades encontradas
 - Conflicto de merge en index.html porque varios integrantes editaron las mismas líneas; se resolvió eligiendo qué cambios conservar.
 - Archivos en carpeta equivocada: GitHub Pages necesita index.html en la raíz del repositorio, así que se movieron los archivos.
