@@ -30,7 +30,8 @@
                 (item) => item.nombre === producto.nombre
             );
 
-            if (existente) {
+             if (existente) {
+                if (existente.cantidad >= existente.stock) return false;
                 existente.cantidad += 1;
             } else {
                 this.productos.push({
@@ -41,6 +42,7 @@
             }
 
             this.guardar();
+            return true;
         }
 
         aumentarProducto(nombre) {
