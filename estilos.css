@@ -5,24 +5,78 @@
     box-sizing: border-box;
 }
 :root {
-    --color-primario: #e3350d;
-    --color-acento: #ffcb05;
-    --color-secundario: #2a75bb;
-    --color-fondo: #f2f2f2;
-    --color-blanco: #ffffff;
-    --color-texto: #333333;
+    --rojo-pokemon: #e3350d;
+    --amarillo-pokemon: #ffcb05;
+    --azul-pokemon: #2a75bb;
+    --fondo: #6b6767;
+    --blanco: #ffffff;
+    --texto: #333333;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--color-fondo);
-    color: var(--color-texto);
+    background-color: var(--fondo);
+    color: var(--texto);
+}
+
+.item {
+    background-color: var(--blanco);
+}
+
+.precio-item {
+    color: var(--rojo-pokemon);
+}
+
+.boton-item {
+    background-color: var(--azul-pokemon);
+}
+
+.boton-item:hover {
+    background-color: #1d4f82;
 }
 
 header {
-    background-color: var(--color-primario);
+    background: linear-gradient(
+        135deg,
+        var(--rojo-pokemon),
+        #b91c1c
+    );
     padding: 20px;
-    text-align: center;
+    color: var(--blanco);
+    border-bottom: 6px solid var(--amarillo-pokemon);
+}
+
+.marca {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: var(--amarillo-pokemon);
+    color: #222;
+    font-size: 30px;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 30%);
+}
+
+header h1 {
+    margin: 0;
+    color: var(--blanco);
+    font-size: 32px;
+    text-shadow: 2px 2px 0 #7f1d1d;
+}
+
+header p {
+    margin-top: 6px;
+    color: var(--blanco);
+    font-size: 15px;
 }
 
 header h1 {

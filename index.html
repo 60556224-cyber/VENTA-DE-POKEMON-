@@ -4,37 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
-    <title> Venta de pokemones </title>
+    <title> PokéCards Perú | Cartas Pokémon   </title>
 </head>
 <body>
-    <header>
-        <h1>Venta de pokemones</h1>
+    
+    <header class="encabezado">
+        <div class="marca">
+            <span class="logo">⚡</span>
+            <div>
+                <h1>PokéCards Perú</h1>
+                <p>Cartas Pokémon para coleccionistas y jugadores</p>
+            </div>
+        </div>
+
+         <section id="inicio" class="seccion-inicio">
+            <h2>Encuentra tu carta favorita</h2>
+            <p>
+                Explora nuestra colección de cartas Pokémon y encuentra
+                productos ideales para tu colección.
+            </p>
+
+
+            <a class="boton-principal" href="#catalogo">
+                Ver catálogo
+            </a>
+        </section>
+
+
+        <section id="catalogo" class="seccion-catalogo">
+            <h2>Catálogo de cartas Pokémon</h2>
+
+</header>
         
     </header>
     <section class="contenedor">
-        <div class="catalogo" aria-labelledby="titulo-catalogo">
-            <h2 id="titulo-catalogo">Catálogo Pokémon</h2>
-            <p class="aviso-demo">Demostración académica: precios y existencias ficticios. Imágenes de cartas Pokémon TCG reales usadas como referencia; no acreditan inventario disponible.</p>
-            <form class="controles-catalogo" id="controles-catalogo" role="search">
-                <div>
-                    <label for="buscar-pokemon">Buscar por nombre</label>
-                    <input id="buscar-pokemon" type="search" placeholder="Ejemplo: Pikachu" autocomplete="off" disabled>
-                </div>
-                <div>
-                    <label for="categoria-pokemon">Filtrar por categoría</label>
-                    <select id="categoria-pokemon" disabled>
-                        <option value="">Todas las categorías</option>
-                    </select>
-                </div>
-            </form>
-            <p id="estado-catalogo" class="estado-catalogo" role="status">Cargando catálogo…</p>
-            <p id="estado-carrito" class="estado-carrito" role="status"></p>
-            <div class="contenedor-items" id="catalogo-items" aria-busy="true"></div>
-            <button class="boton-item ver-mas" id="ver-mas" type="button" hidden>Ver más Pokémon</button>
-            <button class="boton-item" id="reintentar-catalogo" type="button" hidden>Reintentar carga</button>
-            <p class="atribucion-cartas">Datos e imágenes de cartas: <a href="https://tcgdex.dev/">TCGdex</a> y archivos originales de la tienda. Pokémon © Nintendo / Creatures Inc. / GAME FREAK inc. Proyecto académico sin afiliación oficial.</p>
-            <noscript>Activa JavaScript para consultar el catálogo y utilizar el carrito.</noscript>
-        </div>
          <button class="btn-carrito" id="btn-carrito" type="button" aria-controls="carrito" aria-expanded="false">
                 🛒<span id="contador">0</span>
             </button>
@@ -48,8 +51,23 @@
             <div class="carrito-items" id="carrito-items" aria-live="polite">
                 <p class="carrito-vacio">Tu carrito está vacío.</p>
             </div>
-            <div class="carrito-pie">
-                <p class="carrito-total"><strong>Total:</strong> <span id="total">0.00$</span></p>
+           <div class="carrito-pie">
+                <div class="resumen-compra" aria-label="Resumen de compra">
+                    <p><span>Subtotal:</span> <strong id="subtotal">0.00$</strong></p>
+                    <p><span>IGV incluido (18%):</span> <strong id="igv">0.00$</strong></p>
+                    <p><span>Envío:</span> <strong id="envio">0.00$</strong></p>
+                    <p><span>Descuento:</span> <strong id="descuento">0.00$</strong></p>
+                    <p class="carrito-total"><strong>Total:</strong> <strong id="total">0.00$</strong></p>
+                </div>
+
+             
+                <label for="cupon">Cupón de descuento:</label>
+                <div class="cupon-control">
+                    <input id="cupon" type="text" placeholder="Ejemplo: POKE10" autocomplete="off">
+                    <button id="aplicar-cupon" type="button">Aplicar</button>
+                </div>
+                <p id="mensaje-cupon" class="mensaje-cupon" aria-live="polite"></p>
+
                 <button id="vaciar" type="button">Vaciar carrito</button>
                 <button type="button">Comprar</button>
             </div>
