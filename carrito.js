@@ -234,10 +234,13 @@
             const precio = Number(precioTexto.replace(/[^\d.]/g, ""));
             const stock = Number(boton.dataset.stock);
 
-            if (!nombre || !Number.isFinite(precio) || precio <= 0) return;
+            if (!nombre || !Number.isFinite(precio) || precio <= 0 || !Number.isInteger(stock)) return;
 
-            carrito.agregarProducto({ nombre, precio });
-            renderizarCarrito();
+            // si se alcanza el stock, no se agrega otra unidad.
+            const agregado = carrito.agregarProducto({ nombre, precio, stock });
+            if (!agregado) {
+                alert("No puedes superar el stock disponible de este producto.");
+            }
         });
     });
 
