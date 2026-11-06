@@ -13,62 +13,58 @@
     <section class="contenedor">
        <div class="contenedor-items">
             <div class="item">
-                <span class="titulo-item">carta de Eve</span>|
-                <img src="SV8pt5_ES_75 eve.png" alt="Carta de Eve" class="img-item">
+                <span class="titulo-item">carta de Eevee</span>
+                <img src="SV8pt5_ES_75 eve.png" alt="Carta de Eevee" class="img-item">
                 <span class="precio-item">50.00$</span>
-                <button  class="boton-item"> agregar al carrito</button>
+                <button class="boton-item" type="button" data-agregar>Agregar al carrito</button>
         </div>
 
         <div class="item">
-            <span class="titulo-item">carta de New</span>
-            <img src="SV3pt5_LA_151 enow.png" alt="Carta de New" class="img-item">
+            <span class="titulo-item">carta de Mew</span>
+            <img src="SV3pt5_LA_151 enow.png" alt="Carta de Mew" class="img-item">
             <span class="precio-item">200.00$</span>
-            <button  class="boton-item"> agregar al carrito</button>
+            <button class="boton-item" type="button" data-agregar>Agregar al carrito</button>
         </div>
 
         <div class="item">
             <span class="titulo-item">carta de Alakazam </span>
             <img src="SV3pt5_ES_65 alcazan.png" alt="Carta de Alakazam" class="img-item">
             <span class="precio-item">35.00$</span>
-            <button  class="boton-item"> agregar al carrito</button>
+            <button class="boton-item" type="button" data-agregar>Agregar al carrito</button>
         </div>
         
         <div class="item">
             <span class="titulo-item">carta de Pikachu </span>
             <img src="SV8PT5_PIkachu_28.png" alt="Carta de Pikachu" class="img-item">
             <span class="precio-item">100.00$</span>
-            <button  class="boton-item"> agregar al carrito</button>
+            <button class="boton-item" type="button" data-agregar>Agregar al carrito</button>
         </div>
 
        
 
         </div>
 
-         <button class="btn-carrito" id="btn-carrito" type="button">
+         <button class="btn-carrito" id="btn-carrito" type="button" aria-controls="carrito" aria-expanded="false">
                 🛒<span id="contador">0</span>
             </button>
 
-        <div class="carrito" id="carrito">
+        <aside class="carrito" id="carrito" aria-labelledby="titulo-carrito" aria-hidden="true">
             <div class="header-carrito">
-                <h2>Tu carrito</h2>
-                <button id="cerrar-carrito">Cerrar</button>
+                <h2 id="titulo-carrito">Tu carrito</h2>
+                <button id="cerrar-carrito" type="button" aria-label="Cerrar carrito">Cerrar</button>
             </div>
 
-            <div class="carrito-items" id="carrito-items">
-                <div class="carrito total">
-                    <strong>total:</strong> <span id="total">0.00</span>
-                </div>
-                <button id="vaciar"> Vaciar carrito</button>
-                <button class="btn-carrito">Comprar</button>
+            <div class="carrito-items" id="carrito-items" aria-live="polite">
+                <p class="carrito-vacio">Tu carrito está vacío.</p>
             </div>
-
-
-                
-            
-
-        </div>
+            <div class="carrito-pie">
+                <p class="carrito-total"><strong>Total:</strong> <span id="total">0.00$</span></p>
+                <button id="vaciar" type="button">Vaciar carrito</button>
+                <button type="button">Comprar</button>
+            </div>
+        </aside>
 
     </section>
-    
+    <script src="carrito.js" defer></script>
 </body>
 </html>
