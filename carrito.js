@@ -252,6 +252,7 @@
         if (!boton) return;
 
         const nombre = boton.dataset.nombre;
+        let resultado = true;
 
         switch (boton.dataset.accion) {
             case "aumentar":
