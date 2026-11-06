@@ -96,8 +96,15 @@
                 0
             );
         }
+        
         calcularIGV() {
             return this.calcularSubtotal() * 0.18;
+        }
+
+        calcularEnvio() {
+            const subtotal = this.calcularSubtotal();
+            if (subtotal === 0 || subtotal >= 150) return 0;
+            return 10;
         }
 
         obtenerTotal() {
