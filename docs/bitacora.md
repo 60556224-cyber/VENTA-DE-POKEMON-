@@ -12,8 +12,8 @@
 
 | Fecha | Integrante | Actividad | Archivos |
 |-------|------------|-----------|----------|
-| 1/11 | EDIK BENJAMIN PACHACUTE CORDOVA | estilos.css |         |
-| 1/11 | ELMER RORRIGO ARIAS QUISPE |  index.html |             |
+| 1/11 | EDIK BENJAMIN PACHACUTE CORDOVA |  |         |
+| 1/11 | ELMER RORRIGO ARIAS QUISPE |   |             |
 | ___/11 | LUIS FERNANDO HERMOZA HUANCA |          |              |
 | ___/11 | ANGELO PATRICK ROQUE VALENCIA |          |            |
 ## Dificultades encontradas
