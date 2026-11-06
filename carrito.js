@@ -50,9 +50,10 @@
                 (item) => item.nombre === nombre
             );
 
-            if (!producto) return;
+            if (!producto || producto.cantidad >= producto.stock) return false;
             producto.cantidad += 1;
             this.guardar();
+            return true;
         }
 
         disminuirProducto(nombre) {
