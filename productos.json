@@ -1,0 +1,1869 @@
+[
+  {
+    "id": 1,
+    "nombre": "Bulbasaur",
+    "categoria": "Planta",
+    "tipos": [
+      "Planta",
+      "Veneno"
+    ],
+    "precio": 17.5,
+    "stock": 4,
+    "imagen": "imagenes/pokemon/001.png",
+    "datos_demo": true
+  },
+  {
+    "id": 2,
+    "nombre": "Ivysaur",
+    "categoria": "Planta",
+    "tipos": [
+      "Planta",
+      "Veneno"
+    ],
+    "precio": 24.5,
+    "stock": 5,
+    "imagen": "imagenes/pokemon/002.png",
+    "datos_demo": true
+  },
+  {
+    "id": 3,
+    "nombre": "Venusaur",
+    "categoria": "Planta",
+    "tipos": [
+      "Planta",
+      "Veneno"
+    ],
+    "precio": 31.5,
+    "stock": 6,
+    "imagen": "imagenes/pokemon/003.png",
+    "datos_demo": true
+  },
+  {
+    "id": 4,
+    "nombre": "Charmander",
+    "categoria": "Fuego",
+    "tipos": [
+      "Fuego"
+    ],
+    "precio": 38.5,
+    "stock": 7,
+    "imagen": "imagenes/pokemon/004.png",
+    "datos_demo": true
+  },
+  {
+    "id": 5,
+    "nombre": "Charmeleon",
+    "categoria": "Fuego",
+    "tipos": [
+      "Fuego"
+    ],
+    "precio": 45.5,
+    "stock": 8,
+    "imagen": "imagenes/pokemon/005.png",
+    "datos_demo": true
+  },
+  {
+    "id": 6,
+    "nombre": "Charizard",
+    "categoria": "Fuego",
+    "tipos": [
+      "Fuego",
+      "Volador"
+    ],
+    "precio": 52.5,
+    "stock": 3,
+    "imagen": "imagenes/pokemon/006.png",
+    "datos_demo": true
+  },
+  {
+    "id": 7,
+    "nombre": "Squirtle",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua"
+    ],
+    "precio": 59.5,
+    "stock": 4,
+    "imagen": "imagenes/pokemon/007.png",
+    "datos_demo": true
+  },
+  {
+    "id": 8,
+    "nombre": "Wartortle",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua"
+    ],
+    "precio": 66.5,
+    "stock": 5,
+    "imagen": "imagenes/pokemon/008.png",
+    "datos_demo": true
+  },
+  {
+    "id": 9,
+    "nombre": "Blastoise",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua"
+    ],
+    "precio": 73.5,
+    "stock": 6,
+    "imagen": "imagenes/pokemon/009.png",
+    "datos_demo": true
+  },
+  {
+    "id": 10,
+    "nombre": "Caterpie",
+    "categoria": "Bicho",
+    "tipos": [
+      "Bicho"
+    ],
+    "precio": 80.5,
+    "stock": 7,
+    "imagen": "imagenes/pokemon/010.png",
+    "datos_demo": true
+  },
+  {
+    "id": 11,
+    "nombre": "Metapod",
+    "categoria": "Bicho",
+    "tipos": [
+      "Bicho"
+    ],
+    "precio": 87.5,
+    "stock": 8,
+    "imagen": "imagenes/pokemon/011.png",
+    "datos_demo": true
+  },
+  {
+    "id": 12,
+    "nombre": "Butterfree",
+    "categoria": "Bicho",
+    "tipos": [
+      "Bicho",
+      "Volador"
+    ],
+    "precio": 94.5,
+    "stock": 3,
+    "imagen": "imagenes/pokemon/012.png",
+    "datos_demo": true
+  },
+  {
+    "id": 13,
+    "nombre": "Weedle",
+    "categoria": "Bicho",
+    "tipos": [
+      "Bicho",
+      "Veneno"
+    ],
+    "precio": 10.5,
+    "stock": 0,
+    "imagen": "imagenes/pokemon/013.png",
+    "datos_demo": true
+  },
+  {
+    "id": 14,
+    "nombre": "Kakuna",
+    "categoria": "Bicho",
+    "tipos": [
+      "Bicho",
+      "Veneno"
+    ],
+    "precio": 17.5,
+    "stock": 5,
+    "imagen": "imagenes/pokemon/014.png",
+    "datos_demo": true
+  },
+  {
+    "id": 15,
+    "nombre": "Beedrill",
+    "categoria": "Bicho",
+    "tipos": [
+      "Bicho",
+      "Veneno"
+    ],
+    "precio": 24.5,
+    "stock": 6,
+    "imagen": "imagenes/pokemon/015.png",
+    "datos_demo": true
+  },
+  {
+    "id": 16,
+    "nombre": "Pidgey",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal",
+      "Volador"
+    ],
+    "precio": 31.5,
+    "stock": 7,
+    "imagen": "imagenes/pokemon/016.png",
+    "datos_demo": true
+  },
+  {
+    "id": 17,
+    "nombre": "Pidgeotto",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal",
+      "Volador"
+    ],
+    "precio": 38.5,
+    "stock": 8,
+    "imagen": "imagenes/pokemon/017.png",
+    "datos_demo": true
+  },
+  {
+    "id": 18,
+    "nombre": "Pidgeot",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal",
+      "Volador"
+    ],
+    "precio": 45.5,
+    "stock": 3,
+    "imagen": "imagenes/pokemon/018.png",
+    "datos_demo": true
+  },
+  {
+    "id": 19,
+    "nombre": "Rattata",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal"
+    ],
+    "precio": 52.5,
+    "stock": 4,
+    "imagen": "imagenes/pokemon/019.png",
+    "datos_demo": true
+  },
+  {
+    "id": 20,
+    "nombre": "Raticate",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal"
+    ],
+    "precio": 59.5,
+    "stock": 5,
+    "imagen": "imagenes/pokemon/020.png",
+    "datos_demo": true
+  },
+  {
+    "id": 21,
+    "nombre": "Spearow",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal",
+      "Volador"
+    ],
+    "precio": 66.5,
+    "stock": 6,
+    "imagen": "imagenes/pokemon/021.png",
+    "datos_demo": true
+  },
+  {
+    "id": 22,
+    "nombre": "Fearow",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal",
+      "Volador"
+    ],
+    "precio": 73.5,
+    "stock": 7,
+    "imagen": "imagenes/pokemon/022.png",
+    "datos_demo": true
+  },
+  {
+    "id": 23,
+    "nombre": "Ekans",
+    "categoria": "Veneno",
+    "tipos": [
+      "Veneno"
+    ],
+    "precio": 80.5,
+    "stock": 8,
+    "imagen": "imagenes/pokemon/023.png",
+    "datos_demo": true
+  },
+  {
+    "id": 24,
+    "nombre": "Arbok",
+    "categoria": "Veneno",
+    "tipos": [
+      "Veneno"
+    ],
+    "precio": 87.5,
+    "stock": 3,
+    "imagen": "imagenes/pokemon/024.png",
+    "datos_demo": true
+  },
+  {
+    "id": 25,
+    "nombre": "Pikachu",
+    "categoria": "Eléctrico",
+    "tipos": [
+      "Eléctrico"
+    ],
+    "precio": 100,
+    "stock": 4,
+    "imagen": "SV8PT5_PIkachu_28.png",
+    "datos_demo": true
+  },
+  {
+    "id": 26,
+    "nombre": "Raichu",
+    "categoria": "Eléctrico",
+    "tipos": [
+      "Eléctrico"
+    ],
+    "precio": 10.5,
+    "stock": 0,
+    "imagen": "imagenes/pokemon/026.png",
+    "datos_demo": true
+  },
+  {
+    "id": 27,
+    "nombre": "Sandshrew",
+    "categoria": "Tierra",
+    "tipos": [
+      "Tierra"
+    ],
+    "precio": 17.5,
+    "stock": 6,
+    "imagen": "imagenes/pokemon/027.png",
+    "datos_demo": true
+  },
+  {
+    "id": 28,
+    "nombre": "Sandslash",
+    "categoria": "Tierra",
+    "tipos": [
+      "Tierra"
+    ],
+    "precio": 24.5,
+    "stock": 7,
+    "imagen": "imagenes/pokemon/028.png",
+    "datos_demo": true
+  },
+  {
+    "id": 29,
+    "nombre": "Nidoran♀",
+    "categoria": "Veneno",
+    "tipos": [
+      "Veneno"
+    ],
+    "precio": 31.5,
+    "stock": 8,
+    "imagen": "imagenes/pokemon/029.png",
+    "datos_demo": true
+  },
+  {
+    "id": 30,
+    "nombre": "Nidorina",
+    "categoria": "Veneno",
+    "tipos": [
+      "Veneno"
+    ],
+    "precio": 38.5,
+    "stock": 3,
+    "imagen": "imagenes/pokemon/030.png",
+    "datos_demo": true
+  },
+  {
+    "id": 31,
+    "nombre": "Nidoqueen",
+    "categoria": "Veneno",
+    "tipos": [
+      "Veneno",
+      "Tierra"
+    ],
+    "precio": 45.5,
+    "stock": 4,
+    "imagen": "imagenes/pokemon/031.png",
+    "datos_demo": true
+  },
+  {
+    "id": 32,
+    "nombre": "Nidoran♂",
+    "categoria": "Veneno",
+    "tipos": [
+      "Veneno"
+    ],
+    "precio": 52.5,
+    "stock": 5,
+    "imagen": "imagenes/pokemon/032.png",
+    "datos_demo": true
+  },
+  {
+    "id": 33,
+    "nombre": "Nidorino",
+    "categoria": "Veneno",
+    "tipos": [
+      "Veneno"
+    ],
+    "precio": 59.5,
+    "stock": 6,
+    "imagen": "imagenes/pokemon/033.png",
+    "datos_demo": true
+  },
+  {
+    "id": 34,
+    "nombre": "Nidoking",
+    "categoria": "Veneno",
+    "tipos": [
+      "Veneno",
+      "Tierra"
+    ],
+    "precio": 66.5,
+    "stock": 7,
+    "imagen": "imagenes/pokemon/034.png",
+    "datos_demo": true
+  },
+  {
+    "id": 35,
+    "nombre": "Clefairy",
+    "categoria": "Hada",
+    "tipos": [
+      "Hada"
+    ],
+    "precio": 73.5,
+    "stock": 8,
+    "imagen": "imagenes/pokemon/035.png",
+    "datos_demo": true
+  },
+  {
+    "id": 36,
+    "nombre": "Clefable",
+    "categoria": "Hada",
+    "tipos": [
+      "Hada"
+    ],
+    "precio": 80.5,
+    "stock": 3,
+    "imagen": "imagenes/pokemon/036.png",
+    "datos_demo": true
+  },
+  {
+    "id": 37,
+    "nombre": "Vulpix",
+    "categoria": "Fuego",
+    "tipos": [
+      "Fuego"
+    ],
+    "precio": 87.5,
+    "stock": 4,
+    "imagen": "imagenes/pokemon/037.png",
+    "datos_demo": true
+  },
+  {
+    "id": 38,
+    "nombre": "Ninetales",
+    "categoria": "Fuego",
+    "tipos": [
+      "Fuego"
+    ],
+    "precio": 94.5,
+    "stock": 5,
+    "imagen": "imagenes/pokemon/038.png",
+    "datos_demo": true
+  },
+  {
+    "id": 39,
+    "nombre": "Jigglypuff",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal",
+      "Hada"
+    ],
+    "precio": 10.5,
+    "stock": 0,
+    "imagen": "imagenes/pokemon/039.png",
+    "datos_demo": true
+  },
+  {
+    "id": 40,
+    "nombre": "Wigglytuff",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal",
+      "Hada"
+    ],
+    "precio": 17.5,
+    "stock": 7,
+    "imagen": "imagenes/pokemon/040.png",
+    "datos_demo": true
+  },
+  {
+    "id": 41,
+    "nombre": "Zubat",
+    "categoria": "Veneno",
+    "tipos": [
+      "Veneno",
+      "Volador"
+    ],
+    "precio": 24.5,
+    "stock": 8,
+    "imagen": "imagenes/pokemon/041.png",
+    "datos_demo": true
+  },
+  {
+    "id": 42,
+    "nombre": "Golbat",
+    "categoria": "Veneno",
+    "tipos": [
+      "Veneno",
+      "Volador"
+    ],
+    "precio": 31.5,
+    "stock": 3,
+    "imagen": "imagenes/pokemon/042.png",
+    "datos_demo": true
+  },
+  {
+    "id": 43,
+    "nombre": "Oddish",
+    "categoria": "Planta",
+    "tipos": [
+      "Planta",
+      "Veneno"
+    ],
+    "precio": 38.5,
+    "stock": 4,
+    "imagen": "imagenes/pokemon/043.png",
+    "datos_demo": true
+  },
+  {
+    "id": 44,
+    "nombre": "Gloom",
+    "categoria": "Planta",
+    "tipos": [
+      "Planta",
+      "Veneno"
+    ],
+    "precio": 45.5,
+    "stock": 5,
+    "imagen": "imagenes/pokemon/044.png",
+    "datos_demo": true
+  },
+  {
+    "id": 45,
+    "nombre": "Vileplume",
+    "categoria": "Planta",
+    "tipos": [
+      "Planta",
+      "Veneno"
+    ],
+    "precio": 52.5,
+    "stock": 6,
+    "imagen": "imagenes/pokemon/045.png",
+    "datos_demo": true
+  },
+  {
+    "id": 46,
+    "nombre": "Paras",
+    "categoria": "Bicho",
+    "tipos": [
+      "Bicho",
+      "Planta"
+    ],
+    "precio": 59.5,
+    "stock": 7,
+    "imagen": "imagenes/pokemon/046.png",
+    "datos_demo": true
+  },
+  {
+    "id": 47,
+    "nombre": "Parasect",
+    "categoria": "Bicho",
+    "tipos": [
+      "Bicho",
+      "Planta"
+    ],
+    "precio": 66.5,
+    "stock": 8,
+    "imagen": "imagenes/pokemon/047.png",
+    "datos_demo": true
+  },
+  {
+    "id": 48,
+    "nombre": "Venonat",
+    "categoria": "Bicho",
+    "tipos": [
+      "Bicho",
+      "Veneno"
+    ],
+    "precio": 73.5,
+    "stock": 3,
+    "imagen": "imagenes/pokemon/048.png",
+    "datos_demo": true
+  },
+  {
+    "id": 49,
+    "nombre": "Venomoth",
+    "categoria": "Bicho",
+    "tipos": [
+      "Bicho",
+      "Veneno"
+    ],
+    "precio": 80.5,
+    "stock": 4,
+    "imagen": "imagenes/pokemon/049.png",
+    "datos_demo": true
+  },
+  {
+    "id": 50,
+    "nombre": "Diglett",
+    "categoria": "Tierra",
+    "tipos": [
+      "Tierra"
+    ],
+    "precio": 87.5,
+    "stock": 5,
+    "imagen": "imagenes/pokemon/050.png",
+    "datos_demo": true
+  },
+  {
+    "id": 51,
+    "nombre": "Dugtrio",
+    "categoria": "Tierra",
+    "tipos": [
+      "Tierra"
+    ],
+    "precio": 94.5,
+    "stock": 6,
+    "imagen": "imagenes/pokemon/051.png",
+    "datos_demo": true
+  },
+  {
+    "id": 52,
+    "nombre": "Meowth",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal"
+    ],
+    "precio": 10.5,
+    "stock": 0,
+    "imagen": "imagenes/pokemon/052.png",
+    "datos_demo": true
+  },
+  {
+    "id": 53,
+    "nombre": "Persian",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal"
+    ],
+    "precio": 17.5,
+    "stock": 8,
+    "imagen": "imagenes/pokemon/053.png",
+    "datos_demo": true
+  },
+  {
+    "id": 54,
+    "nombre": "Psyduck",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua"
+    ],
+    "precio": 24.5,
+    "stock": 3,
+    "imagen": "imagenes/pokemon/054.png",
+    "datos_demo": true
+  },
+  {
+    "id": 55,
+    "nombre": "Golduck",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua"
+    ],
+    "precio": 31.5,
+    "stock": 4,
+    "imagen": "imagenes/pokemon/055.png",
+    "datos_demo": true
+  },
+  {
+    "id": 56,
+    "nombre": "Mankey",
+    "categoria": "Lucha",
+    "tipos": [
+      "Lucha"
+    ],
+    "precio": 38.5,
+    "stock": 5,
+    "imagen": "imagenes/pokemon/056.png",
+    "datos_demo": true
+  },
+  {
+    "id": 57,
+    "nombre": "Primeape",
+    "categoria": "Lucha",
+    "tipos": [
+      "Lucha"
+    ],
+    "precio": 45.5,
+    "stock": 6,
+    "imagen": "imagenes/pokemon/057.png",
+    "datos_demo": true
+  },
+  {
+    "id": 58,
+    "nombre": "Growlithe",
+    "categoria": "Fuego",
+    "tipos": [
+      "Fuego"
+    ],
+    "precio": 52.5,
+    "stock": 7,
+    "imagen": "imagenes/pokemon/058.png",
+    "datos_demo": true
+  },
+  {
+    "id": 59,
+    "nombre": "Arcanine",
+    "categoria": "Fuego",
+    "tipos": [
+      "Fuego"
+    ],
+    "precio": 59.5,
+    "stock": 8,
+    "imagen": "imagenes/pokemon/059.png",
+    "datos_demo": true
+  },
+  {
+    "id": 60,
+    "nombre": "Poliwag",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua"
+    ],
+    "precio": 66.5,
+    "stock": 3,
+    "imagen": "imagenes/pokemon/060.png",
+    "datos_demo": true
+  },
+  {
+    "id": 61,
+    "nombre": "Poliwhirl",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua"
+    ],
+    "precio": 73.5,
+    "stock": 4,
+    "imagen": "imagenes/pokemon/061.png",
+    "datos_demo": true
+  },
+  {
+    "id": 62,
+    "nombre": "Poliwrath",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua",
+      "Lucha"
+    ],
+    "precio": 80.5,
+    "stock": 5,
+    "imagen": "imagenes/pokemon/062.png",
+    "datos_demo": true
+  },
+  {
+    "id": 63,
+    "nombre": "Abra",
+    "categoria": "Psíquico",
+    "tipos": [
+      "Psíquico"
+    ],
+    "precio": 87.5,
+    "stock": 6,
+    "imagen": "imagenes/pokemon/063.png",
+    "datos_demo": true
+  },
+  {
+    "id": 64,
+    "nombre": "Kadabra",
+    "categoria": "Psíquico",
+    "tipos": [
+      "Psíquico"
+    ],
+    "precio": 94.5,
+    "stock": 7,
+    "imagen": "imagenes/pokemon/064.png",
+    "datos_demo": true
+  },
+  {
+    "id": 65,
+    "nombre": "Alakazam",
+    "categoria": "Psíquico",
+    "tipos": [
+      "Psíquico"
+    ],
+    "precio": 35,
+    "stock": 0,
+    "imagen": "SV3pt5_ES_65 alcazan.png",
+    "datos_demo": true
+  },
+  {
+    "id": 66,
+    "nombre": "Machop",
+    "categoria": "Lucha",
+    "tipos": [
+      "Lucha"
+    ],
+    "precio": 17.5,
+    "stock": 3,
+    "imagen": "imagenes/pokemon/066.png",
+    "datos_demo": true
+  },
+  {
+    "id": 67,
+    "nombre": "Machoke",
+    "categoria": "Lucha",
+    "tipos": [
+      "Lucha"
+    ],
+    "precio": 24.5,
+    "stock": 4,
+    "imagen": "imagenes/pokemon/067.png",
+    "datos_demo": true
+  },
+  {
+    "id": 68,
+    "nombre": "Machamp",
+    "categoria": "Lucha",
+    "tipos": [
+      "Lucha"
+    ],
+    "precio": 31.5,
+    "stock": 5,
+    "imagen": "imagenes/pokemon/068.png",
+    "datos_demo": true
+  },
+  {
+    "id": 69,
+    "nombre": "Bellsprout",
+    "categoria": "Planta",
+    "tipos": [
+      "Planta",
+      "Veneno"
+    ],
+    "precio": 38.5,
+    "stock": 6,
+    "imagen": "imagenes/pokemon/069.png",
+    "datos_demo": true
+  },
+  {
+    "id": 70,
+    "nombre": "Weepinbell",
+    "categoria": "Planta",
+    "tipos": [
+      "Planta",
+      "Veneno"
+    ],
+    "precio": 45.5,
+    "stock": 7,
+    "imagen": "imagenes/pokemon/070.png",
+    "datos_demo": true
+  },
+  {
+    "id": 71,
+    "nombre": "Victreebel",
+    "categoria": "Planta",
+    "tipos": [
+      "Planta",
+      "Veneno"
+    ],
+    "precio": 52.5,
+    "stock": 8,
+    "imagen": "imagenes/pokemon/071.png",
+    "datos_demo": true
+  },
+  {
+    "id": 72,
+    "nombre": "Tentacool",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua",
+      "Veneno"
+    ],
+    "precio": 59.5,
+    "stock": 3,
+    "imagen": "imagenes/pokemon/072.png",
+    "datos_demo": true
+  },
+  {
+    "id": 73,
+    "nombre": "Tentacruel",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua",
+      "Veneno"
+    ],
+    "precio": 66.5,
+    "stock": 4,
+    "imagen": "imagenes/pokemon/073.png",
+    "datos_demo": true
+  },
+  {
+    "id": 74,
+    "nombre": "Geodude",
+    "categoria": "Roca",
+    "tipos": [
+      "Roca",
+      "Tierra"
+    ],
+    "precio": 73.5,
+    "stock": 5,
+    "imagen": "imagenes/pokemon/074.png",
+    "datos_demo": true
+  },
+  {
+    "id": 75,
+    "nombre": "Graveler",
+    "categoria": "Roca",
+    "tipos": [
+      "Roca",
+      "Tierra"
+    ],
+    "precio": 80.5,
+    "stock": 6,
+    "imagen": "imagenes/pokemon/075.png",
+    "datos_demo": true
+  },
+  {
+    "id": 76,
+    "nombre": "Golem",
+    "categoria": "Roca",
+    "tipos": [
+      "Roca",
+      "Tierra"
+    ],
+    "precio": 87.5,
+    "stock": 7,
+    "imagen": "imagenes/pokemon/076.png",
+    "datos_demo": true
+  },
+  {
+    "id": 77,
+    "nombre": "Ponyta",
+    "categoria": "Fuego",
+    "tipos": [
+      "Fuego"
+    ],
+    "precio": 94.5,
+    "stock": 8,
+    "imagen": "imagenes/pokemon/077.png",
+    "datos_demo": true
+  },
+  {
+    "id": 78,
+    "nombre": "Rapidash",
+    "categoria": "Fuego",
+    "tipos": [
+      "Fuego"
+    ],
+    "precio": 10.5,
+    "stock": 0,
+    "imagen": "imagenes/pokemon/078.png",
+    "datos_demo": true
+  },
+  {
+    "id": 79,
+    "nombre": "Slowpoke",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua",
+      "Psíquico"
+    ],
+    "precio": 17.5,
+    "stock": 4,
+    "imagen": "imagenes/pokemon/079.png",
+    "datos_demo": true
+  },
+  {
+    "id": 80,
+    "nombre": "Slowbro",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua",
+      "Psíquico"
+    ],
+    "precio": 24.5,
+    "stock": 5,
+    "imagen": "imagenes/pokemon/080.png",
+    "datos_demo": true
+  },
+  {
+    "id": 81,
+    "nombre": "Magnemite",
+    "categoria": "Eléctrico",
+    "tipos": [
+      "Eléctrico",
+      "Acero"
+    ],
+    "precio": 31.5,
+    "stock": 6,
+    "imagen": "imagenes/pokemon/081.png",
+    "datos_demo": true
+  },
+  {
+    "id": 82,
+    "nombre": "Magneton",
+    "categoria": "Eléctrico",
+    "tipos": [
+      "Eléctrico",
+      "Acero"
+    ],
+    "precio": 38.5,
+    "stock": 7,
+    "imagen": "imagenes/pokemon/082.png",
+    "datos_demo": true
+  },
+  {
+    "id": 83,
+    "nombre": "Farfetch’d",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal",
+      "Volador"
+    ],
+    "precio": 45.5,
+    "stock": 8,
+    "imagen": "imagenes/pokemon/083.png",
+    "datos_demo": true
+  },
+  {
+    "id": 84,
+    "nombre": "Doduo",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal",
+      "Volador"
+    ],
+    "precio": 52.5,
+    "stock": 3,
+    "imagen": "imagenes/pokemon/084.png",
+    "datos_demo": true
+  },
+  {
+    "id": 85,
+    "nombre": "Dodrio",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal",
+      "Volador"
+    ],
+    "precio": 59.5,
+    "stock": 4,
+    "imagen": "imagenes/pokemon/085.png",
+    "datos_demo": true
+  },
+  {
+    "id": 86,
+    "nombre": "Seel",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua"
+    ],
+    "precio": 66.5,
+    "stock": 5,
+    "imagen": "imagenes/pokemon/086.png",
+    "datos_demo": true
+  },
+  {
+    "id": 87,
+    "nombre": "Dewgong",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua",
+      "Hielo"
+    ],
+    "precio": 73.5,
+    "stock": 6,
+    "imagen": "imagenes/pokemon/087.png",
+    "datos_demo": true
+  },
+  {
+    "id": 88,
+    "nombre": "Grimer",
+    "categoria": "Veneno",
+    "tipos": [
+      "Veneno"
+    ],
+    "precio": 80.5,
+    "stock": 7,
+    "imagen": "imagenes/pokemon/088.png",
+    "datos_demo": true
+  },
+  {
+    "id": 89,
+    "nombre": "Muk",
+    "categoria": "Veneno",
+    "tipos": [
+      "Veneno"
+    ],
+    "precio": 87.5,
+    "stock": 8,
+    "imagen": "imagenes/pokemon/089.png",
+    "datos_demo": true
+  },
+  {
+    "id": 90,
+    "nombre": "Shellder",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua"
+    ],
+    "precio": 94.5,
+    "stock": 3,
+    "imagen": "imagenes/pokemon/090.png",
+    "datos_demo": true
+  },
+  {
+    "id": 91,
+    "nombre": "Cloyster",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua",
+      "Hielo"
+    ],
+    "precio": 10.5,
+    "stock": 0,
+    "imagen": "imagenes/pokemon/091.png",
+    "datos_demo": true
+  },
+  {
+    "id": 92,
+    "nombre": "Gastly",
+    "categoria": "Fantasma",
+    "tipos": [
+      "Fantasma",
+      "Veneno"
+    ],
+    "precio": 17.5,
+    "stock": 5,
+    "imagen": "imagenes/pokemon/092.png",
+    "datos_demo": true
+  },
+  {
+    "id": 93,
+    "nombre": "Haunter",
+    "categoria": "Fantasma",
+    "tipos": [
+      "Fantasma",
+      "Veneno"
+    ],
+    "precio": 24.5,
+    "stock": 6,
+    "imagen": "imagenes/pokemon/093.png",
+    "datos_demo": true
+  },
+  {
+    "id": 94,
+    "nombre": "Gengar",
+    "categoria": "Fantasma",
+    "tipos": [
+      "Fantasma",
+      "Veneno"
+    ],
+    "precio": 31.5,
+    "stock": 7,
+    "imagen": "imagenes/pokemon/094.png",
+    "datos_demo": true
+  },
+  {
+    "id": 95,
+    "nombre": "Onix",
+    "categoria": "Roca",
+    "tipos": [
+      "Roca",
+      "Tierra"
+    ],
+    "precio": 38.5,
+    "stock": 8,
+    "imagen": "imagenes/pokemon/095.png",
+    "datos_demo": true
+  },
+  {
+    "id": 96,
+    "nombre": "Drowzee",
+    "categoria": "Psíquico",
+    "tipos": [
+      "Psíquico"
+    ],
+    "precio": 45.5,
+    "stock": 3,
+    "imagen": "imagenes/pokemon/096.png",
+    "datos_demo": true
+  },
+  {
+    "id": 97,
+    "nombre": "Hypno",
+    "categoria": "Psíquico",
+    "tipos": [
+      "Psíquico"
+    ],
+    "precio": 52.5,
+    "stock": 4,
+    "imagen": "imagenes/pokemon/097.png",
+    "datos_demo": true
+  },
+  {
+    "id": 98,
+    "nombre": "Krabby",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua"
+    ],
+    "precio": 59.5,
+    "stock": 5,
+    "imagen": "imagenes/pokemon/098.png",
+    "datos_demo": true
+  },
+  {
+    "id": 99,
+    "nombre": "Kingler",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua"
+    ],
+    "precio": 66.5,
+    "stock": 6,
+    "imagen": "imagenes/pokemon/099.png",
+    "datos_demo": true
+  },
+  {
+    "id": 100,
+    "nombre": "Voltorb",
+    "categoria": "Eléctrico",
+    "tipos": [
+      "Eléctrico"
+    ],
+    "precio": 73.5,
+    "stock": 7,
+    "imagen": "imagenes/pokemon/100.png",
+    "datos_demo": true
+  },
+  {
+    "id": 101,
+    "nombre": "Electrode",
+    "categoria": "Eléctrico",
+    "tipos": [
+      "Eléctrico"
+    ],
+    "precio": 80.5,
+    "stock": 8,
+    "imagen": "imagenes/pokemon/101.png",
+    "datos_demo": true
+  },
+  {
+    "id": 102,
+    "nombre": "Exeggcute",
+    "categoria": "Planta",
+    "tipos": [
+      "Planta",
+      "Psíquico"
+    ],
+    "precio": 87.5,
+    "stock": 3,
+    "imagen": "imagenes/pokemon/102.png",
+    "datos_demo": true
+  },
+  {
+    "id": 103,
+    "nombre": "Exeggutor",
+    "categoria": "Planta",
+    "tipos": [
+      "Planta",
+      "Psíquico"
+    ],
+    "precio": 94.5,
+    "stock": 4,
+    "imagen": "imagenes/pokemon/103.png",
+    "datos_demo": true
+  },
+  {
+    "id": 104,
+    "nombre": "Cubone",
+    "categoria": "Tierra",
+    "tipos": [
+      "Tierra"
+    ],
+    "precio": 10.5,
+    "stock": 0,
+    "imagen": "imagenes/pokemon/104.png",
+    "datos_demo": true
+  },
+  {
+    "id": 105,
+    "nombre": "Marowak",
+    "categoria": "Tierra",
+    "tipos": [
+      "Tierra"
+    ],
+    "precio": 17.5,
+    "stock": 6,
+    "imagen": "imagenes/pokemon/105.png",
+    "datos_demo": true
+  },
+  {
+    "id": 106,
+    "nombre": "Hitmonlee",
+    "categoria": "Lucha",
+    "tipos": [
+      "Lucha"
+    ],
+    "precio": 24.5,
+    "stock": 7,
+    "imagen": "imagenes/pokemon/106.png",
+    "datos_demo": true
+  },
+  {
+    "id": 107,
+    "nombre": "Hitmonchan",
+    "categoria": "Lucha",
+    "tipos": [
+      "Lucha"
+    ],
+    "precio": 31.5,
+    "stock": 8,
+    "imagen": "imagenes/pokemon/107.png",
+    "datos_demo": true
+  },
+  {
+    "id": 108,
+    "nombre": "Lickitung",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal"
+    ],
+    "precio": 38.5,
+    "stock": 3,
+    "imagen": "imagenes/pokemon/108.png",
+    "datos_demo": true
+  },
+  {
+    "id": 109,
+    "nombre": "Koffing",
+    "categoria": "Veneno",
+    "tipos": [
+      "Veneno"
+    ],
+    "precio": 45.5,
+    "stock": 4,
+    "imagen": "imagenes/pokemon/109.png",
+    "datos_demo": true
+  },
+  {
+    "id": 110,
+    "nombre": "Weezing",
+    "categoria": "Veneno",
+    "tipos": [
+      "Veneno"
+    ],
+    "precio": 52.5,
+    "stock": 5,
+    "imagen": "imagenes/pokemon/110.png",
+    "datos_demo": true
+  },
+  {
+    "id": 111,
+    "nombre": "Rhyhorn",
+    "categoria": "Tierra",
+    "tipos": [
+      "Tierra",
+      "Roca"
+    ],
+    "precio": 59.5,
+    "stock": 6,
+    "imagen": "imagenes/pokemon/111.png",
+    "datos_demo": true
+  },
+  {
+    "id": 112,
+    "nombre": "Rhydon",
+    "categoria": "Tierra",
+    "tipos": [
+      "Tierra",
+      "Roca"
+    ],
+    "precio": 66.5,
+    "stock": 7,
+    "imagen": "imagenes/pokemon/112.png",
+    "datos_demo": true
+  },
+  {
+    "id": 113,
+    "nombre": "Chansey",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal"
+    ],
+    "precio": 73.5,
+    "stock": 8,
+    "imagen": "imagenes/pokemon/113.png",
+    "datos_demo": true
+  },
+  {
+    "id": 114,
+    "nombre": "Tangela",
+    "categoria": "Planta",
+    "tipos": [
+      "Planta"
+    ],
+    "precio": 80.5,
+    "stock": 3,
+    "imagen": "imagenes/pokemon/114.png",
+    "datos_demo": true
+  },
+  {
+    "id": 115,
+    "nombre": "Kangaskhan",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal"
+    ],
+    "precio": 87.5,
+    "stock": 4,
+    "imagen": "imagenes/pokemon/115.png",
+    "datos_demo": true
+  },
+  {
+    "id": 116,
+    "nombre": "Horsea",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua"
+    ],
+    "precio": 94.5,
+    "stock": 5,
+    "imagen": "imagenes/pokemon/116.png",
+    "datos_demo": true
+  },
+  {
+    "id": 117,
+    "nombre": "Seadra",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua"
+    ],
+    "precio": 10.5,
+    "stock": 0,
+    "imagen": "imagenes/pokemon/117.png",
+    "datos_demo": true
+  },
+  {
+    "id": 118,
+    "nombre": "Goldeen",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua"
+    ],
+    "precio": 17.5,
+    "stock": 7,
+    "imagen": "imagenes/pokemon/118.png",
+    "datos_demo": true
+  },
+  {
+    "id": 119,
+    "nombre": "Seaking",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua"
+    ],
+    "precio": 24.5,
+    "stock": 8,
+    "imagen": "imagenes/pokemon/119.png",
+    "datos_demo": true
+  },
+  {
+    "id": 120,
+    "nombre": "Staryu",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua"
+    ],
+    "precio": 31.5,
+    "stock": 3,
+    "imagen": "imagenes/pokemon/120.png",
+    "datos_demo": true
+  },
+  {
+    "id": 121,
+    "nombre": "Starmie",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua",
+      "Psíquico"
+    ],
+    "precio": 38.5,
+    "stock": 4,
+    "imagen": "imagenes/pokemon/121.png",
+    "datos_demo": true
+  },
+  {
+    "id": 122,
+    "nombre": "Mr. Mime",
+    "categoria": "Psíquico",
+    "tipos": [
+      "Psíquico",
+      "Hada"
+    ],
+    "precio": 45.5,
+    "stock": 5,
+    "imagen": "imagenes/pokemon/122.png",
+    "datos_demo": true
+  },
+  {
+    "id": 123,
+    "nombre": "Scyther",
+    "categoria": "Bicho",
+    "tipos": [
+      "Bicho",
+      "Volador"
+    ],
+    "precio": 52.5,
+    "stock": 6,
+    "imagen": "imagenes/pokemon/123.png",
+    "datos_demo": true
+  },
+  {
+    "id": 124,
+    "nombre": "Jynx",
+    "categoria": "Hielo",
+    "tipos": [
+      "Hielo",
+      "Psíquico"
+    ],
+    "precio": 59.5,
+    "stock": 7,
+    "imagen": "imagenes/pokemon/124.png",
+    "datos_demo": true
+  },
+  {
+    "id": 125,
+    "nombre": "Electabuzz",
+    "categoria": "Eléctrico",
+    "tipos": [
+      "Eléctrico"
+    ],
+    "precio": 66.5,
+    "stock": 8,
+    "imagen": "imagenes/pokemon/125.png",
+    "datos_demo": true
+  },
+  {
+    "id": 126,
+    "nombre": "Magmar",
+    "categoria": "Fuego",
+    "tipos": [
+      "Fuego"
+    ],
+    "precio": 73.5,
+    "stock": 3,
+    "imagen": "imagenes/pokemon/126.png",
+    "datos_demo": true
+  },
+  {
+    "id": 127,
+    "nombre": "Pinsir",
+    "categoria": "Bicho",
+    "tipos": [
+      "Bicho"
+    ],
+    "precio": 80.5,
+    "stock": 4,
+    "imagen": "imagenes/pokemon/127.png",
+    "datos_demo": true
+  },
+  {
+    "id": 128,
+    "nombre": "Tauros",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal"
+    ],
+    "precio": 87.5,
+    "stock": 5,
+    "imagen": "imagenes/pokemon/128.png",
+    "datos_demo": true
+  },
+  {
+    "id": 129,
+    "nombre": "Magikarp",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua"
+    ],
+    "precio": 94.5,
+    "stock": 6,
+    "imagen": "imagenes/pokemon/129.png",
+    "datos_demo": true
+  },
+  {
+    "id": 130,
+    "nombre": "Gyarados",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua",
+      "Volador"
+    ],
+    "precio": 10.5,
+    "stock": 0,
+    "imagen": "imagenes/pokemon/130.png",
+    "datos_demo": true
+  },
+  {
+    "id": 131,
+    "nombre": "Lapras",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua",
+      "Hielo"
+    ],
+    "precio": 17.5,
+    "stock": 8,
+    "imagen": "imagenes/pokemon/131.png",
+    "datos_demo": true
+  },
+  {
+    "id": 132,
+    "nombre": "Ditto",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal"
+    ],
+    "precio": 24.5,
+    "stock": 3,
+    "imagen": "imagenes/pokemon/132.png",
+    "datos_demo": true
+  },
+  {
+    "id": 133,
+    "nombre": "Eevee",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal"
+    ],
+    "precio": 50,
+    "stock": 4,
+    "imagen": "SV8pt5_ES_75 eve.png",
+    "datos_demo": true
+  },
+  {
+    "id": 134,
+    "nombre": "Vaporeon",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua"
+    ],
+    "precio": 38.5,
+    "stock": 5,
+    "imagen": "imagenes/pokemon/134.png",
+    "datos_demo": true
+  },
+  {
+    "id": 135,
+    "nombre": "Jolteon",
+    "categoria": "Eléctrico",
+    "tipos": [
+      "Eléctrico"
+    ],
+    "precio": 45.5,
+    "stock": 6,
+    "imagen": "imagenes/pokemon/135.png",
+    "datos_demo": true
+  },
+  {
+    "id": 136,
+    "nombre": "Flareon",
+    "categoria": "Fuego",
+    "tipos": [
+      "Fuego"
+    ],
+    "precio": 52.5,
+    "stock": 7,
+    "imagen": "imagenes/pokemon/136.png",
+    "datos_demo": true
+  },
+  {
+    "id": 137,
+    "nombre": "Porygon",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal"
+    ],
+    "precio": 59.5,
+    "stock": 8,
+    "imagen": "imagenes/pokemon/137.png",
+    "datos_demo": true
+  },
+  {
+    "id": 138,
+    "nombre": "Omanyte",
+    "categoria": "Roca",
+    "tipos": [
+      "Roca",
+      "Agua"
+    ],
+    "precio": 66.5,
+    "stock": 3,
+    "imagen": "imagenes/pokemon/138.png",
+    "datos_demo": true
+  },
+  {
+    "id": 139,
+    "nombre": "Omastar",
+    "categoria": "Roca",
+    "tipos": [
+      "Roca",
+      "Agua"
+    ],
+    "precio": 73.5,
+    "stock": 4,
+    "imagen": "imagenes/pokemon/139.png",
+    "datos_demo": true
+  },
+  {
+    "id": 140,
+    "nombre": "Kabuto",
+    "categoria": "Roca",
+    "tipos": [
+      "Roca",
+      "Agua"
+    ],
+    "precio": 80.5,
+    "stock": 5,
+    "imagen": "imagenes/pokemon/140.png",
+    "datos_demo": true
+  },
+  {
+    "id": 141,
+    "nombre": "Kabutops",
+    "categoria": "Roca",
+    "tipos": [
+      "Roca",
+      "Agua"
+    ],
+    "precio": 87.5,
+    "stock": 6,
+    "imagen": "imagenes/pokemon/141.png",
+    "datos_demo": true
+  },
+  {
+    "id": 142,
+    "nombre": "Aerodactyl",
+    "categoria": "Roca",
+    "tipos": [
+      "Roca",
+      "Volador"
+    ],
+    "precio": 94.5,
+    "stock": 7,
+    "imagen": "imagenes/pokemon/142.png",
+    "datos_demo": true
+  },
+  {
+    "id": 143,
+    "nombre": "Snorlax",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal"
+    ],
+    "precio": 10.5,
+    "stock": 0,
+    "imagen": "imagenes/pokemon/143.png",
+    "datos_demo": true
+  },
+  {
+    "id": 144,
+    "nombre": "Articuno",
+    "categoria": "Hielo",
+    "tipos": [
+      "Hielo",
+      "Volador"
+    ],
+    "precio": 17.5,
+    "stock": 3,
+    "imagen": "imagenes/pokemon/144.png",
+    "datos_demo": true
+  },
+  {
+    "id": 145,
+    "nombre": "Zapdos",
+    "categoria": "Eléctrico",
+    "tipos": [
+      "Eléctrico",
+      "Volador"
+    ],
+    "precio": 24.5,
+    "stock": 4,
+    "imagen": "imagenes/pokemon/145.png",
+    "datos_demo": true
+  },
+  {
+    "id": 146,
+    "nombre": "Moltres",
+    "categoria": "Fuego",
+    "tipos": [
+      "Fuego",
+      "Volador"
+    ],
+    "precio": 31.5,
+    "stock": 5,
+    "imagen": "imagenes/pokemon/146.png",
+    "datos_demo": true
+  },
+  {
+    "id": 147,
+    "nombre": "Dratini",
+    "categoria": "Dragón",
+    "tipos": [
+      "Dragón"
+    ],
+    "precio": 38.5,
+    "stock": 6,
+    "imagen": "imagenes/pokemon/147.png",
+    "datos_demo": true
+  },
+  {
+    "id": 148,
+    "nombre": "Dragonair",
+    "categoria": "Dragón",
+    "tipos": [
+      "Dragón"
+    ],
+    "precio": 45.5,
+    "stock": 7,
+    "imagen": "imagenes/pokemon/148.png",
+    "datos_demo": true
+  },
+  {
+    "id": 149,
+    "nombre": "Dragonite",
+    "categoria": "Dragón",
+    "tipos": [
+      "Dragón",
+      "Volador"
+    ],
+    "precio": 52.5,
+    "stock": 8,
+    "imagen": "imagenes/pokemon/149.png",
+    "datos_demo": true
+  },
+  {
+    "id": 150,
+    "nombre": "Mewtwo",
+    "categoria": "Psíquico",
+    "tipos": [
+      "Psíquico"
+    ],
+    "precio": 59.5,
+    "stock": 3,
+    "imagen": "imagenes/pokemon/150.png",
+    "datos_demo": true
+  }
+]
