@@ -16,7 +16,7 @@
 | 1/11 | EDIK BENJAMIN PACHACUTE CORDOVA |  |         |
 | 1/11 | ELMER RORRIGO ARIAS QUISPE |   |             |
 | 2/11 | LUIS FERNANDO HERMOZA HUANCA |          |              |
-| ___/11 | ANGELO PATRICK ROQUE VALENCIA |          |            |
+| 6/11 | ANGELO PATRICK ROQUE VALENCIA |          |            |
 ## Dificultades encontradas
 -
 -
