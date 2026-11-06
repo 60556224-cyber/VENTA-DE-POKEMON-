@@ -131,15 +131,28 @@
     const listaCarrito = document.querySelector("#carrito-items");
     const contador = document.querySelector("#contador");
     const total = document.querySelector("#total");
+    const productos = new Map();
+    const catalogo = new Map();
+    const estadoCarrito = document.querySelector('#estado-carrito');
 
-    const subtotalElemento = document.querySelector("#subtotal");
-    const igvElemento = document.querySelector("#igv");
-    const envioElemento = document.querySelector("#envio");
-    const descuentoElemento = document.querySelector("#descuento");
-    const cuponInput = document.querySelector("#cupon");
-    const botonCupon = document.querySelector("#aplicar-cupon");
-    const mensajeCupon = document.querySelector("#mensaje-cupon");
-    let cuponActual = "";
+    function sincronizarBotones() {
+        document.querySelectorAll('[data-agregar]').forEach((boton) => {
+            const producto = catalogo.get(boton.dataset.id);
+            const cantidad = productos.get(boton.dataset.id)?.cantidad ?? 0;
+            const imagenInvalida = boton.dataset.imagenInvalida === 'true';
+            boton.disabled = !producto || cantidad >= producto.stock || imagenInvalida;
+            boton.textContent = imagenInvalida ? 'Imagen pendiente'
+                : !producto || producto.stock === 0 ? 'Sin stock'
+                : cantidad >= producto.stock ? 'Stock máximo en carrito' : 'Agregar al carrito';
+        });
+    }
+
+    document.addEventListener('catalogo:cargado', (evento) => {
+        catalogo.clear();
+        evento.detail.forEach((producto) => catalogo.set(String(producto.id), producto));
+        sincronizarBotones();
+    });
+    document.addEventListener('catalogo:renderizado', sincronizarBotones);
 
     function formatearPrecio(precio) {
         return `${precio.toFixed(2)}$`;
@@ -153,6 +166,7 @@
         boton.dataset.accion = accion;
         boton.dataset.nombre = nombre;
         if (clase) boton.className = clase;
+        if (accion === 'aumentar') boton.disabled = productos.get(id).cantidad >= productos.get(id).stock;
         return boton;
     }
 
@@ -224,28 +238,28 @@
             listaCarrito.append(fila);
         });
 
-        contador.textContent = String(carrito.obtenerCantidadTotal());
-        actualizarResumen();
+        contador.textContent = String(cantidadTotal);
+        total.textContent = formatearPrecio(precioTotal);
+        sincronizarBotones();
     }
 
-    document.querySelectorAll("[data-agregar]").forEach((boton) => {
-        boton.addEventListener("click", () => {
-            const tarjeta = boton.closest(".item");
-            const nombre = tarjeta.querySelector(".titulo-item").textContent.trim();
-            const precioTexto = tarjeta.querySelector(".precio-item").textContent;
-            const precio = Number(precioTexto.replace(/[^\d.]/g, ""));
-            const stock = Number(boton.dataset.stock);
-
-            if (!nombre || !Number.isFinite(precio) || precio <= 0 || !Number.isInteger(stock)) return;
-
-            // si se alcanza el stock, no se agrega otra unidad.
-            const agregado = carrito.agregarProducto({ nombre, precio, stock });
-            if (!agregado) {
-                alert("No puedes superar el stock disponible de este producto.");
-            }
-        });
+    // Delegación: el contenedor existe antes de que fetch genere las tarjetas.
+    document.querySelector('#catalogo-items').addEventListener('click', (evento) => {
+        const boton = evento.target.closest('button[data-agregar]');
+        if (!boton || boton.disabled) return;
+        const id = boton.dataset.id;
+        const datos = catalogo.get(id);
+        if (!datos || datos.stock === 0) return;
+        const producto = productos.get(id) ?? { ...datos, cantidad: 0 };
+        if (producto.cantidad >= producto.stock) {
+            estadoCarrito.textContent = `No hay más stock de demostración para ${producto.nombre}.`;
+            return;
+        }
+        producto.cantidad += 1;
+        productos.set(id, producto);
+        estadoCarrito.textContent = `${producto.nombre} agregado. ${producto.cantidad} de ${producto.stock} unidades de demostración en el carrito.`;
+        renderizarCarrito();
     });
-
     listaCarrito.addEventListener("click", (evento) => {
         const boton = evento.target.closest("button[data-accion]");
         if (!boton) return;
@@ -254,8 +268,11 @@
 
         switch (boton.dataset.accion) {
             case "aumentar":
-                resultado = carrito.aumentarProducto(nombre);
-                if (!resultado) alert("No puedes superar el stock disponible.");
+                if (producto.cantidad >= producto.stock) {
+                    estadoCarrito.textContent = `Stock máximo de demostración para ${producto.nombre}.`;
+                    return;
+                }
+                producto.cantidad += 1;
                 break;
             case "disminuir":
                 carrito.disminuirProducto(nombre);
@@ -277,10 +294,8 @@
     botonCerrar.addEventListener("click", () => mostrarCarrito(false));
 
     botonVaciar.addEventListener("click", () => {
-        carrito.vaciar();
-        cuponActual = "";
-        cuponInput.value = "";
-        mensajeCupon.textContent = "";
+        productos.clear();
+        estadoCarrito.textContent = 'Carrito vaciado.';
         renderizarCarrito();
     });
 
