@@ -90,6 +90,7 @@ El proyecto incluye las siguientes funcionalidades:
 
 text
 VENTA-DE-POKEMON/
+
 │
 ├── index.html
 
