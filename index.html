@@ -71,8 +71,23 @@
             <div class="carrito-items" id="carrito-items" aria-live="polite">
                 <p class="carrito-vacio">Tu carrito está vacío.</p>
             </div>
-            <div class="carrito-pie">
-                <p class="carrito-total"><strong>Total:</strong> <span id="total">0.00$</span></p>
+           <div class="carrito-pie">
+                <div class="resumen-compra" aria-label="Resumen de compra">
+                    <p><span>Subtotal:</span> <strong id="subtotal">0.00$</strong></p>
+                    <p><span>IGV incluido (18%):</span> <strong id="igv">0.00$</strong></p>
+                    <p><span>Envío:</span> <strong id="envio">0.00$</strong></p>
+                    <p><span>Descuento:</span> <strong id="descuento">0.00$</strong></p>
+                    <p class="carrito-total"><strong>Total:</strong> <strong id="total">0.00$</strong></p>
+                </div>
+
+                <!-- Cupón POKE10 aplica un descuento del 10%. -->
+                <label for="cupon">Cupón de descuento:</label>
+                <div class="cupon-control">
+                    <input id="cupon" type="text" placeholder="Ejemplo: POKE10" autocomplete="off">
+                    <button id="aplicar-cupon" type="button">Aplicar</button>
+                </div>
+                <p id="mensaje-cupon" class="mensaje-cupon" aria-live="polite"></p>
+
                 <button id="vaciar" type="button">Vaciar carrito</button>
                 <button type="button">Comprar</button>
             </div>
