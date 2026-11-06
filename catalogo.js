@@ -25,7 +25,9 @@ function validarProductos(datos) {
             || producto.categoria !== producto.tipos[0]
             || !Number.isFinite(producto.precio) || producto.precio <= 0
             || !Number.isInteger(producto.stock) || producto.stock < 0
-            || typeof producto.imagen !== 'string' || !producto.imagen.endsWith('.png')
+            || typeof producto.imagen !== 'string' || !/\.(png|webp)$/.test(producto.imagen)
+            || !producto.carta || typeof producto.carta.nombre !== 'string' || !producto.carta.nombre.trim()
+            || typeof producto.carta.id !== 'string' || typeof producto.carta.conjunto !== 'string'
             || producto.imagen.includes('..') || /[:\\]/.test(producto.imagen) || producto.imagen.startsWith('/')) {
             throw new Error('El catálogo contiene un producto inválido o un ID repetido.');
         }
@@ -44,17 +46,20 @@ function crearTarjeta(producto) {
     numero.textContent = `#${String(producto.id).padStart(3, '0')}`;
     const nombre = document.createElement('h3');
     nombre.className = 'titulo-item';
-    nombre.textContent = `Carta de ${producto.nombre}`;
+    nombre.textContent = `Carta de ${producto.carta.nombre}`;
     const imagen = document.createElement('img');
     imagen.className = 'img-item';
-    imagen.alt = `Imagen de ${producto.nombre}`;
+    imagen.alt = `Carta Pokémon TCG ${producto.carta.nombre}, colección ${producto.carta.conjunto}`;
     imagen.loading = 'lazy';
     imagen.decoding = 'async';
-    imagen.width = 475;
-    imagen.height = 475;
+    imagen.width = 245;
+    imagen.height = 337;
     const categoria = document.createElement('p');
     categoria.className = 'categoria-item';
     categoria.textContent = `Categoría: ${producto.tipos.join(' / ')}`;
+    const referencia = document.createElement('p');
+    referencia.className = 'referencia-carta';
+    referencia.textContent = `${producto.carta.conjunto} · ${producto.carta.id}`;
     const precio = document.createElement('span');
     precio.className = 'precio-item';
     precio.textContent = `${producto.precio.toFixed(2)}$`;
@@ -77,7 +82,7 @@ function crearTarjeta(producto) {
         boton.textContent = 'Imagen pendiente';
     }, { once: true });
     imagen.src = producto.imagen;
-    tarjeta.append(numero, nombre, imagen, categoria, precio, stock, boton);
+    tarjeta.append(numero, nombre, imagen, referencia, categoria, precio, stock, boton);
     return tarjeta;
 }
 

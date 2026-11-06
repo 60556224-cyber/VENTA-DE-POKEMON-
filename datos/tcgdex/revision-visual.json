@@ -1,0 +1,1069 @@
+{
+  "fecha": "2026-11-06",
+  "metodo": "Inspecci?n visual de las 150 cartas en quince hojas de contacto a 245 ? 337 px por carta, con nombre e ID impresos debajo; comparaci?n adicional de los tres PNG originales.",
+  "totalRevisadas": 150,
+  "criterios": [
+    "Carta frontal completa",
+    "Nombre correspondiente al Pok?mon",
+    "PS y ataques visibles",
+    "N?mero y colecci?n visibles",
+    "Bordes y texto inferior conservados",
+    "Sin ilustraciones aisladas ni sprites"
+  ],
+  "pendientes": [],
+  "manifiesto": "datos/tcgdex/cartas.json",
+  "sha256Manifiesto": "c4dbce4165f4312582cb23a11afc90a625a7db74e8eec3ba7fdec5ab1608349d",
+  "cartas": [
+    {
+      "pokemonId": 1,
+      "cartaId": "sv03.5-001",
+      "sha256": "8a58f15fa872d05a19f0590fd24d8073ed9a90a63b887f3e77fad365a6cb1b1f",
+      "hoja": 1,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 2,
+      "cartaId": "sv03.5-002",
+      "sha256": "cd22572e41dfc476a203492875f9e11f165615016ba9c9056e62baabd3a1ae83",
+      "hoja": 1,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 3,
+      "cartaId": "sv03.5-003",
+      "sha256": "fe39d4dfb0abc3ad224427922208d3e6c1c2a4a374517287b648b3ed0ef000c1",
+      "hoja": 1,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 4,
+      "cartaId": "sv03.5-004",
+      "sha256": "8add2539e976ef9a0d201f12caed3033979034f108456941c5e60511f1317748",
+      "hoja": 1,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 5,
+      "cartaId": "sv03.5-005",
+      "sha256": "989dc9a02c88f427c9fe2a7917d674106dcb7d1f4cd6c3f11dd532ad1ddf259d",
+      "hoja": 1,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 6,
+      "cartaId": "sv03.5-006",
+      "sha256": "b640934c50b94244f0a531c89130691b46e924db9325b18c42afbb44cb7b7ed0",
+      "hoja": 1,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 7,
+      "cartaId": "sv03.5-007",
+      "sha256": "092add322565fd3279ff353171e6625d90e8fa739d5a723bffffbab0964bed32",
+      "hoja": 1,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 8,
+      "cartaId": "sv03.5-008",
+      "sha256": "5c8bfe0e2a1d99651456ffaf81cb7ef885e1e02048ff2ba00808c1a3d531316f",
+      "hoja": 1,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 9,
+      "cartaId": "sv03.5-009",
+      "sha256": "dbedd13fea5fb0c0c76a51235b4205cef34c212233c175645d40375e8d5b007b",
+      "hoja": 1,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 10,
+      "cartaId": "sv03.5-010",
+      "sha256": "6cf7a2acc4b1d67606bc82b37b1ce915119f05c5dec01b0d5e4bc6bd38c58cc3",
+      "hoja": 1,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 11,
+      "cartaId": "sv03.5-011",
+      "sha256": "07b84ff841944f6827bd74744eb649bf2e2a1a5805e234c674cbbd57e8038334",
+      "hoja": 2,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 12,
+      "cartaId": "sv03.5-012",
+      "sha256": "b2728a727914739cd965ee595a8b4fdf2f5c0184e3cffff9133fa5b8863e12d2",
+      "hoja": 2,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 13,
+      "cartaId": "sv03.5-013",
+      "sha256": "98dab0f8e1bd6f9903cf5c24d043ca6c63a2b8c23243587282127a01a03c0063",
+      "hoja": 2,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 14,
+      "cartaId": "sv03.5-014",
+      "sha256": "4c98d765df6376c1cc7709dc7c9ba6386683b57790401fe8eb128c0617889c61",
+      "hoja": 2,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 15,
+      "cartaId": "sv03.5-015",
+      "sha256": "3eb6e3ebb09b909fa3facb5bb73c61351b2ecf5b9373753c48d6161ea9513e58",
+      "hoja": 2,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 16,
+      "cartaId": "sv03.5-016",
+      "sha256": "f780880fcf6d6dd8aa8395ab3b9e590b8ebf40a6efd5e5a6a86fd50fff171860",
+      "hoja": 2,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 17,
+      "cartaId": "sv03.5-017",
+      "sha256": "a4c99f5bf7a810867f2afc04963df2a884050a3cc1017fd81ea378e7079fc9b7",
+      "hoja": 2,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 18,
+      "cartaId": "sv03.5-018",
+      "sha256": "7e50779e272f670b41184ac613d84fd737979ebcd48e23ab9c2c66eda3a4d387",
+      "hoja": 2,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 19,
+      "cartaId": "sv03.5-019",
+      "sha256": "e4ba3fbcdbed359f61c1298aebd3294320bde975c69bfa7867df73fccbb1ba29",
+      "hoja": 2,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 20,
+      "cartaId": "sv03.5-020",
+      "sha256": "d70a031e5d91ee2c52174e717ccdde6efa9d0f3acb0f677d94b5206d311bb416",
+      "hoja": 2,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 21,
+      "cartaId": "sv03.5-021",
+      "sha256": "7a958b9a55f5cc44c34e731f89a8fd2082f276f3a250e499a3f4b8702a00ca69",
+      "hoja": 3,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 22,
+      "cartaId": "sv03.5-022",
+      "sha256": "6b79cafd325dd1990512f86d13539e97a4bdefae08fef6203afe019aaa8c7cc0",
+      "hoja": 3,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 23,
+      "cartaId": "sv03.5-023",
+      "sha256": "8f61ed2ef537e435ae0af94def662e4752ac00a014527c069f7a48c3ba57f17d",
+      "hoja": 3,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 24,
+      "cartaId": "sv03.5-024",
+      "sha256": "cc7ef377637689d81d14bee2c8d8487a28fe888f41ac9d3b99936490eecba038",
+      "hoja": 3,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 25,
+      "cartaId": "sv08.5-028",
+      "sha256": "46b1b0ec1fdc685984bc4bcbc40984bf77577f7336445dc0e1870d22d8504080",
+      "hoja": 3,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 26,
+      "cartaId": "sv03.5-026",
+      "sha256": "5ed31e2e1e2f7dcfac61e0cdd0cd36d0f6a4724edb42bc8b4ffc6dcebf369065",
+      "hoja": 3,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 27,
+      "cartaId": "sv03.5-027",
+      "sha256": "e7601d6cdd5a8fc327f18c8cca5b89bdc16fb5000ed9ff17c80084ba31e6b19d",
+      "hoja": 3,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 28,
+      "cartaId": "sv03.5-028",
+      "sha256": "3e7ca6378859f00621492d9f9f7a7c04f9acd72dd1f28a3adef5155ec5003a19",
+      "hoja": 3,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 29,
+      "cartaId": "sv03.5-029",
+      "sha256": "aa1ee76349997df4ade869e3eac1144494e4addd3a123109ce000c953f12b617",
+      "hoja": 3,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 30,
+      "cartaId": "sv03.5-030",
+      "sha256": "d36ee72a079692c6ab77a22c35fd151025f723969159f2f0e0e217f311f30c71",
+      "hoja": 3,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 31,
+      "cartaId": "sv03.5-031",
+      "sha256": "3c0b6e630218d28ce1ae581cd2b01576a2881d90da14c830c970d209e30566bb",
+      "hoja": 4,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 32,
+      "cartaId": "sv03.5-032",
+      "sha256": "4f8f635b73b7b670ac5ef9a437bf957a049d04c55ae6de66476dc4d5438b6310",
+      "hoja": 4,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 33,
+      "cartaId": "sv03.5-033",
+      "sha256": "e67086f1c7ba31db245fd666a4bce2f3a9a0d6fa39caab5c3a2f9c145a103fc6",
+      "hoja": 4,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 34,
+      "cartaId": "sv03.5-034",
+      "sha256": "3e76173584ab55b0fae170368b3be890e571e19db5ec1a2386018977dcc01080",
+      "hoja": 4,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 35,
+      "cartaId": "sv03.5-035",
+      "sha256": "0c59a21e334ad9d422f1be2351622cf089098fcd314d86678a85b95a3b85c5bb",
+      "hoja": 4,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 36,
+      "cartaId": "sv03.5-036",
+      "sha256": "872e34ac000b88107b2832b3cce3d633c1b88b543704fe24bc97cbfbedf6c413",
+      "hoja": 4,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 37,
+      "cartaId": "sv03.5-037",
+      "sha256": "b3716de413970e3c7049c65cacea6dac14d50770113532213b6b8a16b1d3097d",
+      "hoja": 4,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 38,
+      "cartaId": "sv03.5-038",
+      "sha256": "9449c29c5951ba56edaa6c6ca9d91c519a48d1baf316bf406b73e186bbe4b20f",
+      "hoja": 4,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 39,
+      "cartaId": "sv03.5-039",
+      "sha256": "ca12027ff3c9cf30d72c39db7cf5486b0ae934c17622e8102785503843c07ce4",
+      "hoja": 4,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 40,
+      "cartaId": "sv03.5-040",
+      "sha256": "72a58e6c41b3c35eec805f19d51c4f0213ea180d3301fb488c86ce0e4b850009",
+      "hoja": 4,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 41,
+      "cartaId": "sv03.5-041",
+      "sha256": "452df7be678b818c5c32bf00ee787e9bedaa1f453b500b772514b08f62623639",
+      "hoja": 5,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 42,
+      "cartaId": "sv03.5-042",
+      "sha256": "594a693c6afac61629de6bea1a15da35b0680db59a7d2eca8988fc1c03985edc",
+      "hoja": 5,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 43,
+      "cartaId": "sv03.5-043",
+      "sha256": "9efaedba3b67879ab59962542a7a4c30b7889d7e851934a9239c3398088897e3",
+      "hoja": 5,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 44,
+      "cartaId": "sv03.5-044",
+      "sha256": "11659bf863e7377b07f61ee63b8d0c799955208e012931cc3c107d9c8452fdc6",
+      "hoja": 5,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 45,
+      "cartaId": "sv03.5-045",
+      "sha256": "130ff461ad00257edafc7f66e1aac4759caeaeb1bdb038760a519c1fa3b4bc0c",
+      "hoja": 5,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 46,
+      "cartaId": "sv03.5-046",
+      "sha256": "b93042317fdbd8a0c46c6618dd1c350d3c3713e357ae90bf734137f4c43c34aa",
+      "hoja": 5,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 47,
+      "cartaId": "sv03.5-047",
+      "sha256": "b6d4f92dcbba2debc5acb0e3eaa225ad9fcca4cd1117cd124d130d51400bf704",
+      "hoja": 5,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 48,
+      "cartaId": "sv03.5-048",
+      "sha256": "5e7e60181198bae263661b35d91a5efb54a5c62f4b2e05b36a8b8a490c722eef",
+      "hoja": 5,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 49,
+      "cartaId": "sv03.5-049",
+      "sha256": "d9697abd018a2c20a2e05ce72a19aed3bb5ed252a996cf4fd9f00330da962bcb",
+      "hoja": 5,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 50,
+      "cartaId": "sv03.5-050",
+      "sha256": "d6ff095739b48568823a1c72842a7358f9176d3bc38afbfe3d871aaa8306cc7c",
+      "hoja": 5,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 51,
+      "cartaId": "sv03.5-051",
+      "sha256": "894e91b390fb053d2d7b5bb6afb541f29b5ec913ee17c2449148959af82e28a3",
+      "hoja": 6,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 52,
+      "cartaId": "sv03.5-052",
+      "sha256": "42850268ffc54906c95ba103f7f4e7f3cf63cf094c269b7cec7aaa85429cee23",
+      "hoja": 6,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 53,
+      "cartaId": "sv03.5-053",
+      "sha256": "6848c54769266efbb5e560c0bf3bd5cabcd74596a985f21273e368f4061949fd",
+      "hoja": 6,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 54,
+      "cartaId": "sv03.5-054",
+      "sha256": "c430b44140beb3c42b6ff8572a55ac07fabe8cadbff55edaaee03d04bdc36d90",
+      "hoja": 6,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 55,
+      "cartaId": "sv03.5-055",
+      "sha256": "1510cc5f7899d847e93c93a075b0e9f5e9ff3212f919632990c81e252500d5df",
+      "hoja": 6,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 56,
+      "cartaId": "sv03.5-056",
+      "sha256": "4e3101d087f7d8d1995d0ddb09b0f1fbe0b63b9d40bebeea6c36d72d96ceeea2",
+      "hoja": 6,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 57,
+      "cartaId": "sv03.5-057",
+      "sha256": "4954a611d523ef42757b2ba59fa6500b9c1864ebb1d8f0a8780144b400d239ea",
+      "hoja": 6,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 58,
+      "cartaId": "sv03.5-058",
+      "sha256": "753666eeb818c6da83a941114438e436546301187e2579d94130688dc333c827",
+      "hoja": 6,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 59,
+      "cartaId": "sv03.5-059",
+      "sha256": "74a3b1994549febd55a48f0bc752edb8d2f3b343a7f4bdcc914c8205cfcf7580",
+      "hoja": 6,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 60,
+      "cartaId": "sv03.5-060",
+      "sha256": "1013e8898a36ca42dac64ba9d72a9121e47970edeedc3cf3034c244ed3440d71",
+      "hoja": 6,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 61,
+      "cartaId": "sv03.5-061",
+      "sha256": "62a67ad6a290dda319ec14f1b4ebed3fd7f5f0cd187d730b32a96d0072973a69",
+      "hoja": 7,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 62,
+      "cartaId": "sv03.5-062",
+      "sha256": "50dc506bd196c59e1678c9016a7640e297992300620137b0512c5db40ad71751",
+      "hoja": 7,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 63,
+      "cartaId": "sv03.5-063",
+      "sha256": "fd613dac457ce8a96e14a32104c61b556d9f011d0e3433a1474a4cd369f86831",
+      "hoja": 7,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 64,
+      "cartaId": "sv03.5-064",
+      "sha256": "91bd79c1adf987d52d866519c87d16b73d6d1f64f618fe72aa5c7aeb9c3d05de",
+      "hoja": 7,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 65,
+      "cartaId": "sv03.5-065",
+      "sha256": "6a9c9e5f125a49761d2a47b872231026820dbb403f99dd554fbd1ccd5c937db4",
+      "hoja": 7,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 66,
+      "cartaId": "sv03.5-066",
+      "sha256": "8b2ea3c3c05f417fee8f7842230cbf28f1e3dc7f989610723226dc3a2c636f8b",
+      "hoja": 7,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 67,
+      "cartaId": "sv03.5-067",
+      "sha256": "4d4fcd0414b788701ea047b9df78e03fc0ea5124100912324df4f94c17b37446",
+      "hoja": 7,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 68,
+      "cartaId": "sv03.5-068",
+      "sha256": "c047f6cc3667a8d4bbab7b12d7f6aa1e9c733f97b16de291a8ac07df2218a2fa",
+      "hoja": 7,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 69,
+      "cartaId": "sv03.5-069",
+      "sha256": "40a5e1c414e93f2c01814176afe854d4342c02bd9f2dafb8cc4125d01304f25e",
+      "hoja": 7,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 70,
+      "cartaId": "sv03.5-070",
+      "sha256": "cf9eb1a4a9ae58f3ebe5b59f863a9c048e564a4a0253b684882e91d7455febee",
+      "hoja": 7,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 71,
+      "cartaId": "sv03.5-071",
+      "sha256": "f92be431d6c1635168d7c754b50711808ffadc462782095ff47a8b8e167b97e0",
+      "hoja": 8,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 72,
+      "cartaId": "sv03.5-072",
+      "sha256": "18c2edefbfa8888852e7869a37abf4df5fdfde6c3488fa41bb170198b1b97dd8",
+      "hoja": 8,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 73,
+      "cartaId": "sv03.5-073",
+      "sha256": "45cc04acabd5080c1ca27f88f70ac7aceb62d6bf001b574cbe069f399d2477b4",
+      "hoja": 8,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 74,
+      "cartaId": "sv03.5-074",
+      "sha256": "03f0cfe5069b9a22e08018d9ce6126f28eb5359f67e07df112103372bc38687d",
+      "hoja": 8,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 75,
+      "cartaId": "sv03.5-075",
+      "sha256": "730cc55a90e7f22df41d3268fe39d16e8dacea01b98e114fd8b6466bb7b33900",
+      "hoja": 8,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 76,
+      "cartaId": "sv03.5-076",
+      "sha256": "b8fd517a8bf6aa827b08ac16e7495c8a0fb25069513d9edce6ffc7e3fc3f6d94",
+      "hoja": 8,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 77,
+      "cartaId": "sv03.5-077",
+      "sha256": "af674f80d4c039540bae79c146d530246ab5636776c0d73c8876d423bf1045e0",
+      "hoja": 8,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 78,
+      "cartaId": "sv03.5-078",
+      "sha256": "90b0fc806f1e950e8812c23ad32445a0d96973697ad602ec8288b65fe03598f6",
+      "hoja": 8,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 79,
+      "cartaId": "sv03.5-079",
+      "sha256": "df392ae0784e1204f191e868a40906cfb0ca4dfedef84c8618ce2b761787f095",
+      "hoja": 8,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 80,
+      "cartaId": "sv03.5-080",
+      "sha256": "00a6ea974f94b98bcf62d4d3cdbdd57eba5db59acec5f464bac90b0f4a5f7dba",
+      "hoja": 8,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 81,
+      "cartaId": "sv03.5-081",
+      "sha256": "bd9174b2c5217ad7e882efc245e2efdeba05b0d8fe09c37c8954c00a30b2b801",
+      "hoja": 9,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 82,
+      "cartaId": "sv03.5-082",
+      "sha256": "5988be1a902b03eb9cbed75c196855e488a4f2c36c5d7e23af3e4544d6a8f7b6",
+      "hoja": 9,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 83,
+      "cartaId": "sv03.5-083",
+      "sha256": "148a2461fbabf4995ed86971b72e552647043ddcf0a74ba52329696675d6fbe5",
+      "hoja": 9,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 84,
+      "cartaId": "sv03.5-084",
+      "sha256": "5c38f48a5732ad43b9fd94529cebad7a4b2b9589912ba91c1f5a900dc681e8cb",
+      "hoja": 9,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 85,
+      "cartaId": "sv03.5-085",
+      "sha256": "8465e1677f35a86c1e9c615446d443932332714afeca8b9c43b33401b3ad13d9",
+      "hoja": 9,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 86,
+      "cartaId": "sv03.5-086",
+      "sha256": "1b08b50210e0de313d11a168c0fa06a58b32c438ab6cae7e5898372fffad70d3",
+      "hoja": 9,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 87,
+      "cartaId": "sv03.5-087",
+      "sha256": "4655eda47865d643278b48ef7ace2dc10c950e09366c6f3ccf8e000e4288c043",
+      "hoja": 9,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 88,
+      "cartaId": "sv03.5-088",
+      "sha256": "3e0c8aac28161eebd2b3ebf8e84c34f9eb400404dc94261bf481f88bb2263b9a",
+      "hoja": 9,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 89,
+      "cartaId": "sv03.5-089",
+      "sha256": "0f49e2802b70f7ae23a1e7390b9d46f4a0065cb08b8cfe27bdb2d702b6995038",
+      "hoja": 9,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 90,
+      "cartaId": "sv03.5-090",
+      "sha256": "1a046a21b77d18ec5e6509eb55e5bcfe2ef0765dd8e0c46bf93e7fe89b737b43",
+      "hoja": 9,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 91,
+      "cartaId": "sv03.5-091",
+      "sha256": "a636996195a8b19209119a99f287c24270ed29a44cb67efe4b3ec76b6deb4629",
+      "hoja": 10,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 92,
+      "cartaId": "sv03.5-092",
+      "sha256": "9dbb569933912113a2ba6ebd15a010821da4c4600ca7ecc01f9a1e890092ae4d",
+      "hoja": 10,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 93,
+      "cartaId": "sv03.5-093",
+      "sha256": "a4c8d426d0f68c011c013aab9a34e047ace754b1edfc690f44f105ff25b2bf7d",
+      "hoja": 10,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 94,
+      "cartaId": "sv03.5-094",
+      "sha256": "d4a5e4f33e2b2611ca2038a4f12359ac52fd9879203ab4ec379d2a228ab56ed3",
+      "hoja": 10,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 95,
+      "cartaId": "sv03.5-095",
+      "sha256": "38d2e5f9d0e77b82d0996a5268e24b1153da6df44a818ec8cfa126e7c52192ea",
+      "hoja": 10,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 96,
+      "cartaId": "sv03.5-096",
+      "sha256": "2a2276073105913245337d11207856cbadf2b2df289a87da90f5534251597e57",
+      "hoja": 10,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 97,
+      "cartaId": "sv03.5-097",
+      "sha256": "0fbb74af9a1186fc2a143eb8c384b91e5b33aa13f2dfc4512b7e88d93c63d127",
+      "hoja": 10,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 98,
+      "cartaId": "sv03.5-098",
+      "sha256": "f649042bdb7ddfa1b8f3699040ce3fc887b199a18f59b441cc6886e5d3b5d931",
+      "hoja": 10,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 99,
+      "cartaId": "sv03.5-099",
+      "sha256": "0cb5ded99d19836a695cd13b23628e562d91d39c00c564e0724039cfba2244b5",
+      "hoja": 10,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 100,
+      "cartaId": "sv03.5-100",
+      "sha256": "9f1940d7fe97bf7cc7fc6c78634f18ef3fc032b54e8fd67122c8a6d75c9cc8ec",
+      "hoja": 10,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 101,
+      "cartaId": "sv03.5-101",
+      "sha256": "9c4deeb35020131bb7b8dd1b18986059f6434cb0fe8db2387fbebaf06cbc35b7",
+      "hoja": 11,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 102,
+      "cartaId": "sv03.5-102",
+      "sha256": "03f2a1f5eb016dd5b73556ec4f49222563571404d7c4389c2384c2dffd8c3c21",
+      "hoja": 11,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 103,
+      "cartaId": "sv03.5-103",
+      "sha256": "4d18d9dfa7d4b9a84b31ea85ab90a2eea636b389b48c6d3779c756da0fc731de",
+      "hoja": 11,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 104,
+      "cartaId": "sv03.5-104",
+      "sha256": "fa2807a4aa707483a5fff8237e17efd3828ad658b3d6e328760350d304315605",
+      "hoja": 11,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 105,
+      "cartaId": "sv03.5-105",
+      "sha256": "beab76210c4cf605495b5bba7d49c81579251164eb8448679ef3380e3e39071d",
+      "hoja": 11,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 106,
+      "cartaId": "sv03.5-106",
+      "sha256": "b1aa4e600f4799c8b54fee31aada92269d144cd72bd562384e5cafe6551254f9",
+      "hoja": 11,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 107,
+      "cartaId": "sv03.5-107",
+      "sha256": "e8ad524c9042edfc399ec1bc46ecb92931533d84f31bad0ea9a6768fc4510c99",
+      "hoja": 11,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 108,
+      "cartaId": "sv03.5-108",
+      "sha256": "58abd6ba88ccb7134317fdc73aa716b22bd267836c4a08d86be83591030c00fa",
+      "hoja": 11,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 109,
+      "cartaId": "sv03.5-109",
+      "sha256": "2536fe5c8390308b6d3191a028d819200e9b6299762d6064a8a3531d9284f13f",
+      "hoja": 11,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 110,
+      "cartaId": "sv03.5-110",
+      "sha256": "6713cb141e5b0e678fea37580f07bfd7e16d3baaf156df03df1354e1f01d4b5b",
+      "hoja": 11,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 111,
+      "cartaId": "sv03.5-111",
+      "sha256": "3b2828f39c967feb82ac15b25c5dd8852d5951381a415f799b32e5d5bf9f5d8f",
+      "hoja": 12,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 112,
+      "cartaId": "sv03.5-112",
+      "sha256": "30785531495138c626914b6e792f5fe86c806b15702fcb068b37a26970604b58",
+      "hoja": 12,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 113,
+      "cartaId": "sv03.5-113",
+      "sha256": "627f77e3ff5b5e502f0e80a5848252c41f0c49abae2d984d0d0090c5feb8209d",
+      "hoja": 12,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 114,
+      "cartaId": "sv03.5-114",
+      "sha256": "0ba45667e7fb5a314684abbc423b3ea64346cd0065ec3f97d9c6091c4e300147",
+      "hoja": 12,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 115,
+      "cartaId": "sv03.5-115",
+      "sha256": "5661f9268fd5a488094a32cafa83aaa24d4d02002828a0e695631754b7ed827a",
+      "hoja": 12,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 116,
+      "cartaId": "sv03.5-116",
+      "sha256": "356e35ade97cb5f17aa3aadaa7fa2cd110eee06bdc070e9b22cf872eecce75a1",
+      "hoja": 12,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 117,
+      "cartaId": "sv03.5-117",
+      "sha256": "6b62923a8537af027271e6fa72c573b2721c4a768743b5f6a25748bd2d4ad8ee",
+      "hoja": 12,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 118,
+      "cartaId": "sv03.5-118",
+      "sha256": "b2e8a0b7854a3e7b7b0e4151cc10ffcde9546d5c58283c60e1f8464883711377",
+      "hoja": 12,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 119,
+      "cartaId": "sv03.5-119",
+      "sha256": "6b6c42dd9897e7bc071120203d762488ef182510fa222a8c458c597d7b88f885",
+      "hoja": 12,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 120,
+      "cartaId": "sv03.5-120",
+      "sha256": "4783b03e2980ad0e427fc4044ae85d23f06820254a777f5baadd8f1719a61a8d",
+      "hoja": 12,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 121,
+      "cartaId": "sv03.5-121",
+      "sha256": "bf3092e714ef793eb6ba7f29eb7d7c0da297410effa7cfaa7a64cf0cb5722bc9",
+      "hoja": 13,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 122,
+      "cartaId": "sv03.5-122",
+      "sha256": "0519f21cb1bffb4e3b1e6295dbb2871f39791bf50bcfe5a4ad51e349876cda57",
+      "hoja": 13,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 123,
+      "cartaId": "sv03.5-123",
+      "sha256": "afd81523de24e64bf231b64766f8d07b2d4843ee4648f0ce9d8124d8ebdbd518",
+      "hoja": 13,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 124,
+      "cartaId": "sv03.5-124",
+      "sha256": "3da21e568f3dad7697cdcfca84ebda59c5b76ff8c5443851764982072162856e",
+      "hoja": 13,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 125,
+      "cartaId": "sv03.5-125",
+      "sha256": "a89a180ade25091f58b86e7849218d5c149b105b656ece5c2f8542d2bb3e4ed8",
+      "hoja": 13,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 126,
+      "cartaId": "sv03.5-126",
+      "sha256": "0e894d8102c16f0d2944f942580b0528411e09cb6ce70afc600d764ac36949ce",
+      "hoja": 13,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 127,
+      "cartaId": "sv03.5-127",
+      "sha256": "d4306b90a2f71f1c5e581a39f51fd4cdec96806f73214a7d42c22e9db7b5e4ed",
+      "hoja": 13,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 128,
+      "cartaId": "sv03.5-128",
+      "sha256": "d449491f5d6270e8fe2fb1b59950d7100de1b6d01430e7333b78821ddae3e959",
+      "hoja": 13,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 129,
+      "cartaId": "sv03.5-129",
+      "sha256": "278afa6650fbde9e236e459cb1cb780bb7eab2eb11697d8b7888147932ce9e1d",
+      "hoja": 13,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 130,
+      "cartaId": "sv03.5-130",
+      "sha256": "d5382d76ac0cc7d63e48fa473e6e196c4c9a0a47935b744371c0a2a2e9204743",
+      "hoja": 13,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 131,
+      "cartaId": "sv03.5-131",
+      "sha256": "3d9a265e5f18b6796a47f691d6a149c721385ecf02674fb83ed5ce21d56313e5",
+      "hoja": 14,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 132,
+      "cartaId": "sv03.5-132",
+      "sha256": "b517dca35bca619a7fbd1100d040f153ccc087a60fee6dd0f8c0b5e5dd6195f4",
+      "hoja": 14,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 133,
+      "cartaId": "sv08.5-075",
+      "sha256": "6ee5f4eeec184a804ede416d6f169bdcd3a66dac53cc724381f365f7272ada63",
+      "hoja": 14,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 134,
+      "cartaId": "sv03.5-134",
+      "sha256": "d19a4ca536e07d8f078cc636bbfb27fe8680a8c373335ee304092fae03918dca",
+      "hoja": 14,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 135,
+      "cartaId": "sv03.5-135",
+      "sha256": "865b18f2c293378658746c7e3eab1254b06dbd35055444853b1259394f2cad0b",
+      "hoja": 14,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 136,
+      "cartaId": "sv03.5-136",
+      "sha256": "5b4252384efb397cebbd3a69aeadb9f66afca92205af48d08098a884e5806520",
+      "hoja": 14,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 137,
+      "cartaId": "sv03.5-137",
+      "sha256": "1d6fe4e7625c6f65adbda94fe4d0591cbb83aa4483ac8a75e80b0d95267ad892",
+      "hoja": 14,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 138,
+      "cartaId": "sv03.5-138",
+      "sha256": "de2dbf74e93e4ba0f7c3677d9c206a818768066e646837d2f761c0aa733c5472",
+      "hoja": 14,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 139,
+      "cartaId": "sv03.5-139",
+      "sha256": "fb41655e7fa05f5a55977546ccf8dd182a0a6eede8f1a66f6ccc01f25d84b20e",
+      "hoja": 14,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 140,
+      "cartaId": "sv03.5-140",
+      "sha256": "1a1104441284863a711b916e8e25bd31ea2b3cce5ca52216c4544c47b804f80d",
+      "hoja": 14,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 141,
+      "cartaId": "sv03.5-141",
+      "sha256": "843b7eacff6d627bb94a597d4bcf42c321b9c61532524e56ea9f557c8e2fc4bb",
+      "hoja": 15,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 142,
+      "cartaId": "sv03.5-142",
+      "sha256": "4458c1fb45bbe51cc0d8076c4a7c30e6cb9d0bd37c241d45fb081f583aa88fe7",
+      "hoja": 15,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 143,
+      "cartaId": "sv03.5-143",
+      "sha256": "89fe35085f017b90fa1713a5e7418af6b5b4bd031cc725fd5b873be6fd88baad",
+      "hoja": 15,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 144,
+      "cartaId": "sv03.5-144",
+      "sha256": "76a27210e5b72ab7a589e65b480075d93e6cd15b68923a3021d001fa68430249",
+      "hoja": 15,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 145,
+      "cartaId": "sv03.5-145",
+      "sha256": "581f55df651784b9912637f6bca91e8032951458e0454fd7b16f7169ecef5f1a",
+      "hoja": 15,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 146,
+      "cartaId": "sv03.5-146",
+      "sha256": "09e490c9b9d141e9c35fa271cba031fc52335df776446cae9b421155becf4f2a",
+      "hoja": 15,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 147,
+      "cartaId": "sv03.5-147",
+      "sha256": "fcf5cc19065d86d8c7bd68e6fc132da77c5e8af7213c847e8ace120490710cc6",
+      "hoja": 15,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 148,
+      "cartaId": "sv03.5-148",
+      "sha256": "2d1f2756e4bb08e8ea5d3ac35470bbf53e66bce8950092190e3bfdb30f665639",
+      "hoja": 15,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 149,
+      "cartaId": "sv03.5-149",
+      "sha256": "7d6860e948b3dd17209ea2ef603e5ababf42ec4c7efa1ff4558ab1f5f7ed17e9",
+      "hoja": 15,
+      "resultado": "Carta TCG completa y correspondiente"
+    },
+    {
+      "pokemonId": 150,
+      "cartaId": "sv03.5-150",
+      "sha256": "f8c51c0ed36f2a84d38f19bad91a088af16f7ab46400292e5b63a0600b18bfaa",
+      "hoja": 15,
+      "resultado": "Carta TCG completa y correspondiente"
+    }
+  ],
+  "reproduccion": "node scripts/revisar-cartas.mjs; las capturas se generan en artifacts/ y no se incluyen en Git."
+}

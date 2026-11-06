@@ -46,13 +46,13 @@ test('Los 150 nombres y todos los tipos coinciden con la fuente oficial guardada
     assert.deepEqual(productos.find((p) => p.id === 81).tipos, ['Eléctrico', 'Acero']);
     assert.deepEqual(productos.find((p) => p.id === 35).tipos, ['Hada']);
 });
-test('Fuentes e imágenes locales: SHA-256, firma PNG y dimensiones válidas en los 150 archivos', async () => {
+test('Fuentes PokéAPI e imágenes históricas conservadas: hashes y firmas PNG', async () => {
     for (const origen of [...fuente.fuentes.map((f) => ({ ...f, archivo: `datos/pokeapi/${f.archivo}` })), ...fuente.imagenes]) {
         const bytes = await leer(origen.archivo);
         assert.equal(createHash('sha256').update(bytes).digest('hex'), origen.sha256, origen.archivo);
     }
     assert.equal(fuente.imagenes.length, 150);
-    for (const p of productos) {
+    for (const p of fuente.imagenes.map((imagen) => ({ id: imagen.id, imagen: imagen.archivo }))) {
         assert.ok(!p.imagen.includes('..') && !p.imagen.includes('://'));
         const bytes = await leer(p.imagen);
         assert.equal(bytes.subarray(0, 8).toString('hex'), '89504e470d0a1a0a', p.imagen);
@@ -64,7 +64,7 @@ test('Conserva las tres cartas del catálogo anterior y la imagen existente de M
     for (const [id, precio, imagen] of [[25, 100, 'SV8PT5_PIkachu_28.png'], [65, 35, 'SV3pt5_ES_65 alcazan.png'], [133, 50, 'SV8pt5_ES_75 eve.png']]) {
         const p = productos.find((p) => p.id === id);
         assert.equal(p.precio, precio);
-        assert.equal(p.imagen, imagen);
+        assert.ok((await leer(imagen)).length > 0);
     }
     assert.ok((await leer('SV3pt5_LA_151 enow.png')).length > 0);
 });

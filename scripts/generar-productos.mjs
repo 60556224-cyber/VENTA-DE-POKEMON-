@@ -5,6 +5,10 @@ import { createHash } from 'node:crypto';
 // Solo se ejecuta para preparar los datos. La tienda no consulta servicios externos.
 const base = new URL('../', import.meta.url);
 const ruta = (nombre) => new URL(nombre, base);
+const existentes = JSON.parse(await readFile(ruta('productos.json')));
+if (existentes.some((producto) => producto.imagen.startsWith('img/cartas/'))) {
+    throw new Error('Este generador histórico produce ilustraciones. Para conservar las cartas TCG, usa scripts/importar-cartas.mjs. No se modificó ningún archivo.');
+}
 const headers = { 'User-Agent': 'catalogo-pokemon-universitario', Accept: 'application/vnd.github+json' };
 async function descargar(url) {
     const respuesta = await fetch(url, { headers, signal: AbortSignal.timeout(30000) });

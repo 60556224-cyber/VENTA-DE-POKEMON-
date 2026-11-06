@@ -12,7 +12,7 @@ Desde la raíz del repositorio:
 node scripts/servidor.mjs
 ```
 
-Abre http://127.0.0.1:8080 y detén el servidor con Ctrl+C. Utiliza el servidor porque `fetch()` necesita cargar el JSON mediante HTTP; abrir `index.html` con doble clic puede bloquear la lectura.
+Abre http://127.0.0.1:8080 y detén el servidor con Ctrl+C. Si ya estaba ejecutándose una versión anterior del servidor, reinícialo para activar el soporte de WebP. Utiliza el servidor porque `fetch()` necesita cargar el JSON mediante HTTP; abrir `index.html` con doble clic puede bloquear la lectura.
 
 ## Cómo explicar productos.json
 
@@ -28,8 +28,16 @@ Los corchetes `[]` representan la lista de 150 productos. Cada producto está en
   "tipos": ["Planta", "Veneno"],
   "precio": 17.5,
   "stock": 4,
-  "imagen": "imagenes/pokemon/001.png",
-  "datos_demo": true
+  "imagen": "img/cartas/001.webp",
+  "datos_demo": true,
+  "carta": {
+    "id": "sv03.5-001",
+    "nombre": "Bulbasaur",
+    "conjunto": "151",
+    "conjuntoId": "sv03.5",
+    "idioma": "es",
+    "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-001"
+  }
 }
 ```
 
@@ -39,8 +47,9 @@ Los corchetes `[]` representan la lista de 150 productos. Cada producto está en
 - `tipos`: todos sus tipos actuales; el filtro también contempla el tipo secundario.
 - `precio`: número utilizado para calcular los totales. La pantalla conserva el símbolo `$` de la tienda.
 - `stock`: cantidad máxima de demostración que se puede añadir al carrito; cero bloquea la compra.
-- `imagen`: ruta relativa a un archivo PNG local.
+- `imagen`: ruta relativa a una imagen WebP local de la carta completa.
 - `datos_demo`: indica que los valores comerciales son ficticios.
+- `carta`: nombre impreso, ID, colección, idioma y fuente verificable de la carta TCG.
 
 Los textos llevan comillas dobles; los números y `true` se escriben sin comillas. Los decimales usan punto. JSON no admite comentarios ni una coma después del último campo.
 
@@ -69,18 +78,22 @@ Si se cambia un precio en el JSON y se recarga la página, la tarjeta y los cál
 
 Los nombres, números y tipos provienen de los CSV del [repositorio oficial de PokéAPI](https://github.com/PokeAPI/pokeapi/tree/master/data/v2/csv), siguiendo su [documentación](https://pokeapi.co/docs/v2/). Se utilizan los tipos actuales, incluidos Hada y Acero, no los tipos históricos de los juegos originales.
 
-Las 147 ilustraciones nuevas se descargaron de [PokeAPI/sprites](https://github.com/PokeAPI/sprites). Se conservaron las rutas y precios de Pikachu, Alakazam y Eevee. La imagen de Mew permanece intacta.
+Las 150 imágenes actuales representan cartas TCG reales completas en español. Se descargaron 147 cartas de [TCGdex](https://tcgdex.dev/assets), de la colección «151». Para Pikachu, Eevee y Alakazam se priorizaron las cartas originales de la tienda, verificadas con sus IDs de TCGdex. Se conservan los cuatro PNG originales, incluido Mew, y las ilustraciones históricas, aunque estas últimas ya no se usan en productos.json.
 
-`datos/pokeapi/fuente.json` registra las revisiones exactas de ambos repositorios, las URL de origen y los hashes SHA-256. Los cuatro CSV originales están guardados para comprobar todos los nombres y tipos sin consultar Internet. `.gitattributes` conserva los bytes de esos CSV en Windows para que sus hashes no cambien al clonar.
+`datos/tcgdex/cartas.json` registra el ID de cada carta, colección, nombre impreso, número de Pokédex, URL de metadatos, URL de imagen, archivo local, dimensiones y hashes SHA-256. Las respuestas de la API se conservan en `datos/tcgdex/cartas/`. Los WebP de `img/cartas/` ocupan 2.943.788 bytes en conjunto. Se usan los archivos low de TCGdex (245 × 337 px); las tres originales se convierten a WebP de calidad 0.92, sin recorte ni cambio de dimensiones. El CSS usa `object-fit: contain` para mostrar los bordes completos.
 
-Todos los precios y stocks son ficticios, incluso los precios heredados de la demostración anterior. Las ilustraciones de Pokémon no representan necesariamente cartas físicas ofrecidas. Para una venta real faltaría confirmar las cartas concretas, sus ediciones, sus fotografías, precios e inventario. No se implementaron pagos reales.
+`datos/pokeapi/fuente.json` conserva las fuentes originales de nombres y tipos y el inventario histórico de ilustraciones. Las fuentes visuales vigentes están en `datos/tcgdex/cartas.json`. `.gitattributes` evita que Windows altere los bytes de las fuentes verificadas por hash.
 
-La tienda funciona con archivos locales servidos por HTTP y no consulta PokéAPI al navegar. `scripts/generar-productos.mjs` es una herramienta de preparación: necesita Internet y regenera los datos, fuentes e imágenes desde las versiones de PokéAPI vigentes al ejecutarla. No es necesario ejecutarla para abrir la tienda ni para las pruebas normales.
+Los datos de TCGdex conservan su licencia MIT en `datos/tcgdex/LICENSE`. Los derechos de las imágenes y marcas Pokémon siguen perteneciendo a sus titulares; no se afirma que las ilustraciones estén bajo MIT. Véase [ATRIBUCION-CARTAS.md](ATRIBUCION-CARTAS.md). La atribución también aparece en la tienda.
+
+Todos los precios y stocks son ficticios, incluidos los heredados. Mostrar una carta real no confirma que exista inventario disponible. No se implementaron pagos reales.
+
+La tienda funciona con archivos locales servidos por HTTP y no consulta PokéAPI ni TCGdex al navegar. `scripts/importar-cartas.mjs` permite repetir la importación con acceso a Internet: valida nombre, dexId, PS y ataques antes de actualizar los productos. Si una carta no se verifica, registra el pendiente y deja productos.json intacto. El generador histórico `scripts/generar-productos.mjs` se bloquea antes de escribir cuando detecta cartas TCG para evitar sustituirlas accidentalmente por ilustraciones.
 
 ## Pruebas reproducibles
 
 ```powershell
-node --test tests/datos.test.mjs tests/navegador.test.mjs
+node --test tests/datos.test.mjs tests/cartas.test.mjs tests/navegador.test.mjs
 node --check catalogo.js
 node --check carrito.js
 git diff --check
@@ -88,8 +101,10 @@ git diff --check
 
 Las pruebas de navegador requieren Google Chrome. La ruta predeterminada es `C:/Program Files/Google/Chrome/Application/chrome.exe`; puede cambiarse con la variable `CHROME_PATH`. Chrome se ejecuta sin ventana, con un perfil temporal propio que se elimina al terminar.
 
-Resultado de esta entrega: **19 pruebas aprobadas, 0 fallidas y 0 omitidas**. Se verificaron el esquema JSON, la secuencia 1–150, nombres y tipos contra los CSV, hashes y archivos PNG, decodificación de las 150 imágenes en Chrome, búsqueda, los 17 filtros, paginación, carrito, límites de stock, errores HTTP/JSON, IDs duplicados, imágenes fallidas y recuperación.
+Resultado de esta entrega: **25 pruebas aprobadas, 0 fallidas y 0 omitidas**. Se verificaron el esquema JSON, la secuencia 1–150, nombres y tipos contra los CSV, hashes, archivos originales y cartas WebP, decodificación de las 150 imágenes en Chrome, búsqueda, los 17 filtros, paginación, carrito, límites de stock, errores HTTP/JSON, IDs duplicados, imágenes fallidas y recuperación.
 
 Se comprobaron anchos de **320, 360, 390, 768 y 1280 píxeles**, sin desbordamiento horizontal, y la interacción del botón del carrito en la vista móvil. Se generaron y revisaron `artifacts/catalogo-390.png` y `artifacts/catalogo-1280.png`; son capturas locales excluidas de Git. La comprobación móvil usa emulación en Chrome, no un teléfono físico. No se ejecutaron pruebas en otros navegadores.
 
 Los commits están separados en datos, generación del catálogo e integración/pruebas. No se modificaron `docs/`, `main`, la etiqueta `v0.3` ni las ramas anteriores. No se realizó push, merge ni despliegue.
+
+La revisión visual de las 150 cartas se registra en datos/tcgdex/revision-visual.json y se vincula al hash del manifiesto. Se inspeccionaron quince hojas de contacto (diez cartas por hoja), incluidos ambos Nidoran, cartas ex, las tres originales y Mewtwo. No quedaron imágenes pendientes.

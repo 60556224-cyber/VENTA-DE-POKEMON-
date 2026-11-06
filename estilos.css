@@ -287,7 +287,7 @@ footer a {
 }
 .catalogo .item { width: 100%; min-width: 0; }
 .catalogo .titulo-item { overflow-wrap: anywhere; }
-.catalogo .img-item { height: auto; aspect-ratio: 1; object-fit: contain; }
+.catalogo .img-item { height: auto; aspect-ratio: 245 / 337; object-fit: contain; }
 .numero-item { color: #555; }
 .categoria-item,
 .stock-item { font-size: 14px; line-height: 1.4; }
@@ -308,3 +308,7 @@ footer a {
 @media (max-width: 360px) {
     .catalogo .contenedor-items { grid-template-columns: 1fr; }
 }
+
+.referencia-carta { font-size: 12px; color: #555; overflow-wrap: anywhere; }
+.atribucion-cartas { margin-top: 20px; font-size: 13px; line-height: 1.5; }
+.atribucion-cartas a { color: var(--color-secundario); }
