@@ -96,3 +96,135 @@ header h1 {
     }
 }
 
+#btn-carrito {
+    position: fixed;
+    z-index: 1001;
+    top: 16px;
+    right: 16px;
+    min-height: 44px;
+    padding: 10px 14px;
+    border: 0;
+    border-radius: 6px;
+    background: #c0df21;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 20%);
+    cursor: pointer;
+}
+
+.carrito {
+    position: fixed;
+    z-index: 1000;
+    inset: 0 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: min(100%, 380px);
+    height: 100vh;
+    padding: 16px;
+    background: #fff;
+    box-shadow: -4px 0 16px rgb(0 0 0 / 22%);
+    transform: translateX(105%);
+    visibility: hidden;
+    transition: transform 0.25s ease, visibility 0.25s;
+}
+
+.carrito.abierto {
+    transform: translateX(0);
+    visibility: visible;
+}
+
+.header-carrito {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.header-carrito h2 {
+    margin: 0;
+}
+
+.carrito-items {
+    flex: 1;
+    overflow-y: auto;
+    margin: 12px 0;
+}
+
+.carrito-vacio {
+    color: #555;
+}
+
+.carrito-item {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 8px 12px;
+    padding: 12px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.carrito-item-info p {
+    margin: 4px 0 0;
+    color: #555;
+}
+
+.carrito-item-controles {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.carrito button {
+    min-height: 40px;
+    padding: 8px 12px;
+    border: 0;
+    border-radius: 5px;
+    background: #eee;
+    color: #222;
+    cursor: pointer;
+}
+
+.carrito-item-controles button {
+    min-width: 40px;
+    padding: 6px;
+}
+
+.carrito-quitar {
+    grid-column: 1 / -1;
+    justify-self: end;
+}
+
+.carrito-pie {
+    padding-top: 12px;
+    border-top: 1px solid #ddd;
+}
+
+.carrito-total {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 12px;
+    font-size: 18px;
+}
+
+.carrito-pie button {
+    width: 100%;
+    margin-top: 8px;
+}
+
+#vaciar {
+    background: #d62828;
+    color: #fff;
+}
+
+#btn-carrito:focus-visible,
+.carrito button:focus-visible {
+    outline: 3px solid #f5a623;
+    outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .carrito {
+        transition-duration: 0.01ms;
+    }
+}
+
