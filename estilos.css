@@ -248,3 +248,63 @@ footer a {
         transition-duration: 0.01ms;
     }
 }
+
+/* Catálogo dinámico: conserva las variables, colores y tarjetas de la tienda. */
+.catalogo {
+    width: 100%;
+    max-width: 1120px;
+}
+.catalogo h2 { margin-bottom: 12px; }
+.aviso-demo {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.controles-catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+.controles-catalogo > div { flex: 1 1 220px; min-width: 0; }
+.controles-catalogo label { display: block; margin-bottom: 6px; font-weight: bold; }
+.controles-catalogo input,
+.controles-catalogo select {
+    width: 100%;
+    min-height: 44px;
+    padding: 10px;
+    border: 1px solid #777;
+    border-radius: 5px;
+    background: var(--color-blanco);
+    color: var(--color-texto);
+    font: inherit;
+}
+.estado-catalogo { margin-bottom: 16px; }
+.estado-carrito:not(:empty) { margin-bottom: 16px; }
+.catalogo .contenedor-items {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 20px;
+}
+.catalogo .item { width: 100%; min-width: 0; }
+.catalogo .titulo-item { overflow-wrap: anywhere; }
+.catalogo .img-item { height: auto; aspect-ratio: 1; object-fit: contain; }
+.numero-item { color: #555; }
+.categoria-item,
+.stock-item { font-size: 14px; line-height: 1.4; }
+.catalogo .boton-item { margin-top: auto; min-height: 44px; }
+.catalogo .ver-mas { display: block; margin: 24px auto 0; }
+.catalogo [hidden] { display: none; }
+.boton-item:disabled,
+.carrito button:disabled { opacity: 0.65; cursor: not-allowed; }
+.controles-catalogo :focus-visible,
+.catalogo .boton-item:focus-visible { outline: 3px solid var(--color-secundario); outline-offset: 3px; }
+@media (max-width: 950px) {
+    .catalogo .contenedor-items { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (max-width: 600px) {
+    header h1 { padding-right: 56px; font-size: 26px; }
+    .catalogo .contenedor-items { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+}
+@media (max-width: 360px) {
+    .catalogo .contenedor-items { grid-template-columns: 1fr; }
+}

@@ -12,39 +12,28 @@
         
     </header>
     <section class="contenedor">
-       <div class="contenedor-items">
-            <div class="item">
-                <span class="titulo-item">carta de Eevee</span>
-                <img src="SV8pt5_ES_75 eve.png" alt="Carta de Eevee" class="img-item">
-                <span class="precio-item">50.00$</span>
-                <button class="boton-item" type="button" data-agregar>Agregar al carrito</button>
+        <div class="catalogo" aria-labelledby="titulo-catalogo">
+            <h2 id="titulo-catalogo">Catálogo Pokémon</h2>
+            <p class="aviso-demo">Demostración académica: precios y existencias ficticios. Las ilustraciones representan Pokémon; no acreditan cartas disponibles para venta.</p>
+            <form class="controles-catalogo" id="controles-catalogo" role="search">
+                <div>
+                    <label for="buscar-pokemon">Buscar por nombre</label>
+                    <input id="buscar-pokemon" type="search" placeholder="Ejemplo: Pikachu" autocomplete="off" disabled>
+                </div>
+                <div>
+                    <label for="categoria-pokemon">Filtrar por categoría</label>
+                    <select id="categoria-pokemon" disabled>
+                        <option value="">Todas las categorías</option>
+                    </select>
+                </div>
+            </form>
+            <p id="estado-catalogo" class="estado-catalogo" role="status">Cargando catálogo…</p>
+            <p id="estado-carrito" class="estado-carrito" role="status"></p>
+            <div class="contenedor-items" id="catalogo-items" aria-busy="true"></div>
+            <button class="boton-item ver-mas" id="ver-mas" type="button" hidden>Ver más Pokémon</button>
+            <button class="boton-item" id="reintentar-catalogo" type="button" hidden>Reintentar carga</button>
+            <noscript>Activa JavaScript para consultar el catálogo y utilizar el carrito.</noscript>
         </div>
-
-        <div class="item">
-            <span class="titulo-item">carta de Mew</span>
-            <img src="SV3pt5_LA_151 enow.png" alt="Carta de Mew" class="img-item">
-            <span class="precio-item">200.00$</span>
-            <button class="boton-item" type="button" data-agregar>Agregar al carrito</button>
-        </div>
-
-        <div class="item">
-            <span class="titulo-item">carta de Alakazam </span>
-            <img src="SV3pt5_ES_65 alcazan.png" alt="Carta de Alakazam" class="img-item">
-            <span class="precio-item">35.00$</span>
-            <button class="boton-item" type="button" data-agregar>Agregar al carrito</button>
-        </div>
-        
-        <div class="item">
-            <span class="titulo-item">carta de Pikachu </span>
-            <img src="SV8PT5_PIkachu_28.png" alt="Carta de Pikachu" class="img-item">
-            <span class="precio-item">100.00$</span>
-            <button class="boton-item" type="button" data-agregar>Agregar al carrito</button>
-        </div>
-
-       
-
-        </div>
-
          <button class="btn-carrito" id="btn-carrito" type="button" aria-controls="carrito" aria-expanded="false">
                 🛒<span id="contador">0</span>
             </button>
@@ -73,5 +62,6 @@
         <p> Contáctanos al 947393983</p>
     </footer>
     <script src="carrito.js" defer></script>
+    <script src="catalogo.js" defer></script>
 </body>
 </html>

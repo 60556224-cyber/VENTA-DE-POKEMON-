@@ -1,0 +1,2 @@
+# Preserva los bytes de las fuentes verificadas por SHA-256.
+datos/pokeapi/*.csv -text
