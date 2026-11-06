@@ -1,4 +1,103 @@
 (() => {
+    class Carrito {
+        constructor(clave = "carrito-pokemon") {
+            this.clave = clave;
+            this.productos = this.cargar();
+        }
+
+        cargar() {
+            try {
+                const datos = localStorage.getItem(this.clave);
+                const productos = datos ? JSON.parse(datos) : [];
+                return Array.isArray(productos)
+                ? productos.map((producto) => ({
+                        ...producto,
+                        stock: Number.isInteger(producto.stock) ? producto.stock : 99
+                    }))
+                    : [];
+            } catch (error) {
+                console.error("No se pudo recuperar el carrito:", error);
+                return [];
+            }
+        }
+
+        guardar() {
+            localStorage.setItem(this.clave, JSON.stringify(this.productos));
+        }
+
+        agregarProducto(producto) {
+            const existente = this.productos.find(
+                (item) => item.nombre === producto.nombre
+            );
+
+             if (existente) {
+                if (existente.cantidad >= existente.stock) return false;
+                existente.cantidad += 1;
+            } else {
+                this.productos.push({
+                    nombre: producto.nombre,
+                    precio: producto.precio,
+                    cantidad: 1
+                });
+            }
+
+            this.guardar();
+            return true;
+        }
+
+        aumentarProducto(nombre) {
+            const producto = this.productos.find(
+                (item) => item.nombre === nombre
+            );
+
+            if (!producto) return;
+            producto.cantidad += 1;
+            this.guardar();
+        }
+
+        disminuirProducto(nombre) {
+            const producto = this.productos.find(
+                (item) => item.nombre === nombre
+            );
+
+            if (!producto) return;
+
+            producto.cantidad -= 1;
+            if (producto.cantidad <= 0) {
+                this.eliminarProducto(nombre);
+            } else {
+                this.guardar();
+            }
+        }
+
+        eliminarProducto(nombre) {
+            this.productos = this.productos.filter(
+                (item) => item.nombre !== nombre
+            );
+            this.guardar();
+        }
+
+        vaciar() {
+            this.productos = [];
+            this.guardar();
+        }
+
+        obtenerCantidadTotal() {
+            return this.productos.reduce(
+                (total, producto) => total + producto.cantidad,
+                0
+            );
+        }
+
+        obtenerTotal() {
+            return this.productos.reduce(
+                (total, producto) => total + producto.precio * producto.cantidad,
+                0
+            );
+        }
+    }
+
+    const carrito = new Carrito();
     const botonCarrito = document.querySelector("#btn-carrito");
     const panelCarrito = document.querySelector("#carrito");
     const botonCerrar = document.querySelector("#cerrar-carrito");
@@ -6,19 +105,18 @@
     const listaCarrito = document.querySelector("#carrito-items");
     const contador = document.querySelector("#contador");
     const total = document.querySelector("#total");
-    const productos = new Map();
 
     function formatearPrecio(precio) {
         return `${precio.toFixed(2)}$`;
     }
 
-    function crearBoton(texto, etiqueta, accion, id, clase = "") {
+    function crearBoton(texto, etiqueta, accion, nombre, clase = "") {
         const boton = document.createElement("button");
         boton.type = "button";
         boton.textContent = texto;
         boton.setAttribute("aria-label", etiqueta);
         boton.dataset.accion = accion;
-        boton.dataset.id = id;
+        boton.dataset.nombre = nombre;
         if (clase) boton.className = clase;
         return boton;
     }
@@ -31,27 +129,24 @@
 
     function renderizarCarrito() {
         listaCarrito.replaceChildren();
-        let cantidadTotal = 0;
-        let precioTotal = 0;
 
-        if (productos.size === 0) {
+        if (carrito.productos.length === 0) {
             const mensaje = document.createElement("p");
             mensaje.className = "carrito-vacio";
             mensaje.textContent = "Tu carrito está vacío.";
             listaCarrito.append(mensaje);
         }
 
-        for (const [id, producto] of productos) {
-            cantidadTotal += producto.cantidad;
-            precioTotal += producto.precio * producto.cantidad;
-
+        carrito.productos.forEach((producto) => {
             const fila = document.createElement("article");
             fila.className = "carrito-item";
 
             const informacion = document.createElement("div");
             informacion.className = "carrito-item-info";
+
             const nombre = document.createElement("strong");
             nombre.textContent = producto.nombre;
+
             const precio = document.createElement("p");
             precio.textContent = `${formatearPrecio(producto.precio)} c/u · ${formatearPrecio(producto.precio * producto.cantidad)}`;
             informacion.append(nombre, precio);
@@ -59,19 +154,25 @@
             const controles = document.createElement("div");
             controles.className = "carrito-item-controles";
             controles.append(
-                crearBoton("−", `Quitar una unidad de ${producto.nombre}`, "disminuir", id),
+                crearBoton("−", `Quitar una unidad de ${producto.nombre}`, "disminuir", producto.nombre),
                 document.createTextNode(String(producto.cantidad)),
-                crearBoton("+", `Agregar una unidad de ${producto.nombre}`, "aumentar", id)
+                crearBoton("+", `Agregar una unidad de ${producto.nombre}`, "aumentar", producto.nombre)
             );
 
-            const quitar = crearBoton("Quitar", `Quitar ${producto.nombre} del carrito`, "eliminar", id);
-            quitar.className = "carrito-quitar";
+            const quitar = crearBoton(
+                "Quitar",
+                `Quitar ${producto.nombre} del carrito`,
+                "eliminar",
+                producto.nombre,
+                "carrito-quitar"
+            );
+
             fila.append(informacion, controles, quitar);
             listaCarrito.append(fila);
-        }
+        });
 
-        contador.textContent = String(cantidadTotal);
-        total.textContent = formatearPrecio(precioTotal);
+        contador.textContent = String(carrito.obtenerCantidadTotal());
+        total.textContent = formatearPrecio(carrito.obtenerTotal());
     }
 
     document.querySelectorAll("[data-agregar]").forEach((boton) => {
@@ -83,9 +184,7 @@
 
             if (!nombre || !Number.isFinite(precio) || precio <= 0) return;
 
-            const producto = productos.get(nombre) ?? { nombre, precio, cantidad: 0 };
-            producto.cantidad += 1;
-            productos.set(nombre, producto);
+            carrito.agregarProducto({ nombre, precio });
             renderizarCarrito();
         });
     });
@@ -94,19 +193,17 @@
         const boton = evento.target.closest("button[data-accion]");
         if (!boton) return;
 
-        const producto = productos.get(boton.dataset.id);
-        if (!producto) return;
+        const nombre = boton.dataset.nombre;
 
         switch (boton.dataset.accion) {
             case "aumentar":
-                producto.cantidad += 1;
+                carrito.aumentarProducto(nombre);
                 break;
             case "disminuir":
-                producto.cantidad -= 1;
-                if (producto.cantidad <= 0) productos.delete(boton.dataset.id);
+                carrito.disminuirProducto(nombre);
                 break;
             case "eliminar":
-                productos.delete(boton.dataset.id);
+                carrito.eliminarProducto(nombre);
                 break;
             default:
                 return;
@@ -118,11 +215,14 @@
     botonCarrito.addEventListener("click", () => {
         mostrarCarrito(panelCarrito.getAttribute("aria-hidden") === "true");
     });
+
     botonCerrar.addEventListener("click", () => mostrarCarrito(false));
+
     botonVaciar.addEventListener("click", () => {
-        productos.clear();
+        carrito.vaciar();
         renderizarCarrito();
     });
+
     document.addEventListener("keydown", (evento) => {
         if (evento.key === "Escape") mostrarCarrito(false);
     });

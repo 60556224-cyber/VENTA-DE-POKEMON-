@@ -26,28 +26,32 @@
                 <span class="titulo-item">carta de Eevee</span>
                 <img src="SV8pt5_ES_75 eve.png" alt="Carta de Eevee" class="img-item">
                 <span class="precio-item">50.00$</span>
-                <button class="boton-item" type="button" data-agregar>Agregar al carrito</button>
+                <small class="stock-item">Stock: 10</small>
+                <button class="boton-item" type="button" data-agregar data-stock="10">Agregar al carrito</button>
         </div>
 
         <div class="item">
             <span class="titulo-item">carta de Mew</span>
             <img src="SV3pt5_LA_151 enow.png" alt="Carta de Mew" class="img-item">
             <span class="precio-item">200.00$</span>
-            <button class="boton-item" type="button" data-agregar>Agregar al carrito</button>
+            <small class="stock-item">Stock: 5</small>
+            <button class="boton-item" type="button" data-agregar data-stock="5">Agregar al carrito</button>
         </div>
 
         <div class="item">
             <span class="titulo-item">carta de Alakazam </span>
             <img src="SV3pt5_ES_65 alcazan.png" alt="Carta de Alakazam" class="img-item">
             <span class="precio-item">35.00$</span>
-            <button class="boton-item" type="button" data-agregar>Agregar al carrito</button>
+            <small class="stock-item">Stock: 15</small>
+            <button class="boton-item" type="button" data-agregar data-stock="15">Agregar al carrito</button>
         </div>
         
         <div class="item">
             <span class="titulo-item">carta de Pikachu </span>
             <img src="SV8PT5_PIkachu_28.png" alt="Carta de Pikachu" class="img-item">
             <span class="precio-item">100.00$</span>
-            <button class="boton-item" type="button" data-agregar>Agregar al carrito</button>
+            <small class="stock-item">Stock: 8</small>
+            <button class="boton-item" type="button" data-agregar data-stock="8">Agregar al carrito</button>
         </div>
 
         <div class="contenedor-items">
@@ -75,8 +79,23 @@
             <div class="carrito-items" id="carrito-items" aria-live="polite">
                 <p class="carrito-vacio">Tu carrito está vacío.</p>
             </div>
-            <div class="carrito-pie">
-                <p class="carrito-total"><strong>Total:</strong> <span id="total">0.00$</span></p>
+           <div class="carrito-pie">
+                <div class="resumen-compra" aria-label="Resumen de compra">
+                    <p><span>Subtotal:</span> <strong id="subtotal">0.00$</strong></p>
+                    <p><span>IGV incluido (18%):</span> <strong id="igv">0.00$</strong></p>
+                    <p><span>Envío:</span> <strong id="envio">0.00$</strong></p>
+                    <p><span>Descuento:</span> <strong id="descuento">0.00$</strong></p>
+                    <p class="carrito-total"><strong>Total:</strong> <strong id="total">0.00$</strong></p>
+                </div>
+
+                <!-- Cupón POKE10 aplica un descuento del 10%. -->
+                <label for="cupon">Cupón de descuento:</label>
+                <div class="cupon-control">
+                    <input id="cupon" type="text" placeholder="Ejemplo: POKE10" autocomplete="off">
+                    <button id="aplicar-cupon" type="button">Aplicar</button>
+                </div>
+                <p id="mensaje-cupon" class="mensaje-cupon" aria-live="polite"></p>
+
                 <button id="vaciar" type="button">Vaciar carrito</button>
                 <button type="button">Comprar</button>
             </div>
