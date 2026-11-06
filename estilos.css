@@ -15,12 +15,12 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f2f2f2;
-    color: #333;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
 }
 
 header {
-    background-color: #ff0000;
+    background-color: var(--color-primario);
     padding: 20px;
     text-align: center;
 }
@@ -67,7 +67,7 @@ header h1 {
 }
 
 .boton-item {
-    background-color: #2a75bb;
+    background-color: var(--color-secundario);
     color: #fff;
     border: none;
     padding: 10px;
