@@ -9,7 +9,12 @@
             try {
                 const datos = localStorage.getItem(this.clave);
                 const productos = datos ? JSON.parse(datos) : [];
-                return Array.isArray(productos) ? productos : [];
+                return Array.isArray(productos)
+                ? productos.map((producto) => ({
+                        ...producto,
+                        stock: Number.isInteger(producto.stock) ? producto.stock : 99
+                    }))
+                    : [];
             } catch (error) {
                 console.error("No se pudo recuperar el carrito:", error);
                 return [];
