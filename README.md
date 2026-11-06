@@ -92,18 +92,31 @@ text
 VENTA-DE-POKEMON/
 │
 ├── index.html
+
 ├── estilos.css
+
 ├── datos.js
+
 ├── carrito.js
+
 ├── app.js
+
 ├── formulario.js
+
 │
 ├── img/
+
 │   ├── eevee.png
+
 │   ├── mew.png
+
 │   ├── alakazam.png
+
 │   └── pikachu.png
+
 │
 └── docs/
+
     ├── bitacora.md
+    
     └── declaracion-ia.md
