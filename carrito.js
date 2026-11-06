@@ -276,8 +276,23 @@
 
     botonVaciar.addEventListener("click", () => {
         carrito.vaciar();
+        cuponActual = "";
+        cuponInput.value = "";
+        mensajeCupon.textContent = "";
         renderizarCarrito();
     });
+
+     // aplica el cupón y vuelve a calcular el total.
+    botonCupon.addEventListener("click", () => {
+        cuponActual = cuponInput.value.trim();
+        const esValido = cuponActual.toUpperCase() === "POKE10";
+        mensajeCupon.textContent = esValido
+            ? "Cupón aplicado: 10% de descuento."
+            : "Cupón no válido. Usa POKE10.";
+        mensajeCupon.classList.toggle("valido", esValido);
+        actualizarResumen();
+    });
+
 
     document.addEventListener("keydown", (evento) => {
         if (evento.key === "Escape") mostrarCarrito(false);
