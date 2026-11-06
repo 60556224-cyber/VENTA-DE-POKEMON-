@@ -223,7 +223,7 @@
         });
 
         contador.textContent = String(carrito.obtenerCantidadTotal());
-        total.textContent = formatearPrecio(carrito.obtenerTotal());
+        actualizarResumen();
     }
 
     document.querySelectorAll("[data-agregar]").forEach((boton) => {
