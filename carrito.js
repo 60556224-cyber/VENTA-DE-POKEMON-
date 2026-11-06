@@ -96,6 +96,9 @@
                 0
             );
         }
+        calcularIGV() {
+            return this.calcularSubtotal() * 0.18;
+        }
 
         obtenerTotal() {
             return this.productos.reduce(
