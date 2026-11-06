@@ -232,6 +232,7 @@
             const nombre = tarjeta.querySelector(".titulo-item").textContent.trim();
             const precioTexto = tarjeta.querySelector(".precio-item").textContent;
             const precio = Number(precioTexto.replace(/[^\d.]/g, ""));
+            const stock = Number(boton.dataset.stock);
 
             if (!nombre || !Number.isFinite(precio) || precio <= 0) return;
 
