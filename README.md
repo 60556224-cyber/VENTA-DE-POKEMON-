@@ -49,24 +49,25 @@ Aficionados y seguidores de Pokémon.
 El proyecto incluye las siguientes funcionalidades:
 
 
-Visualización del catálogo de cartas Pokémon.
-Productos organizados por categorías.
-Búsqueda de productos por nombre.
-Filtro por categoría.
-Visualización del detalle de cada producto.
-Agregar productos al carrito.
-Aumentar o disminuir la cantidad de productos.
-Eliminar productos del carrito.
-Vaciar el carrito completo.
-Control de stock disponible.
-Cálculo del subtotal.
-Cálculo del IGV.
-Cálculo del costo de envío.
-Aplicación de cupones de descuento.
-Persistencia del carrito mediante localStorage.
-Formulario de contacto o compra.
-Validación de los datos del formulario.
-Diseño adaptable para computadora, tablet y celular.
+-Visualización del catálogo de cartas Pokémon.
+
+-Productos organizados por categorías.
+-Búsqueda de productos por nombre.
+-Filtro por categoría.
+-Visualización del detalle de cada producto.
+-Agregar productos al carrito.
+-Aumentar o disminuir la cantidad de productos.
+-Eliminar productos del carrito.
+-Vaciar el carrito completo.
+-Control de stock disponible.
+-Cálculo del subtotal.
+-Cálculo del IGV.
+-Cálculo del costo de envío.
+-Aplicación de cupones de descuento.
+-Persistencia del carrito mediante localStorage.
+-Formulario de contacto o compra.
+-Validación de los datos del formulario.
+-Diseño adaptable para computadora, tablet y celular.
 ## Estructura del proyecto
 
 
