@@ -1,0 +1,14 @@
+# Uso de inteligencia artificial
+
+Si no usaron IA, escriban: **No usamos IA.**
+
+| Fecha | Integrante | Herramienta | Que preguntamos | Que aprendimos | Como lo comprobamos |
+|---|---|---|---|---|---|
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+
+Recuerden: se permite preguntar conceptos y practicar con ejemplos que NO son de Tux Store.
+No se permite pedir que escriba, complete o reescriba el codigo, el informe o las respuestas,
+ni pegar la consigna, la ficha o el kit.
