@@ -18,7 +18,7 @@
 | 2/11 | LUIS FERNANDO HERMOZA HUANCA |          |              |
 | 6/11 | ANGELO PATRICK ROQUE VALENCIA |          |            |
 ## Dificultades encontradas
--
--
+-la implementacion de json a la pagina web 
+-la Vinculacion de HTML Y JSON
 -
 -
