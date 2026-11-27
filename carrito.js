@@ -305,6 +305,21 @@
     document.addEventListener("keydown", (evento) => {
         if (evento.key === "Escape") mostrarCarrito(false);
     });
+document.getElementById("comprar").addEventListener("click", (evento) => {
+    if (carrito.productos.length === 0) {
+        evento.preventDefault();
+        alert("Tu carrito está vacío.");
+        return;
+    }
 
+    sessionStorage.setItem("checkout-pokemon", JSON.stringify({
+        productos: carrito.productos,
+        subtotal: carrito.calcularSubtotal(),
+        igv: carrito.calcularIGV(),
+        envio: carrito.calcularEnvio(),
+        descuento: carrito.calcularDescuento(cuponActual),
+        total: carrito.calcularTotal(cuponActual)
+    }));
+});
     renderizarCarrito();
 })();
