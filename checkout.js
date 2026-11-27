@@ -95,7 +95,7 @@ document.querySelectorAll("[data-ir]").forEach(boton => {
 
 });
 
-// Confirmar el pedido
+
 formulario.addEventListener("submit", evento => {
 
     evento.preventDefault();
