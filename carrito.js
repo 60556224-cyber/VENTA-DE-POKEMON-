@@ -228,24 +228,27 @@
         actualizarResumen();
     }
 
-    document.querySelectorAll("[data-agregar]").forEach((boton) => {
-        boton.addEventListener("click", () => {
-            const tarjeta = boton.closest(".item");
-            const nombre = tarjeta.querySelector(".titulo-item").textContent.trim();
-            const precioTexto = tarjeta.querySelector(".precio-item").textContent;
-            const precio = Number(precioTexto.replace(/[^\d.]/g, ""));
-            const stock = Number(boton.dataset.stock);
+  document.querySelector(".contenedor-items").addEventListener("click", (evento) => {
+    const boton = evento.target.closest("[data-agregar]");
+    if (!boton || boton.disabled) return;
 
-            if (!nombre || !Number.isFinite(precio) || precio <= 0 || !Number.isInteger(stock)) return;
+    const tarjeta = boton.closest(".item");
+    const nombre = tarjeta.querySelector(".titulo-item").textContent.trim();
+    const precioTexto = tarjeta.querySelector(".precio-item").textContent;
+    const precio = Number(precioTexto.replace(/[^\d.]/g, ""));
+    const stock = Number(boton.dataset.stock);
 
-            // si se alcanza el stock, no se agrega otra unidad.
-            const agregado = carrito.agregarProducto({ nombre, precio, stock });
-            if (!agregado) {
-                alert("No puedes superar el stock disponible de este producto.");
-            }
-            renderizarCarrito();
-        });
-    });
+    if (!nombre || !Number.isFinite(precio) || precio <= 0 || !Number.isInteger(stock) || stock <= 0) return;
+
+    // si se alcanza el stock, no se agrega otra unidad.
+    const agregado = carrito.agregarProducto({ nombre, precio, stock });
+
+    if (!agregado) {
+        alert("No puedes superar el stock disponible de este producto.");
+    }
+
+    renderizarCarrito();
+});
 
     listaCarrito.addEventListener("click", (evento) => {
         const boton = evento.target.closest("button[data-accion]");
