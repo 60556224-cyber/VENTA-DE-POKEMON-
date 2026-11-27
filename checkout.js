@@ -1,107 +1,92 @@
-// Datos de la compra
-const compra = JSON.parse(
-    sessionStorage.getItem("checkout-pokemon") || "null"
-);
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Finalizar compra · PokéCards Perú</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <a class="visually-hidden-focusable" href="#contenido">Saltar al contenido</a>
+  <nav class="navbar" data-bs-theme="dark" aria-label="Principal">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">⚡ PokéCards Perú</a>
+      <a class="btn btn-light btn-sm" href="index.html">Volver a la tienda</a>
+    </div>
+  </nav>
 
-const formulario = document.getElementById("checkout");
-const pasos = document.querySelectorAll("[data-paso]");
-const resultado = document.getElementById("resultado");
+  <main id="contenido" class="container py-4">
+    <h1 class="h3 mb-3">Finalizar compra</h1>
+    <div class="row"><div class="col-lg-8 mx-auto">
 
-// Mostrar el paso seleccionado
-function mostrarPaso(numero) {
-    pasos.forEach(paso => {
-        paso.hidden = Number(paso.dataset.paso) !== numero;
-    });
-}
+      <form id="checkout" novalidate>
+        <section data-paso="1" aria-labelledby="t1">
+          <h2 id="t1" class="h4" tabindex="-1">Paso 1 de 3 · Datos de envío</h2>
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre completo</label>
+            <input id="nombre" name="nombre" class="form-control" autocomplete="name" aria-describedby="error-nombre">
+            <div id="error-nombre" class="invalid-feedback"></div>
+          </div>
+          <div class="mb-3">
+            <label for="celular" class="form-label">Celular</label>
+            <input id="celular" name="celular" class="form-control" inputmode="numeric" autocomplete="tel" aria-describedby="error-celular">
+            <div id="error-celular" class="invalid-feedback"></div>
+          </div>
+          <div class="mb-3">
+            <label for="direccion" class="form-label">Dirección</label>
+            <input id="direccion" name="direccion" class="form-control" autocomplete="street-address" aria-describedby="error-direccion">
+            <div id="error-direccion" class="invalid-feedback"></div>
+          </div>
+          <div class="mb-3">
+            <label for="distrito" class="form-label">Distrito</label>
+            <input id="distrito" name="distrito" class="form-control" autocomplete="address-level2" aria-describedby="error-distrito">
+            <div id="error-distrito" class="invalid-feedback"></div>
+          </div>
+          <button type="button" class="btn btn-primary" data-ir="2" data-validar>Continuar</button>
+        </section>
 
-// Validar los campos
-function validarPaso(numero) {
-    const campos = numero === 1
-        ? ["nombre", "celular", "direccion", "distrito"]
-        : ["entrega", "pago"];
+        <section data-paso="2" aria-labelledby="t2" hidden>
+          <h2 id="t2" class="h4" tabindex="-1">Paso 2 de 3 · Entrega y pago</h2>
+          <div class="mb-3">
+            <label for="entrega" class="form-label">¿Cómo quieres recibir tu pedido?</label>
+            <select id="entrega" name="entrega" class="form-select" aria-describedby="error-entrega">
+              <option value="">Elige una opción</option>
+              <option value="domicilio">Envío a domicilio</option>
+              <option value="recojo">Recojo en tienda (sin costo de envío)</option>
+            </select>
+            <div id="error-entrega" class="invalid-feedback"></div>
+          </div>
+          <div class="mb-3">
+            <label for="pago" class="form-label">¿Cómo vas a pagar? (pago simulado)</label>
+            <select id="pago" name="pago" class="form-select" aria-describedby="error-pago">
+              <option value="">Elige una opción</option>
+              <option value="contra-entrega">Contra entrega</option>
+              <option value="billetera">Billetera digital al recibir</option>
+            </select>
+            <div id="error-pago" class="invalid-feedback"></div>
+          </div>
+          <p class="small text-body-secondary">No pedimos datos de tarjeta ni bancarios.</p>
+          <button type="button" class="btn btn-outline-secondary" data-ir="1">Atrás</button>
+          <button type="button" class="btn btn-primary" data-ir="3" data-validar>Continuar</button>
+        </section>
 
-    let valido = true;
+        <section data-paso="3" aria-labelledby="t3" hidden>
+          <h2 id="t3" class="h4" tabindex="-1">Paso 3 de 3 · Resumen y confirmación</h2>
+          <div id="resumen" class="mb-3"></div>
+          <button type="button" class="btn btn-outline-secondary" data-ir="2">Atrás</button>
+          <button type="submit" class="btn btn-primary">Confirmar pedido</button>
+        </section>
+      </form>
 
-    campos.forEach(id => {
-        const campo = document.getElementById(id);
+      <div id="resultado" role="status" class="mt-3" tabindex="-1"></div>
+    </div></div>
+  </main>
 
-        const correcto = id === "celular"
-            ? /^\d{9}$/.test(campo.value.trim())
-            : campo.value.trim() !== "";
+  <footer class="bg-dark text-white py-3 mt-4"><div class="container small">© 2026 PokéCards Perú, proyecto académico. Pago simulado: el pedido no sale de tu navegador.</div></footer>
 
-        campo.classList.toggle("is-invalid", !correcto);
-
-        document.getElementById("error-" + id).textContent =
-            correcto ? "" : "Completa correctamente este campo.";
-
-        if (!correcto) valido = false;
-    });
-
-    return valido;
-}
-
-// Mostrar el resumen de compra
-function mostrarResumen() {
-    const envio = document.getElementById("entrega").value === "recojo"
-        ? 0 : compra.envio;
-
-    const total = compra.subtotal + compra.igv
-        + envio - compra.descuento;
-
-    const resumen = document.getElementById("resumen");
-
-    resumen.style.whiteSpace = "pre-line";
-
-    resumen.textContent = compra.productos.map(p =>
-        `${p.nombre} x${p.cantidad} — ${(p.precio * p.cantidad).toFixed(2)}$`
-    ).join("\n") +
-        `\n\nSubtotal: ${compra.subtotal.toFixed(2)}$` +
-        `\nIGV: ${compra.igv.toFixed(2)}$` +
-        `\nEnvío: ${envio.toFixed(2)}$` +
-        `\nDescuento: ${compra.descuento.toFixed(2)}$` +
-        `\nTotal: ${total.toFixed(2)}$`;
-}
-
-// Botones Continuar y Atrás
-document.querySelectorAll("[data-ir]").forEach(boton => {
-    boton.addEventListener("click", () => {
-        if (!compra || !compra.productos.length) return;
-
-        const destino = Number(boton.dataset.ir);
-        const actual = Number(boton.closest("[data-paso]").dataset.paso);
-
-        if (boton.hasAttribute("data-validar")) {
-            if (!validarPaso(actual)) return;
-        }
-
-        if (destino === 3) mostrarResumen();
-
-        mostrarPaso(destino);
-    });
-});
-
-// Confirmar el pedido
-formulario.addEventListener("submit", evento => {
-    evento.preventDefault();
-
-    if (!compra || !compra.productos.length) return;
-    if (document.querySelector('[data-paso="3"]').hidden) return;
-    if (!validarPaso(1) || !validarPaso(2)) return;
-
-    localStorage.removeItem("carrito-pokemon");
-    sessionStorage.removeItem("checkout-pokemon");
-
-    formulario.hidden = true;
-
-    resultado.textContent = "¡Gracias por tu compra! Pedido simulado confirmado.";
-    resultado.className = "alert alert-success";
-});
-
-// Comprobar que existen productos
-if (!compra || !compra.productos.length) {
-    formulario.hidden = true;
-    resultado.textContent = "Tu carrito está vacío. Regresa a la tienda.";
-    resultado.className = "alert alert-warning";
-} else {
-    mostrarPaso(1);
-}
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js" integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu" crossorigin="anonymous"></script>
+  <script src="carrito.js"></script>
+  <script src="checkout.js"></script>
+</body>
+</html>
