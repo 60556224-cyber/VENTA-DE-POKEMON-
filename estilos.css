@@ -121,7 +121,7 @@ header h1 {
 }
 
 .boton-item {
-    background-color: var(--color-secundario);
+    background-color: var(--azul-pokemon);
     color: #fff;
     border: none;
     padding: 10px;
@@ -145,6 +145,13 @@ footer a {
     color: #ffcb05;
 }
 
+.contenedor-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
 @media (max-width: 600px) {
     .contenedor {
         padding: 16px;
@@ -153,6 +160,7 @@ footer a {
 
     .contenedor-items {
         display: grid;
+        justify-content: stretch;
         width: 100%;
         grid-template-columns: repeat(2, minmax(0, 1fr));
         gap: 12px;
