@@ -34,90 +34,16 @@
         </section>
 
 
-        <section id="catalogo" class="seccion-catalogo">
-            <h2>Catálogo de cartas Pokémon</h2>
-
+<section id="catalogo" class="seccion-catalogo">
+    <h2>Catálogo de cartas Pokémon</h2>
+</section>
 </header>
+
+<section class="contenedor">
+    <div class="contenedor-items">
+        <p>Cargando catálogo...</p>
+    </div>
         
-    </header>
-    <section class="contenedor">
-       <div class="contenedor-items">
-            <div class="item">
-                <span class="titulo-item">carta de Eevee</span>
-                <img src="SV8pt5_ES_75 eve.png" alt="Carta de Eevee" class="img-item">
-                <span class="precio-item">50.00$</span>
-                <small class="stock-item">Stock: 10</small>
-                <button class="boton-item" type="button" data-agregar data-stock="10">Agregar al carrito</button>
-        </div>
-
-        <div class="item">
-            <span class="titulo-item">carta de Mew</span>
-            <img src="SV3pt5_LA_151 enow.png" alt="Carta de Mew" class="img-item">
-            <span class="precio-item">200.00$</span>
-            <small class="stock-item">Stock: 5</small>
-            <button class="boton-item" type="button" data-agregar data-stock="5">Agregar al carrito</button>
-        </div>
-
-        <div class="item">
-            <span class="titulo-item">carta de Alakazam </span>
-            <img src="SV3pt5_ES_65 alcazan.png" alt="Carta de Alakazam" class="img-item">
-            <span class="precio-item">35.00$</span>
-            <small class="stock-item">Stock: 15</small>
-            <button class="boton-item" type="button" data-agregar data-stock="15">Agregar al carrito</button>
-        </div>
-        
-        <div class="item">
-            <span class="titulo-item">carta de Pikachu </span>
-            <img src="SV8PT5_PIkachu_28.png" alt="Carta de Pikachu" class="img-item">
-            <span class="precio-item">100.00$</span>
-            <small class="stock-item">Stock: 8</small>
-            <button class="boton-item" type="button" data-agregar data-stock="8">Agregar al carrito</button>
-        </div>
-
-        <div class="contenedor-items">
-            <div class="item">
-                <span class="titulo-item">carta de JYNX</span>
-                <img src="SV3pt5_JYNX_124.png" alt="Carta de JYNX" class="img-item">
-                <span class="precio-item">10.00$</span>
-                <button class="boton-item" type="button" data-agregar>Agregar al carrito</button>
-        </div>
-
-        <div class="contenedor-items">
-            <div class="item">
-                <span class="titulo-item">carta de dudew</span>
-                <img src="DUDEW_LA_16.png" alt="Carta de DUDEW" class="img-item">
-                <span class="precio-item">5.00$</span>
-                <button class="boton-item" type="button" data-agregar>Agregar al carrito</button>
-        </div>
-
-        <div class="contenedor-items">
-            <div class="item">
-                <span class="titulo-item">carta de CHARIZARD</span>
-                <img src="CHARIZARD_ES_30.png" alt="Carta de CHARIZARD" class="img-item">
-                <span class="precio-item">350.00$</span>
-                <button class="boton-item" type="button" data-agregar>Agregar al carrito</button>
-        </div>
-
-        <div class="contenedor-items">
-            <div class="item">
-                <span class="titulo-item">carta de LATIAS</span>
-                <img src="LATIAS_LA_11.png" alt="Carta de LATIAS" class="img-item">
-                <span class="precio-item">200.00$</span>
-                <button class="boton-item" type="button" data-agregar>Agregar al carrito</button>
-        </div>
-
-         <div class="contenedor-items">
-            <div class="item">
-                <span class="titulo-item">carta de GRENINJA</span>
-                <img src="GRENINJA_LA_21.png" alt="Carta de GRENINJA" class="img-item">
-                <span class="precio-item">150.00$</span>
-                <button class="boton-item" type="button" data-agregar>Agregar al carrito</button>
-        </div>
-
-       
-
-        </div>
-
          <button class="btn-carrito" id="btn-carrito" type="button" aria-controls="carrito" aria-expanded="false">
                 🛒<span id="contador">0</span>
             </button>
@@ -186,6 +112,7 @@
         <p> Contáctanos al 947393983</p>
     </footer>
 
+    <script src="catalogo.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="carrito.js" defer></script>
     <script src="checkout.js" defer></script>
