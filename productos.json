@@ -1,0 +1,3069 @@
+[
+  {
+    "id": 1,
+    "nombre": "Bulbasaur",
+    "categoria": "Planta",
+    "tipos": [
+      "Planta",
+      "Veneno"
+    ],
+    "precio": 17.5,
+    "stock": 4,
+    "imagen": "img/cartas/001.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-001",
+      "nombre": "Bulbasaur",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-001"
+    }
+  },
+  {
+    "id": 2,
+    "nombre": "Ivysaur",
+    "categoria": "Planta",
+    "tipos": [
+      "Planta",
+      "Veneno"
+    ],
+    "precio": 24.5,
+    "stock": 5,
+    "imagen": "img/cartas/002.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-002",
+      "nombre": "Ivysaur",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-002"
+    }
+  },
+  {
+    "id": 3,
+    "nombre": "Venusaur",
+    "categoria": "Planta",
+    "tipos": [
+      "Planta",
+      "Veneno"
+    ],
+    "precio": 31.5,
+    "stock": 6,
+    "imagen": "img/cartas/003.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-003",
+      "nombre": "Venusaur ex",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-003"
+    }
+  },
+  {
+    "id": 4,
+    "nombre": "Charmander",
+    "categoria": "Fuego",
+    "tipos": [
+      "Fuego"
+    ],
+    "precio": 38.5,
+    "stock": 7,
+    "imagen": "img/cartas/004.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-004",
+      "nombre": "Charmander",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-004"
+    }
+  },
+  {
+    "id": 5,
+    "nombre": "Charmeleon",
+    "categoria": "Fuego",
+    "tipos": [
+      "Fuego"
+    ],
+    "precio": 45.5,
+    "stock": 8,
+    "imagen": "img/cartas/005.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-005",
+      "nombre": "Charmeleon",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-005"
+    }
+  },
+  {
+    "id": 6,
+    "nombre": "Charizard",
+    "categoria": "Fuego",
+    "tipos": [
+      "Fuego",
+      "Volador"
+    ],
+    "precio": 52.5,
+    "stock": 3,
+    "imagen": "img/cartas/006.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-006",
+      "nombre": "Charizard ex",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-006"
+    }
+  },
+  {
+    "id": 7,
+    "nombre": "Squirtle",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua"
+    ],
+    "precio": 59.5,
+    "stock": 4,
+    "imagen": "img/cartas/007.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-007",
+      "nombre": "Squirtle",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-007"
+    }
+  },
+  {
+    "id": 8,
+    "nombre": "Wartortle",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua"
+    ],
+    "precio": 66.5,
+    "stock": 5,
+    "imagen": "img/cartas/008.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-008",
+      "nombre": "Wartortle",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-008"
+    }
+  },
+  {
+    "id": 9,
+    "nombre": "Blastoise",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua"
+    ],
+    "precio": 73.5,
+    "stock": 6,
+    "imagen": "img/cartas/009.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-009",
+      "nombre": "Blastoise ex",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-009"
+    }
+  },
+  {
+    "id": 10,
+    "nombre": "Caterpie",
+    "categoria": "Bicho",
+    "tipos": [
+      "Bicho"
+    ],
+    "precio": 80.5,
+    "stock": 7,
+    "imagen": "img/cartas/010.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-010",
+      "nombre": "Caterpie",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-010"
+    }
+  },
+  {
+    "id": 11,
+    "nombre": "Metapod",
+    "categoria": "Bicho",
+    "tipos": [
+      "Bicho"
+    ],
+    "precio": 87.5,
+    "stock": 8,
+    "imagen": "img/cartas/011.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-011",
+      "nombre": "Metapod",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-011"
+    }
+  },
+  {
+    "id": 12,
+    "nombre": "Butterfree",
+    "categoria": "Bicho",
+    "tipos": [
+      "Bicho",
+      "Volador"
+    ],
+    "precio": 94.5,
+    "stock": 3,
+    "imagen": "img/cartas/012.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-012",
+      "nombre": "Butterfree",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-012"
+    }
+  },
+  {
+    "id": 13,
+    "nombre": "Weedle",
+    "categoria": "Bicho",
+    "tipos": [
+      "Bicho",
+      "Veneno"
+    ],
+    "precio": 10.5,
+    "stock": 0,
+    "imagen": "img/cartas/013.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-013",
+      "nombre": "Weedle",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-013"
+    }
+  },
+  {
+    "id": 14,
+    "nombre": "Kakuna",
+    "categoria": "Bicho",
+    "tipos": [
+      "Bicho",
+      "Veneno"
+    ],
+    "precio": 17.5,
+    "stock": 5,
+    "imagen": "img/cartas/014.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-014",
+      "nombre": "Kakuna",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-014"
+    }
+  },
+  {
+    "id": 15,
+    "nombre": "Beedrill",
+    "categoria": "Bicho",
+    "tipos": [
+      "Bicho",
+      "Veneno"
+    ],
+    "precio": 24.5,
+    "stock": 6,
+    "imagen": "img/cartas/015.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-015",
+      "nombre": "Beedrill",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-015"
+    }
+  },
+  {
+    "id": 16,
+    "nombre": "Pidgey",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal",
+      "Volador"
+    ],
+    "precio": 31.5,
+    "stock": 7,
+    "imagen": "img/cartas/016.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-016",
+      "nombre": "Pidgey",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-016"
+    }
+  },
+  {
+    "id": 17,
+    "nombre": "Pidgeotto",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal",
+      "Volador"
+    ],
+    "precio": 38.5,
+    "stock": 8,
+    "imagen": "img/cartas/017.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-017",
+      "nombre": "Pidgeotto",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-017"
+    }
+  },
+  {
+    "id": 18,
+    "nombre": "Pidgeot",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal",
+      "Volador"
+    ],
+    "precio": 45.5,
+    "stock": 3,
+    "imagen": "img/cartas/018.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-018",
+      "nombre": "Pidgeot",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-018"
+    }
+  },
+  {
+    "id": 19,
+    "nombre": "Rattata",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal"
+    ],
+    "precio": 52.5,
+    "stock": 4,
+    "imagen": "img/cartas/019.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-019",
+      "nombre": "Rattata",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-019"
+    }
+  },
+  {
+    "id": 20,
+    "nombre": "Raticate",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal"
+    ],
+    "precio": 59.5,
+    "stock": 5,
+    "imagen": "img/cartas/020.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-020",
+      "nombre": "Raticate",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-020"
+    }
+  },
+  {
+    "id": 21,
+    "nombre": "Spearow",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal",
+      "Volador"
+    ],
+    "precio": 66.5,
+    "stock": 6,
+    "imagen": "img/cartas/021.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-021",
+      "nombre": "Spearow",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-021"
+    }
+  },
+  {
+    "id": 22,
+    "nombre": "Fearow",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal",
+      "Volador"
+    ],
+    "precio": 73.5,
+    "stock": 7,
+    "imagen": "img/cartas/022.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-022",
+      "nombre": "Fearow",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-022"
+    }
+  },
+  {
+    "id": 23,
+    "nombre": "Ekans",
+    "categoria": "Veneno",
+    "tipos": [
+      "Veneno"
+    ],
+    "precio": 80.5,
+    "stock": 8,
+    "imagen": "img/cartas/023.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-023",
+      "nombre": "Ekans",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-023"
+    }
+  },
+  {
+    "id": 24,
+    "nombre": "Arbok",
+    "categoria": "Veneno",
+    "tipos": [
+      "Veneno"
+    ],
+    "precio": 87.5,
+    "stock": 3,
+    "imagen": "img/cartas/024.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-024",
+      "nombre": "Arbok ex",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-024"
+    }
+  },
+  {
+    "id": 25,
+    "nombre": "Pikachu",
+    "categoria": "Eléctrico",
+    "tipos": [
+      "Eléctrico"
+    ],
+    "precio": 100,
+    "stock": 4,
+    "imagen": "img/cartas/025.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv08.5-028",
+      "nombre": "Pikachu ex",
+      "conjunto": "Evoluciones Prismáticas",
+      "conjuntoId": "sv08.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv08.5-028"
+    }
+  },
+  {
+    "id": 26,
+    "nombre": "Raichu",
+    "categoria": "Eléctrico",
+    "tipos": [
+      "Eléctrico"
+    ],
+    "precio": 10.5,
+    "stock": 0,
+    "imagen": "img/cartas/026.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-026",
+      "nombre": "Raichu",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-026"
+    }
+  },
+  {
+    "id": 27,
+    "nombre": "Sandshrew",
+    "categoria": "Tierra",
+    "tipos": [
+      "Tierra"
+    ],
+    "precio": 17.5,
+    "stock": 6,
+    "imagen": "img/cartas/027.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-027",
+      "nombre": "Sandshrew",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-027"
+    }
+  },
+  {
+    "id": 28,
+    "nombre": "Sandslash",
+    "categoria": "Tierra",
+    "tipos": [
+      "Tierra"
+    ],
+    "precio": 24.5,
+    "stock": 7,
+    "imagen": "img/cartas/028.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-028",
+      "nombre": "Sandslash",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-028"
+    }
+  },
+  {
+    "id": 29,
+    "nombre": "Nidoran♀",
+    "categoria": "Veneno",
+    "tipos": [
+      "Veneno"
+    ],
+    "precio": 31.5,
+    "stock": 8,
+    "imagen": "img/cartas/029.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-029",
+      "nombre": "Nidoran♀",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-029"
+    }
+  },
+  {
+    "id": 30,
+    "nombre": "Nidorina",
+    "categoria": "Veneno",
+    "tipos": [
+      "Veneno"
+    ],
+    "precio": 38.5,
+    "stock": 3,
+    "imagen": "img/cartas/030.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-030",
+      "nombre": "Nidorina",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-030"
+    }
+  },
+  {
+    "id": 31,
+    "nombre": "Nidoqueen",
+    "categoria": "Veneno",
+    "tipos": [
+      "Veneno",
+      "Tierra"
+    ],
+    "precio": 45.5,
+    "stock": 4,
+    "imagen": "img/cartas/031.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-031",
+      "nombre": "Nidoqueen",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-031"
+    }
+  },
+  {
+    "id": 32,
+    "nombre": "Nidoran♂",
+    "categoria": "Veneno",
+    "tipos": [
+      "Veneno"
+    ],
+    "precio": 52.5,
+    "stock": 5,
+    "imagen": "img/cartas/032.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-032",
+      "nombre": "Nidoran♂",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-032"
+    }
+  },
+  {
+    "id": 33,
+    "nombre": "Nidorino",
+    "categoria": "Veneno",
+    "tipos": [
+      "Veneno"
+    ],
+    "precio": 59.5,
+    "stock": 6,
+    "imagen": "img/cartas/033.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-033",
+      "nombre": "Nidorino",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-033"
+    }
+  },
+  {
+    "id": 34,
+    "nombre": "Nidoking",
+    "categoria": "Veneno",
+    "tipos": [
+      "Veneno",
+      "Tierra"
+    ],
+    "precio": 66.5,
+    "stock": 7,
+    "imagen": "img/cartas/034.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-034",
+      "nombre": "Nidoking",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-034"
+    }
+  },
+  {
+    "id": 35,
+    "nombre": "Clefairy",
+    "categoria": "Hada",
+    "tipos": [
+      "Hada"
+    ],
+    "precio": 73.5,
+    "stock": 8,
+    "imagen": "img/cartas/035.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-035",
+      "nombre": "Clefairy",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-035"
+    }
+  },
+  {
+    "id": 36,
+    "nombre": "Clefable",
+    "categoria": "Hada",
+    "tipos": [
+      "Hada"
+    ],
+    "precio": 80.5,
+    "stock": 3,
+    "imagen": "img/cartas/036.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-036",
+      "nombre": "Clefable",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-036"
+    }
+  },
+  {
+    "id": 37,
+    "nombre": "Vulpix",
+    "categoria": "Fuego",
+    "tipos": [
+      "Fuego"
+    ],
+    "precio": 87.5,
+    "stock": 4,
+    "imagen": "img/cartas/037.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-037",
+      "nombre": "Vulpix",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-037"
+    }
+  },
+  {
+    "id": 38,
+    "nombre": "Ninetales",
+    "categoria": "Fuego",
+    "tipos": [
+      "Fuego"
+    ],
+    "precio": 94.5,
+    "stock": 5,
+    "imagen": "img/cartas/038.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-038",
+      "nombre": "Ninetales ex",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-038"
+    }
+  },
+  {
+    "id": 39,
+    "nombre": "Jigglypuff",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal",
+      "Hada"
+    ],
+    "precio": 10.5,
+    "stock": 0,
+    "imagen": "img/cartas/039.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-039",
+      "nombre": "Jigglypuff",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-039"
+    }
+  },
+  {
+    "id": 40,
+    "nombre": "Wigglytuff",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal",
+      "Hada"
+    ],
+    "precio": 17.5,
+    "stock": 7,
+    "imagen": "img/cartas/040.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-040",
+      "nombre": "Wigglytuff ex",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-040"
+    }
+  },
+  {
+    "id": 41,
+    "nombre": "Zubat",
+    "categoria": "Veneno",
+    "tipos": [
+      "Veneno",
+      "Volador"
+    ],
+    "precio": 24.5,
+    "stock": 8,
+    "imagen": "img/cartas/041.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-041",
+      "nombre": "Zubat",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-041"
+    }
+  },
+  {
+    "id": 42,
+    "nombre": "Golbat",
+    "categoria": "Veneno",
+    "tipos": [
+      "Veneno",
+      "Volador"
+    ],
+    "precio": 31.5,
+    "stock": 3,
+    "imagen": "img/cartas/042.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-042",
+      "nombre": "Golbat",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-042"
+    }
+  },
+  {
+    "id": 43,
+    "nombre": "Oddish",
+    "categoria": "Planta",
+    "tipos": [
+      "Planta",
+      "Veneno"
+    ],
+    "precio": 38.5,
+    "stock": 4,
+    "imagen": "img/cartas/043.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-043",
+      "nombre": "Oddish",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-043"
+    }
+  },
+  {
+    "id": 44,
+    "nombre": "Gloom",
+    "categoria": "Planta",
+    "tipos": [
+      "Planta",
+      "Veneno"
+    ],
+    "precio": 45.5,
+    "stock": 5,
+    "imagen": "img/cartas/044.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-044",
+      "nombre": "Gloom",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-044"
+    }
+  },
+  {
+    "id": 45,
+    "nombre": "Vileplume",
+    "categoria": "Planta",
+    "tipos": [
+      "Planta",
+      "Veneno"
+    ],
+    "precio": 52.5,
+    "stock": 6,
+    "imagen": "img/cartas/045.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-045",
+      "nombre": "Vileplume",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-045"
+    }
+  },
+  {
+    "id": 46,
+    "nombre": "Paras",
+    "categoria": "Bicho",
+    "tipos": [
+      "Bicho",
+      "Planta"
+    ],
+    "precio": 59.5,
+    "stock": 7,
+    "imagen": "img/cartas/046.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-046",
+      "nombre": "Paras",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-046"
+    }
+  },
+  {
+    "id": 47,
+    "nombre": "Parasect",
+    "categoria": "Bicho",
+    "tipos": [
+      "Bicho",
+      "Planta"
+    ],
+    "precio": 66.5,
+    "stock": 8,
+    "imagen": "img/cartas/047.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-047",
+      "nombre": "Parasect",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-047"
+    }
+  },
+  {
+    "id": 48,
+    "nombre": "Venonat",
+    "categoria": "Bicho",
+    "tipos": [
+      "Bicho",
+      "Veneno"
+    ],
+    "precio": 73.5,
+    "stock": 3,
+    "imagen": "img/cartas/048.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-048",
+      "nombre": "Venonat",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-048"
+    }
+  },
+  {
+    "id": 49,
+    "nombre": "Venomoth",
+    "categoria": "Bicho",
+    "tipos": [
+      "Bicho",
+      "Veneno"
+    ],
+    "precio": 80.5,
+    "stock": 4,
+    "imagen": "img/cartas/049.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-049",
+      "nombre": "Venomoth",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-049"
+    }
+  },
+  {
+    "id": 50,
+    "nombre": "Diglett",
+    "categoria": "Tierra",
+    "tipos": [
+      "Tierra"
+    ],
+    "precio": 87.5,
+    "stock": 5,
+    "imagen": "img/cartas/050.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-050",
+      "nombre": "Diglett",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-050"
+    }
+  },
+  {
+    "id": 51,
+    "nombre": "Dugtrio",
+    "categoria": "Tierra",
+    "tipos": [
+      "Tierra"
+    ],
+    "precio": 94.5,
+    "stock": 6,
+    "imagen": "img/cartas/051.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-051",
+      "nombre": "Dugtrio",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-051"
+    }
+  },
+  {
+    "id": 52,
+    "nombre": "Meowth",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal"
+    ],
+    "precio": 10.5,
+    "stock": 0,
+    "imagen": "img/cartas/052.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-052",
+      "nombre": "Meowth",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-052"
+    }
+  },
+  {
+    "id": 53,
+    "nombre": "Persian",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal"
+    ],
+    "precio": 17.5,
+    "stock": 8,
+    "imagen": "img/cartas/053.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-053",
+      "nombre": "Persian",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-053"
+    }
+  },
+  {
+    "id": 54,
+    "nombre": "Psyduck",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua"
+    ],
+    "precio": 24.5,
+    "stock": 3,
+    "imagen": "img/cartas/054.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-054",
+      "nombre": "Psyduck",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-054"
+    }
+  },
+  {
+    "id": 55,
+    "nombre": "Golduck",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua"
+    ],
+    "precio": 31.5,
+    "stock": 4,
+    "imagen": "img/cartas/055.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-055",
+      "nombre": "Golduck",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-055"
+    }
+  },
+  {
+    "id": 56,
+    "nombre": "Mankey",
+    "categoria": "Lucha",
+    "tipos": [
+      "Lucha"
+    ],
+    "precio": 38.5,
+    "stock": 5,
+    "imagen": "img/cartas/056.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-056",
+      "nombre": "Mankey",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-056"
+    }
+  },
+  {
+    "id": 57,
+    "nombre": "Primeape",
+    "categoria": "Lucha",
+    "tipos": [
+      "Lucha"
+    ],
+    "precio": 45.5,
+    "stock": 6,
+    "imagen": "img/cartas/057.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-057",
+      "nombre": "Primeape",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-057"
+    }
+  },
+  {
+    "id": 58,
+    "nombre": "Growlithe",
+    "categoria": "Fuego",
+    "tipos": [
+      "Fuego"
+    ],
+    "precio": 52.5,
+    "stock": 7,
+    "imagen": "img/cartas/058.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-058",
+      "nombre": "Growlithe",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-058"
+    }
+  },
+  {
+    "id": 59,
+    "nombre": "Arcanine",
+    "categoria": "Fuego",
+    "tipos": [
+      "Fuego"
+    ],
+    "precio": 59.5,
+    "stock": 8,
+    "imagen": "img/cartas/059.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-059",
+      "nombre": "Arcanine",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-059"
+    }
+  },
+  {
+    "id": 60,
+    "nombre": "Poliwag",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua"
+    ],
+    "precio": 66.5,
+    "stock": 3,
+    "imagen": "img/cartas/060.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-060",
+      "nombre": "Poliwag",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-060"
+    }
+  },
+  {
+    "id": 61,
+    "nombre": "Poliwhirl",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua"
+    ],
+    "precio": 73.5,
+    "stock": 4,
+    "imagen": "img/cartas/061.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-061",
+      "nombre": "Poliwhirl",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-061"
+    }
+  },
+  {
+    "id": 62,
+    "nombre": "Poliwrath",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua",
+      "Lucha"
+    ],
+    "precio": 80.5,
+    "stock": 5,
+    "imagen": "img/cartas/062.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-062",
+      "nombre": "Poliwrath",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-062"
+    }
+  },
+  {
+    "id": 63,
+    "nombre": "Abra",
+    "categoria": "Psíquico",
+    "tipos": [
+      "Psíquico"
+    ],
+    "precio": 87.5,
+    "stock": 6,
+    "imagen": "img/cartas/063.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-063",
+      "nombre": "Abra",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-063"
+    }
+  },
+  {
+    "id": 64,
+    "nombre": "Kadabra",
+    "categoria": "Psíquico",
+    "tipos": [
+      "Psíquico"
+    ],
+    "precio": 94.5,
+    "stock": 7,
+    "imagen": "img/cartas/064.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-064",
+      "nombre": "Kadabra",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-064"
+    }
+  },
+  {
+    "id": 65,
+    "nombre": "Alakazam",
+    "categoria": "Psíquico",
+    "tipos": [
+      "Psíquico"
+    ],
+    "precio": 35,
+    "stock": 0,
+    "imagen": "img/cartas/065.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-065",
+      "nombre": "Alakazam ex",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-065"
+    }
+  },
+  {
+    "id": 66,
+    "nombre": "Machop",
+    "categoria": "Lucha",
+    "tipos": [
+      "Lucha"
+    ],
+    "precio": 17.5,
+    "stock": 3,
+    "imagen": "img/cartas/066.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-066",
+      "nombre": "Machop",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-066"
+    }
+  },
+  {
+    "id": 67,
+    "nombre": "Machoke",
+    "categoria": "Lucha",
+    "tipos": [
+      "Lucha"
+    ],
+    "precio": 24.5,
+    "stock": 4,
+    "imagen": "img/cartas/067.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-067",
+      "nombre": "Machoke",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-067"
+    }
+  },
+  {
+    "id": 68,
+    "nombre": "Machamp",
+    "categoria": "Lucha",
+    "tipos": [
+      "Lucha"
+    ],
+    "precio": 31.5,
+    "stock": 5,
+    "imagen": "img/cartas/068.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-068",
+      "nombre": "Machamp",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-068"
+    }
+  },
+  {
+    "id": 69,
+    "nombre": "Bellsprout",
+    "categoria": "Planta",
+    "tipos": [
+      "Planta",
+      "Veneno"
+    ],
+    "precio": 38.5,
+    "stock": 6,
+    "imagen": "img/cartas/069.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-069",
+      "nombre": "Bellsprout",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-069"
+    }
+  },
+  {
+    "id": 70,
+    "nombre": "Weepinbell",
+    "categoria": "Planta",
+    "tipos": [
+      "Planta",
+      "Veneno"
+    ],
+    "precio": 45.5,
+    "stock": 7,
+    "imagen": "img/cartas/070.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-070",
+      "nombre": "Weepinbell",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-070"
+    }
+  },
+  {
+    "id": 71,
+    "nombre": "Victreebel",
+    "categoria": "Planta",
+    "tipos": [
+      "Planta",
+      "Veneno"
+    ],
+    "precio": 52.5,
+    "stock": 8,
+    "imagen": "img/cartas/071.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-071",
+      "nombre": "Victreebel",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-071"
+    }
+  },
+  {
+    "id": 72,
+    "nombre": "Tentacool",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua",
+      "Veneno"
+    ],
+    "precio": 59.5,
+    "stock": 3,
+    "imagen": "img/cartas/072.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-072",
+      "nombre": "Tentacool",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-072"
+    }
+  },
+  {
+    "id": 73,
+    "nombre": "Tentacruel",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua",
+      "Veneno"
+    ],
+    "precio": 66.5,
+    "stock": 4,
+    "imagen": "img/cartas/073.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-073",
+      "nombre": "Tentacruel",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-073"
+    }
+  },
+  {
+    "id": 74,
+    "nombre": "Geodude",
+    "categoria": "Roca",
+    "tipos": [
+      "Roca",
+      "Tierra"
+    ],
+    "precio": 73.5,
+    "stock": 5,
+    "imagen": "img/cartas/074.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-074",
+      "nombre": "Geodude",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-074"
+    }
+  },
+  {
+    "id": 75,
+    "nombre": "Graveler",
+    "categoria": "Roca",
+    "tipos": [
+      "Roca",
+      "Tierra"
+    ],
+    "precio": 80.5,
+    "stock": 6,
+    "imagen": "img/cartas/075.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-075",
+      "nombre": "Graveler",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-075"
+    }
+  },
+  {
+    "id": 76,
+    "nombre": "Golem",
+    "categoria": "Roca",
+    "tipos": [
+      "Roca",
+      "Tierra"
+    ],
+    "precio": 87.5,
+    "stock": 7,
+    "imagen": "img/cartas/076.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-076",
+      "nombre": "Golem ex",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-076"
+    }
+  },
+  {
+    "id": 77,
+    "nombre": "Ponyta",
+    "categoria": "Fuego",
+    "tipos": [
+      "Fuego"
+    ],
+    "precio": 94.5,
+    "stock": 8,
+    "imagen": "img/cartas/077.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-077",
+      "nombre": "Ponyta",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-077"
+    }
+  },
+  {
+    "id": 78,
+    "nombre": "Rapidash",
+    "categoria": "Fuego",
+    "tipos": [
+      "Fuego"
+    ],
+    "precio": 10.5,
+    "stock": 0,
+    "imagen": "img/cartas/078.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-078",
+      "nombre": "Rapidash",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-078"
+    }
+  },
+  {
+    "id": 79,
+    "nombre": "Slowpoke",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua",
+      "Psíquico"
+    ],
+    "precio": 17.5,
+    "stock": 4,
+    "imagen": "img/cartas/079.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-079",
+      "nombre": "Slowpoke",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-079"
+    }
+  },
+  {
+    "id": 80,
+    "nombre": "Slowbro",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua",
+      "Psíquico"
+    ],
+    "precio": 24.5,
+    "stock": 5,
+    "imagen": "img/cartas/080.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-080",
+      "nombre": "Slowbro",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-080"
+    }
+  },
+  {
+    "id": 81,
+    "nombre": "Magnemite",
+    "categoria": "Eléctrico",
+    "tipos": [
+      "Eléctrico",
+      "Acero"
+    ],
+    "precio": 31.5,
+    "stock": 6,
+    "imagen": "img/cartas/081.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-081",
+      "nombre": "Magnemite",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-081"
+    }
+  },
+  {
+    "id": 82,
+    "nombre": "Magneton",
+    "categoria": "Eléctrico",
+    "tipos": [
+      "Eléctrico",
+      "Acero"
+    ],
+    "precio": 38.5,
+    "stock": 7,
+    "imagen": "img/cartas/082.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-082",
+      "nombre": "Magneton",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-082"
+    }
+  },
+  {
+    "id": 83,
+    "nombre": "Farfetch’d",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal",
+      "Volador"
+    ],
+    "precio": 45.5,
+    "stock": 8,
+    "imagen": "img/cartas/083.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-083",
+      "nombre": "Farfetch'd",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-083"
+    }
+  },
+  {
+    "id": 84,
+    "nombre": "Doduo",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal",
+      "Volador"
+    ],
+    "precio": 52.5,
+    "stock": 3,
+    "imagen": "img/cartas/084.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-084",
+      "nombre": "Doduo",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-084"
+    }
+  },
+  {
+    "id": 85,
+    "nombre": "Dodrio",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal",
+      "Volador"
+    ],
+    "precio": 59.5,
+    "stock": 4,
+    "imagen": "img/cartas/085.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-085",
+      "nombre": "Dodrio",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-085"
+    }
+  },
+  {
+    "id": 86,
+    "nombre": "Seel",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua"
+    ],
+    "precio": 66.5,
+    "stock": 5,
+    "imagen": "img/cartas/086.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-086",
+      "nombre": "Seel",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-086"
+    }
+  },
+  {
+    "id": 87,
+    "nombre": "Dewgong",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua",
+      "Hielo"
+    ],
+    "precio": 73.5,
+    "stock": 6,
+    "imagen": "img/cartas/087.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-087",
+      "nombre": "Dewgong",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-087"
+    }
+  },
+  {
+    "id": 88,
+    "nombre": "Grimer",
+    "categoria": "Veneno",
+    "tipos": [
+      "Veneno"
+    ],
+    "precio": 80.5,
+    "stock": 7,
+    "imagen": "img/cartas/088.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-088",
+      "nombre": "Grimer",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-088"
+    }
+  },
+  {
+    "id": 89,
+    "nombre": "Muk",
+    "categoria": "Veneno",
+    "tipos": [
+      "Veneno"
+    ],
+    "precio": 87.5,
+    "stock": 8,
+    "imagen": "img/cartas/089.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-089",
+      "nombre": "Muk",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-089"
+    }
+  },
+  {
+    "id": 90,
+    "nombre": "Shellder",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua"
+    ],
+    "precio": 94.5,
+    "stock": 3,
+    "imagen": "img/cartas/090.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-090",
+      "nombre": "Shellder",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-090"
+    }
+  },
+  {
+    "id": 91,
+    "nombre": "Cloyster",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua",
+      "Hielo"
+    ],
+    "precio": 10.5,
+    "stock": 0,
+    "imagen": "img/cartas/091.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-091",
+      "nombre": "Cloyster",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-091"
+    }
+  },
+  {
+    "id": 92,
+    "nombre": "Gastly",
+    "categoria": "Fantasma",
+    "tipos": [
+      "Fantasma",
+      "Veneno"
+    ],
+    "precio": 17.5,
+    "stock": 5,
+    "imagen": "img/cartas/092.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-092",
+      "nombre": "Gastly",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-092"
+    }
+  },
+  {
+    "id": 93,
+    "nombre": "Haunter",
+    "categoria": "Fantasma",
+    "tipos": [
+      "Fantasma",
+      "Veneno"
+    ],
+    "precio": 24.5,
+    "stock": 6,
+    "imagen": "img/cartas/093.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-093",
+      "nombre": "Haunter",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-093"
+    }
+  },
+  {
+    "id": 94,
+    "nombre": "Gengar",
+    "categoria": "Fantasma",
+    "tipos": [
+      "Fantasma",
+      "Veneno"
+    ],
+    "precio": 31.5,
+    "stock": 7,
+    "imagen": "img/cartas/094.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-094",
+      "nombre": "Gengar",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-094"
+    }
+  },
+  {
+    "id": 95,
+    "nombre": "Onix",
+    "categoria": "Roca",
+    "tipos": [
+      "Roca",
+      "Tierra"
+    ],
+    "precio": 38.5,
+    "stock": 8,
+    "imagen": "img/cartas/095.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-095",
+      "nombre": "Onix",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-095"
+    }
+  },
+  {
+    "id": 96,
+    "nombre": "Drowzee",
+    "categoria": "Psíquico",
+    "tipos": [
+      "Psíquico"
+    ],
+    "precio": 45.5,
+    "stock": 3,
+    "imagen": "img/cartas/096.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-096",
+      "nombre": "Drowzee",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-096"
+    }
+  },
+  {
+    "id": 97,
+    "nombre": "Hypno",
+    "categoria": "Psíquico",
+    "tipos": [
+      "Psíquico"
+    ],
+    "precio": 52.5,
+    "stock": 4,
+    "imagen": "img/cartas/097.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-097",
+      "nombre": "Hypno",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-097"
+    }
+  },
+  {
+    "id": 98,
+    "nombre": "Krabby",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua"
+    ],
+    "precio": 59.5,
+    "stock": 5,
+    "imagen": "img/cartas/098.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-098",
+      "nombre": "Krabby",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-098"
+    }
+  },
+  {
+    "id": 99,
+    "nombre": "Kingler",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua"
+    ],
+    "precio": 66.5,
+    "stock": 6,
+    "imagen": "img/cartas/099.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-099",
+      "nombre": "Kingler",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-099"
+    }
+  },
+  {
+    "id": 100,
+    "nombre": "Voltorb",
+    "categoria": "Eléctrico",
+    "tipos": [
+      "Eléctrico"
+    ],
+    "precio": 73.5,
+    "stock": 7,
+    "imagen": "img/cartas/100.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-100",
+      "nombre": "Voltorb",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-100"
+    }
+  },
+  {
+    "id": 101,
+    "nombre": "Electrode",
+    "categoria": "Eléctrico",
+    "tipos": [
+      "Eléctrico"
+    ],
+    "precio": 80.5,
+    "stock": 8,
+    "imagen": "img/cartas/101.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-101",
+      "nombre": "Electrode",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-101"
+    }
+  },
+  {
+    "id": 102,
+    "nombre": "Exeggcute",
+    "categoria": "Planta",
+    "tipos": [
+      "Planta",
+      "Psíquico"
+    ],
+    "precio": 87.5,
+    "stock": 3,
+    "imagen": "img/cartas/102.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-102",
+      "nombre": "Exeggcute",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-102"
+    }
+  },
+  {
+    "id": 103,
+    "nombre": "Exeggutor",
+    "categoria": "Planta",
+    "tipos": [
+      "Planta",
+      "Psíquico"
+    ],
+    "precio": 94.5,
+    "stock": 4,
+    "imagen": "img/cartas/103.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-103",
+      "nombre": "Exeggutor",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-103"
+    }
+  },
+  {
+    "id": 104,
+    "nombre": "Cubone",
+    "categoria": "Tierra",
+    "tipos": [
+      "Tierra"
+    ],
+    "precio": 10.5,
+    "stock": 0,
+    "imagen": "img/cartas/104.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-104",
+      "nombre": "Cubone",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-104"
+    }
+  },
+  {
+    "id": 105,
+    "nombre": "Marowak",
+    "categoria": "Tierra",
+    "tipos": [
+      "Tierra"
+    ],
+    "precio": 17.5,
+    "stock": 6,
+    "imagen": "img/cartas/105.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-105",
+      "nombre": "Marowak",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-105"
+    }
+  },
+  {
+    "id": 106,
+    "nombre": "Hitmonlee",
+    "categoria": "Lucha",
+    "tipos": [
+      "Lucha"
+    ],
+    "precio": 24.5,
+    "stock": 7,
+    "imagen": "img/cartas/106.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-106",
+      "nombre": "Hitmonlee",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-106"
+    }
+  },
+  {
+    "id": 107,
+    "nombre": "Hitmonchan",
+    "categoria": "Lucha",
+    "tipos": [
+      "Lucha"
+    ],
+    "precio": 31.5,
+    "stock": 8,
+    "imagen": "img/cartas/107.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-107",
+      "nombre": "Hitmonchan",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-107"
+    }
+  },
+  {
+    "id": 108,
+    "nombre": "Lickitung",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal"
+    ],
+    "precio": 38.5,
+    "stock": 3,
+    "imagen": "img/cartas/108.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-108",
+      "nombre": "Lickitung",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-108"
+    }
+  },
+  {
+    "id": 109,
+    "nombre": "Koffing",
+    "categoria": "Veneno",
+    "tipos": [
+      "Veneno"
+    ],
+    "precio": 45.5,
+    "stock": 4,
+    "imagen": "img/cartas/109.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-109",
+      "nombre": "Koffing",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-109"
+    }
+  },
+  {
+    "id": 110,
+    "nombre": "Weezing",
+    "categoria": "Veneno",
+    "tipos": [
+      "Veneno"
+    ],
+    "precio": 52.5,
+    "stock": 5,
+    "imagen": "img/cartas/110.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-110",
+      "nombre": "Weezing",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-110"
+    }
+  },
+  {
+    "id": 111,
+    "nombre": "Rhyhorn",
+    "categoria": "Tierra",
+    "tipos": [
+      "Tierra",
+      "Roca"
+    ],
+    "precio": 59.5,
+    "stock": 6,
+    "imagen": "img/cartas/111.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-111",
+      "nombre": "Rhyhorn",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-111"
+    }
+  },
+  {
+    "id": 112,
+    "nombre": "Rhydon",
+    "categoria": "Tierra",
+    "tipos": [
+      "Tierra",
+      "Roca"
+    ],
+    "precio": 66.5,
+    "stock": 7,
+    "imagen": "img/cartas/112.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-112",
+      "nombre": "Rhydon",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-112"
+    }
+  },
+  {
+    "id": 113,
+    "nombre": "Chansey",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal"
+    ],
+    "precio": 73.5,
+    "stock": 8,
+    "imagen": "img/cartas/113.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-113",
+      "nombre": "Chansey",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-113"
+    }
+  },
+  {
+    "id": 114,
+    "nombre": "Tangela",
+    "categoria": "Planta",
+    "tipos": [
+      "Planta"
+    ],
+    "precio": 80.5,
+    "stock": 3,
+    "imagen": "img/cartas/114.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-114",
+      "nombre": "Tangela",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-114"
+    }
+  },
+  {
+    "id": 115,
+    "nombre": "Kangaskhan",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal"
+    ],
+    "precio": 87.5,
+    "stock": 4,
+    "imagen": "img/cartas/115.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-115",
+      "nombre": "Kangaskhan ex",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-115"
+    }
+  },
+  {
+    "id": 116,
+    "nombre": "Horsea",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua"
+    ],
+    "precio": 94.5,
+    "stock": 5,
+    "imagen": "img/cartas/116.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-116",
+      "nombre": "Horsea",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-116"
+    }
+  },
+  {
+    "id": 117,
+    "nombre": "Seadra",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua"
+    ],
+    "precio": 10.5,
+    "stock": 0,
+    "imagen": "img/cartas/117.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-117",
+      "nombre": "Seadra",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-117"
+    }
+  },
+  {
+    "id": 118,
+    "nombre": "Goldeen",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua"
+    ],
+    "precio": 17.5,
+    "stock": 7,
+    "imagen": "img/cartas/118.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-118",
+      "nombre": "Goldeen",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-118"
+    }
+  },
+  {
+    "id": 119,
+    "nombre": "Seaking",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua"
+    ],
+    "precio": 24.5,
+    "stock": 8,
+    "imagen": "img/cartas/119.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-119",
+      "nombre": "Seaking",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-119"
+    }
+  },
+  {
+    "id": 120,
+    "nombre": "Staryu",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua"
+    ],
+    "precio": 31.5,
+    "stock": 3,
+    "imagen": "img/cartas/120.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-120",
+      "nombre": "Staryu",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-120"
+    }
+  },
+  {
+    "id": 121,
+    "nombre": "Starmie",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua",
+      "Psíquico"
+    ],
+    "precio": 38.5,
+    "stock": 4,
+    "imagen": "img/cartas/121.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-121",
+      "nombre": "Starmie",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-121"
+    }
+  },
+  {
+    "id": 122,
+    "nombre": "Mr. Mime",
+    "categoria": "Psíquico",
+    "tipos": [
+      "Psíquico",
+      "Hada"
+    ],
+    "precio": 45.5,
+    "stock": 5,
+    "imagen": "img/cartas/122.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-122",
+      "nombre": "Mr. Mime",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-122"
+    }
+  },
+  {
+    "id": 123,
+    "nombre": "Scyther",
+    "categoria": "Bicho",
+    "tipos": [
+      "Bicho",
+      "Volador"
+    ],
+    "precio": 52.5,
+    "stock": 6,
+    "imagen": "img/cartas/123.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-123",
+      "nombre": "Scyther",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-123"
+    }
+  },
+  {
+    "id": 124,
+    "nombre": "Jynx",
+    "categoria": "Hielo",
+    "tipos": [
+      "Hielo",
+      "Psíquico"
+    ],
+    "precio": 59.5,
+    "stock": 7,
+    "imagen": "img/cartas/124.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-124",
+      "nombre": "Jynx ex",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-124"
+    }
+  },
+  {
+    "id": 125,
+    "nombre": "Electabuzz",
+    "categoria": "Eléctrico",
+    "tipos": [
+      "Eléctrico"
+    ],
+    "precio": 66.5,
+    "stock": 8,
+    "imagen": "img/cartas/125.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-125",
+      "nombre": "Electabuzz",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-125"
+    }
+  },
+  {
+    "id": 126,
+    "nombre": "Magmar",
+    "categoria": "Fuego",
+    "tipos": [
+      "Fuego"
+    ],
+    "precio": 73.5,
+    "stock": 3,
+    "imagen": "img/cartas/126.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-126",
+      "nombre": "Magmar",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-126"
+    }
+  },
+  {
+    "id": 127,
+    "nombre": "Pinsir",
+    "categoria": "Bicho",
+    "tipos": [
+      "Bicho"
+    ],
+    "precio": 80.5,
+    "stock": 4,
+    "imagen": "img/cartas/127.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-127",
+      "nombre": "Pinsir",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-127"
+    }
+  },
+  {
+    "id": 128,
+    "nombre": "Tauros",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal"
+    ],
+    "precio": 87.5,
+    "stock": 5,
+    "imagen": "img/cartas/128.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-128",
+      "nombre": "Tauros",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-128"
+    }
+  },
+  {
+    "id": 129,
+    "nombre": "Magikarp",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua"
+    ],
+    "precio": 94.5,
+    "stock": 6,
+    "imagen": "img/cartas/129.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-129",
+      "nombre": "Magikarp",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-129"
+    }
+  },
+  {
+    "id": 130,
+    "nombre": "Gyarados",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua",
+      "Volador"
+    ],
+    "precio": 10.5,
+    "stock": 0,
+    "imagen": "img/cartas/130.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-130",
+      "nombre": "Gyarados",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-130"
+    }
+  },
+  {
+    "id": 131,
+    "nombre": "Lapras",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua",
+      "Hielo"
+    ],
+    "precio": 17.5,
+    "stock": 8,
+    "imagen": "img/cartas/131.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-131",
+      "nombre": "Lapras",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-131"
+    }
+  },
+  {
+    "id": 132,
+    "nombre": "Ditto",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal"
+    ],
+    "precio": 24.5,
+    "stock": 3,
+    "imagen": "img/cartas/132.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-132",
+      "nombre": "Ditto",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-132"
+    }
+  },
+  {
+    "id": 133,
+    "nombre": "Eevee",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal"
+    ],
+    "precio": 50,
+    "stock": 4,
+    "imagen": "img/cartas/133.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv08.5-075",
+      "nombre": "Eevee ex",
+      "conjunto": "Evoluciones Prismáticas",
+      "conjuntoId": "sv08.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv08.5-075"
+    }
+  },
+  {
+    "id": 134,
+    "nombre": "Vaporeon",
+    "categoria": "Agua",
+    "tipos": [
+      "Agua"
+    ],
+    "precio": 38.5,
+    "stock": 5,
+    "imagen": "img/cartas/134.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-134",
+      "nombre": "Vaporeon",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-134"
+    }
+  },
+  {
+    "id": 135,
+    "nombre": "Jolteon",
+    "categoria": "Eléctrico",
+    "tipos": [
+      "Eléctrico"
+    ],
+    "precio": 45.5,
+    "stock": 6,
+    "imagen": "img/cartas/135.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-135",
+      "nombre": "Jolteon",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-135"
+    }
+  },
+  {
+    "id": 136,
+    "nombre": "Flareon",
+    "categoria": "Fuego",
+    "tipos": [
+      "Fuego"
+    ],
+    "precio": 52.5,
+    "stock": 7,
+    "imagen": "img/cartas/136.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-136",
+      "nombre": "Flareon",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-136"
+    }
+  },
+  {
+    "id": 137,
+    "nombre": "Porygon",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal"
+    ],
+    "precio": 59.5,
+    "stock": 8,
+    "imagen": "img/cartas/137.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-137",
+      "nombre": "Porygon",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-137"
+    }
+  },
+  {
+    "id": 138,
+    "nombre": "Omanyte",
+    "categoria": "Roca",
+    "tipos": [
+      "Roca",
+      "Agua"
+    ],
+    "precio": 66.5,
+    "stock": 3,
+    "imagen": "img/cartas/138.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-138",
+      "nombre": "Omanyte",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-138"
+    }
+  },
+  {
+    "id": 139,
+    "nombre": "Omastar",
+    "categoria": "Roca",
+    "tipos": [
+      "Roca",
+      "Agua"
+    ],
+    "precio": 73.5,
+    "stock": 4,
+    "imagen": "img/cartas/139.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-139",
+      "nombre": "Omastar",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-139"
+    }
+  },
+  {
+    "id": 140,
+    "nombre": "Kabuto",
+    "categoria": "Roca",
+    "tipos": [
+      "Roca",
+      "Agua"
+    ],
+    "precio": 80.5,
+    "stock": 5,
+    "imagen": "img/cartas/140.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-140",
+      "nombre": "Kabuto",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-140"
+    }
+  },
+  {
+    "id": 141,
+    "nombre": "Kabutops",
+    "categoria": "Roca",
+    "tipos": [
+      "Roca",
+      "Agua"
+    ],
+    "precio": 87.5,
+    "stock": 6,
+    "imagen": "img/cartas/141.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-141",
+      "nombre": "Kabutops",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-141"
+    }
+  },
+  {
+    "id": 142,
+    "nombre": "Aerodactyl",
+    "categoria": "Roca",
+    "tipos": [
+      "Roca",
+      "Volador"
+    ],
+    "precio": 94.5,
+    "stock": 7,
+    "imagen": "img/cartas/142.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-142",
+      "nombre": "Aerodactyl",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-142"
+    }
+  },
+  {
+    "id": 143,
+    "nombre": "Snorlax",
+    "categoria": "Normal",
+    "tipos": [
+      "Normal"
+    ],
+    "precio": 10.5,
+    "stock": 0,
+    "imagen": "img/cartas/143.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-143",
+      "nombre": "Snorlax",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-143"
+    }
+  },
+  {
+    "id": 144,
+    "nombre": "Articuno",
+    "categoria": "Hielo",
+    "tipos": [
+      "Hielo",
+      "Volador"
+    ],
+    "precio": 17.5,
+    "stock": 3,
+    "imagen": "img/cartas/144.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-144",
+      "nombre": "Articuno",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-144"
+    }
+  },
+  {
+    "id": 145,
+    "nombre": "Zapdos",
+    "categoria": "Eléctrico",
+    "tipos": [
+      "Eléctrico",
+      "Volador"
+    ],
+    "precio": 24.5,
+    "stock": 4,
+    "imagen": "img/cartas/145.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-145",
+      "nombre": "Zapdos ex",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-145"
+    }
+  },
+  {
+    "id": 146,
+    "nombre": "Moltres",
+    "categoria": "Fuego",
+    "tipos": [
+      "Fuego",
+      "Volador"
+    ],
+    "precio": 31.5,
+    "stock": 5,
+    "imagen": "img/cartas/146.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-146",
+      "nombre": "Moltres",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-146"
+    }
+  },
+  {
+    "id": 147,
+    "nombre": "Dratini",
+    "categoria": "Dragón",
+    "tipos": [
+      "Dragón"
+    ],
+    "precio": 38.5,
+    "stock": 6,
+    "imagen": "img/cartas/147.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-147",
+      "nombre": "Dratini",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-147"
+    }
+  },
+  {
+    "id": 148,
+    "nombre": "Dragonair",
+    "categoria": "Dragón",
+    "tipos": [
+      "Dragón"
+    ],
+    "precio": 45.5,
+    "stock": 7,
+    "imagen": "img/cartas/148.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-148",
+      "nombre": "Dragonair",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-148"
+    }
+  },
+  {
+    "id": 149,
+    "nombre": "Dragonite",
+    "categoria": "Dragón",
+    "tipos": [
+      "Dragón",
+      "Volador"
+    ],
+    "precio": 52.5,
+    "stock": 8,
+    "imagen": "img/cartas/149.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-149",
+      "nombre": "Dragonite",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-149"
+    }
+  },
+  {
+    "id": 150,
+    "nombre": "Mewtwo",
+    "categoria": "Psíquico",
+    "tipos": [
+      "Psíquico"
+    ],
+    "precio": 59.5,
+    "stock": 3,
+    "imagen": "img/cartas/150.webp",
+    "datos_demo": true,
+    "carta": {
+      "id": "sv03.5-150",
+      "nombre": "Mewtwo",
+      "conjunto": "151",
+      "conjuntoId": "sv03.5",
+      "idioma": "es",
+      "fuente": "https://api.tcgdex.net/v2/es/cards/sv03.5-150"
+    }
+  }
+]
