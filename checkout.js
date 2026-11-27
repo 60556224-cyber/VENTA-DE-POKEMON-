@@ -1,39 +1,107 @@
-// checkout.js
-// Requiere que Bootstrap (bundle JS) se cargue ANTES que este archivo.
+// Datos de la compra
+const compra = JSON.parse(
+    sessionStorage.getItem("checkout-pokemon") || "null"
+);
 
-const modal = new bootstrap.Modal(document.getElementById('modalCheckout'));
+const formulario = document.getElementById("checkout");
+const pasos = document.querySelectorAll("[data-paso]");
+const resultado = document.getElementById("resultado");
 
-// 1. Al presionar "Comprar": copia el total y abre el modal
-document.getElementById('comprar').addEventListener('click', () => {
-  const total = document.getElementById('total').textContent;
+// Mostrar el paso seleccionado
+function mostrarPaso(numero) {
+    pasos.forEach(paso => {
+        paso.hidden = Number(paso.dataset.paso) !== numero;
+    });
+}
 
-  if (parseFloat(total) <= 0) {
-    alert('Tu carrito está vacío');
-    return;
-  }
+// Validar los campos
+function validarPaso(numero) {
+    const campos = numero === 1
+        ? ["nombre", "celular", "direccion", "distrito"]
+        : ["entrega", "pago"];
 
-  document.getElementById('checkout-total').textContent = total;
-  modal.show();
+    let valido = true;
+
+    campos.forEach(id => {
+        const campo = document.getElementById(id);
+
+        const correcto = id === "celular"
+            ? /^\d{9}$/.test(campo.value.trim())
+            : campo.value.trim() !== "";
+
+        campo.classList.toggle("is-invalid", !correcto);
+
+        document.getElementById("error-" + id).textContent =
+            correcto ? "" : "Completa correctamente este campo.";
+
+        if (!correcto) valido = false;
+    });
+
+    return valido;
+}
+
+// Mostrar el resumen de compra
+function mostrarResumen() {
+    const envio = document.getElementById("entrega").value === "recojo"
+        ? 0 : compra.envio;
+
+    const total = compra.subtotal + compra.igv
+        + envio - compra.descuento;
+
+    const resumen = document.getElementById("resumen");
+
+    resumen.style.whiteSpace = "pre-line";
+
+    resumen.textContent = compra.productos.map(p =>
+        `${p.nombre} x${p.cantidad} — ${(p.precio * p.cantidad).toFixed(2)}$`
+    ).join("\n") +
+        `\n\nSubtotal: ${compra.subtotal.toFixed(2)}$` +
+        `\nIGV: ${compra.igv.toFixed(2)}$` +
+        `\nEnvío: ${envio.toFixed(2)}$` +
+        `\nDescuento: ${compra.descuento.toFixed(2)}$` +
+        `\nTotal: ${total.toFixed(2)}$`;
+}
+
+// Botones Continuar y Atrás
+document.querySelectorAll("[data-ir]").forEach(boton => {
+    boton.addEventListener("click", () => {
+        if (!compra || !compra.productos.length) return;
+
+        const destino = Number(boton.dataset.ir);
+        const actual = Number(boton.closest("[data-paso]").dataset.paso);
+
+        if (boton.hasAttribute("data-validar")) {
+            if (!validarPaso(actual)) return;
+        }
+
+        if (destino === 3) mostrarResumen();
+
+        mostrarPaso(destino);
+    });
 });
 
-// 2. Al presionar "Confirmar compra": valida y finaliza
-document.getElementById('confirmar').addEventListener('click', () => {
-  const nombre = document.getElementById('nombre').value.trim();
-  const telefono = document.getElementById('telefono').value.trim();
-  const direccion = document.getElementById('direccion').value.trim();
+// Confirmar el pedido
+formulario.addEventListener("submit", evento => {
+    evento.preventDefault();
 
-  if (!nombre || !direccion || telefono.length !== 9) {
-    alert('Completa todos los campos (teléfono de 9 dígitos)');
-    return;
-  }
+    if (!compra || !compra.productos.length) return;
+    if (document.querySelector('[data-paso="3"]').hidden) return;
+    if (!validarPaso(1) || !validarPaso(2)) return;
 
-  alert('¡Gracias por tu compra, ' + nombre + '!');
+    localStorage.removeItem("carrito-pokemon");
+    sessionStorage.removeItem("checkout-pokemon");
 
-  // Limpia el formulario
-  document.getElementById('nombre').value = '';
-  document.getElementById('telefono').value = '';
-  document.getElementById('direccion').value = '';
+    formulario.hidden = true;
 
-  document.getElementById('vaciar').click(); // reutiliza el vaciar de carrito.js
-  modal.hide();
+    resultado.textContent = "¡Gracias por tu compra! Pedido simulado confirmado.";
+    resultado.className = "alert alert-success";
 });
+
+// Comprobar que existen productos
+if (!compra || !compra.productos.length) {
+    formulario.hidden = true;
+    resultado.textContent = "Tu carrito está vacío. Regresa a la tienda.";
+    resultado.className = "alert alert-warning";
+} else {
+    mostrarPaso(1);
+}
